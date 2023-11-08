@@ -7,8 +7,9 @@ const Menu = () => {
     <div className={`w-screen h-screen bg-dark text-white px-[10vw] pb-[10vh]`}>
         <div className='flex flex-col'>
             <div className={`flex flex-row justify-end h-auto mt-[5vh] mb-[10vh]`}>
-                <p className='flex align-center justify-center mr-[10px]'>ZAMKNIJ</p>
                 <Image src="/close.png" alt="close icon"  width={20} height={10} objectFit='contain'></Image>
+                <p className='flex align-center justify-center ml-[10px]'>ZAMKNIJ</p>
+                
             </div>
             <div className={`flex flex-row`}>
                 <div className={`flex flex-col w-[35%]  text-[20px]`}>
