@@ -4,6 +4,13 @@ import Menu from './components/navigation/menu'
 import Footer from './components/footer'
 import Header from './components/home/header'
 import Hours from './components/home/hours'
+import Proboszcz from './components/home/proboszcz'
+import Intro from './components/home/intro'
+import Kazania from './components/home/kazania'
+import Sakramenty from './components/home/sakramenty'
+import Wspolnoty from './components/home/wspolnoty'
+import Citations from './components/home/citations'
+import Galeria from './components/home/galeria'
 
 
 
@@ -13,7 +20,14 @@ export default function Home() {
     {/* <Loader/> */}
     {/* <Menu/> */}
     <Header/>
+    <Intro/>
     <Hours/>
+    <Citations/>
+    <Sakramenty/>
+    <Wspolnoty/>
+    <Proboszcz/>
+    <Galeria/>
+    <Kazania/>
     <Footer/>
    </div>
   )
