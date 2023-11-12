@@ -5,10 +5,10 @@ const Sakramenty = () => {
     <div className='flex flex-col w-screen h-[60vh] bg-white'>
         <h2>Services</h2>
         <div className=''>
-            <div>
+            <div className=''>
 
             </div>
-            <div>
+            <div className=''>
                 
             </div>
         </div>
