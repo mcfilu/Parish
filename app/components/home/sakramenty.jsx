@@ -6,10 +6,10 @@ const Sakramenty = () => {
         <h2>Services</h2>
         <div className=''>
             <div className=''>
-
+                <div></div>
             </div>
             <div className=''>
-                
+                <div></div>
             </div>
         </div>
 
