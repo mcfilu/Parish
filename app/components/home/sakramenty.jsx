@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Sakramenty = () => {
   return (
@@ -10,6 +11,14 @@ const Sakramenty = () => {
             </div>
             <div className=''>
                 <div></div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <Image/>
+                        
+                    </div>
+                </div>
             </div>
         </div>
 

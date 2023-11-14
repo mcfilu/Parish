@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className={`bg-dark w-screen h-auto text-white flex flex-col py-[2vh] px-[5vw]`}>
+    <div className={`bg-dark w-screen h-auto text-white flex flex-col pt-[4vh] pb-[2vh] px-[5vw]`}>
         <div className='flex flex-row'>
         <div className={`flex flex-col w-[15%]`}>
             <div className={`w-full h-full relative`}>
@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
             </div>
             </div>
-            <div className=' mt-[3vh] w-full flex flex-col'>
+            <div className=' mt-[1vh] w-full flex flex-col'>
                 <p className='text-center'>© 2023 – Wszelkie prawa zastrzezone</p>
                 <p className='mt-[1vh] text-center'>Developed by - Filip Olszewski</p>
             </div>
