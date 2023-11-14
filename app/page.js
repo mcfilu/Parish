@@ -11,6 +11,7 @@ import Sakramenty from './components/home/sakramenty'
 import Wspolnoty from './components/home/wspolnoty'
 import Citations from './components/home/citations'
 import Galeria from './components/home/galeria'
+import News from './components/home/news'
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
     <Header/>
     <Intro/>
     <Hours/>
+    <News/>
     <Citations/>
     <Sakramenty/>
     <Wspolnoty/>
