@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Sakramenty = () => {
   return (
-    <div className='flex flex-col w-screen h-[100vh] bg-white'>
-        <h2 className='text-[40px] text-center'>Services</h2>
+    <div className='flex flex-col w-screen  bg-white'>
+        <h2 className='text-[40px] text-center my-[5vh]'>Sakramenty</h2>
         <div className='flex flex-col w-screen '>
             <div className='flex flex-row h-[30vh] w-full justify-center'>
                 <div className='flex flex-col h-full w-[17vw] mx-[5vw]'>

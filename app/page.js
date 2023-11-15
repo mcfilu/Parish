@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import Loader from './components/navigation/loader'
 import Menu from './components/navigation/menu'
@@ -12,14 +13,18 @@ import Wspolnoty from './components/home/wspolnoty'
 import Citations from './components/home/citations'
 import Galeria from './components/home/galeria'
 import News from './components/home/news'
+import { useState } from 'react'
 
 
 
 export default function Home() {
+  // const { isHeaderVisible, changeVisibility } = useHeaderVisibility();
+  // console.log(isHeaderVisible, changeVisibility);
   return (
    <div>
     {/* <Loader/> */}
-    {/* <Menu/> */}
+    {/* <Menu isHeaderVisible={isHeaderVisible} changeVisibility={changeVisibility}/> */}
+    <Menu/>
     <Header/>
     <Intro/>
     <Hours/>

@@ -1,12 +1,18 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
+import { useHeaderVisibility } from '@/app/HeaderVisibilityContext'
 
 const Menu = () => {
+    const { isHeaderVisible, toggleMenu } = useHeaderVisibility();
+    const {menuElement, setElement} = useState('');
+    console.log(isHeaderVisible, toggleMenu);
   return (
-    <div className={`w-screen h-screen bg-dark text-white px-[10vw] pb-[10vh]`}>
+    <div className={`fixed z-50 overflow-hidden w-screen h-screen bg-dark text-white px-[10vw] pb-[10vh] ${isHeaderVisible ? 'fixed' : 'hidden'}`}>
         <div className='flex flex-col'>
-            <div className={`flex flex-row justify-end h-auto mt-[5vh] mb-[10vh]`}>
+            <div className={`flex flex-row justify-end h-auto mt-[5vh] mb-[10vh]`}  onClick={() => toggleMenu()}>
                 <Image src="/close.png" alt="close icon"  width={20} height={10} objectFit='contain'></Image>
                 <p className='flex align-center justify-center ml-[10px]'>ZAMKNIJ</p>
                 
@@ -24,7 +30,7 @@ const Menu = () => {
                     <p>22 620 37 47</p>
                 </div>
                 <div className={`flex flex-col w-[65%] text-white text-[30px] justify-center ml-[10%]`}>
-                    <Link href="" className='text-4'>Nabozenstwa</Link>
+                    <Link href="/nabozenstwa" className='text-4'>Nabozenstwa</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link href="">Aktualności</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -33,6 +39,21 @@ const Menu = () => {
                     <Link href="">Sakramenty</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link href="">Wspólnoty</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                </div>
+
+                <div className={`flex flex-col w-[65%] text-white text-[30px] justify-center ml-[10%]`}>
+                    <Link href="" className='text-4'>Aktualnosci</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link href="">Ogloszenia</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link href="">Biuletyn</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link href="">Wydarzenia</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link href="">Ciekawostki Kosciola</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link href="">Kazania Proboszcza</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
                 
