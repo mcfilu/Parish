@@ -49,30 +49,30 @@ const Menu = () => {
                 <div className={`flex flex-col w-[65%] text-white text-[30px] justify-center ml-[10%] ${menuElement == 'aktualnosci' ? '' : 'hidden'}`}>
                     <Link href="" className='text-4'>Aktualnosci</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Ogloszenia</Link>
+                    <Link href="/aktualnosci/ogloszenia">Ogloszenia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Biuletyn</Link>
+                    <Link href="/aktualnosci/biuletyn">Biuletyn</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Wydarzenia</Link>
+                    <Link href="/aktualnosci/wydarzenia">Wydarzenia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Ciekawostki Kosciola</Link>
+                    <Link href="/aktualnosci/ciekawostki">Ciekawostki Kosciola</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Kazania Proboszcza</Link>
+                    <Link href="/aktualnosci/kazania">Kazania Proboszcza</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
                 <div className={`flex flex-col w-[65%] text-white text-[30px] justify-center ml-[10%] ${menuElement == 'parafia' ? '' : 'hidden'}`}>
-                    <Link href="" className='text-4'>Histora</Link>
+                    <Link href="/parafia/historia" className='text-4'>Histora</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Galeria</Link>
+                    <Link href="/parafia/gallery">Galeria</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Ciekawosti Parafian</Link>
+                    <Link href="/parafia/ciekawostki">Ciekawosti Parafia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Duszpasterze</Link>
+                    <Link href="/parafia/duszpasterze">Duszpasterze</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Teren Parafii</Link>
+                    <Link href="/parafia/teren">Teren Parafii</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link href="">Kancelaria</Link>
+                    <Link href="/parafia/kancelaria">Kancelaria</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
