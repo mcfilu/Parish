@@ -24,7 +24,7 @@ export default function Home() {
    <div>
     {/* <Loader/> */}
     {/* <Menu isHeaderVisible={isHeaderVisible} changeVisibility={changeVisibility}/> */}
-    <Menu/>
+    {/* <Menu/> */}
     <Header/>
     <Intro/>
     <Hours/>

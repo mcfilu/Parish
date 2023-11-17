@@ -56,6 +56,7 @@ import { Inter } from 'next/font/google';
 import { useState } from 'react';
 import './globals.css';
 import Navbar from './components/navigation/navbar';
+import Menu from './components/navigation/menu';
 import { HeaderVisibilityProvider } from './HeaderVisibilityContext.js';
 const inter = Inter({ subsets: ['latin'] });
 
@@ -73,6 +74,7 @@ export default function RootLayout({ children }) {
         
         <HeaderVisibilityProvider>
           <Navbar className="w-screen"/>
+          <Menu/>
           {/* Your layout structure */}
           {children}
         </HeaderVisibilityProvider>
