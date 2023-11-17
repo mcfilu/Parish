@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from '@/app/aktualnosci/kazania/header'
-import Footer from './footer'
+import Header from './header'
+import Footer from '@/app/components/footer'
 import Episodes from './episodes'
 const Page = () => {
   return (
