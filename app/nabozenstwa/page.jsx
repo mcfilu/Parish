@@ -1,9 +1,15 @@
 import React from 'react'
+import Header from './header'
+import Footer from '@/app/components/footer'
 
-const page = () => {
+const Page = () => {
   return (
-    <div>page</div>
+    <div>
+        <Header/>
+
+        <Footer/>
+    </div>
   )
 }
 
-export default page
+export default Page
