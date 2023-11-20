@@ -24,7 +24,7 @@ const Menu = () => {
             <div className={`flex flex-row`}>
                 <div className={`flex flex-col w-[35%]  text-[20px]`}>
                     <div className={`flex relative h-[35vh] w-[60%] mb-[5vh] `}>
-                        <Image src="/kosciol_logo.png" alt="logo kosciola" fill={true} objectFit='contain' className='align-left' ></Image>
+                    <Link href="/" onClick={toggleMenu}><Image src="/kosciol_logo.png" alt="logo kosciola" fill={true} objectFit='contain' className='align-left' ></Image></Link>
                     </div>
                     <h3 className='font-bold text-[30px]'>Adres</h3>
                     <p>Chłodna 9</p>
