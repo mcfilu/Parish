@@ -47,8 +47,6 @@ const Menu = () => {
                 </div>
 
                 <div className={`flex flex-col w-[65%] text-white text-[30px] justify-center ml-[10%] ${menuElement == 'aktualnosci' ? '' : 'hidden'}`}>
-                    <Link onClick={toggleMenu} href="" className='text-4'>Aktualnosci</Link>
-                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={toggleMenu} href="/aktualnosci/ogloszenia">Ogloszenia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={toggleMenu} href="/aktualnosci/biuletyn">Biuletyn</Link>

@@ -24,12 +24,12 @@ const Episodes = () => {
     console.log(years);
   return (
 
-    <div className='w-screen flex flex-col py-[10vh]'>
+    <div className='w-screen flex flex-col py-[10vh] bg-white'>
         
         <div className='flex flex-row w-full space-x-4 h-[5vh] pb-[5vh] items-center justify-center '>
             {years && years.map(item => (
                 // eslint-disable-next-line react/jsx-key
-                <button onClick={() => changeYear(item)} className={`bg-dark text-white p-4 ${item == currentYear ? 'bg-dark text-white' : 'bg-white text-black'}`}>
+                <button onClick={() => changeYear(item)} className={`p-4 ${item == currentYear ? 'bg-dark text-white border-2 border-dark' : 'bg-white text-black border-2 border-black'}`}>
                     {item}
                 </button>
             ))}
