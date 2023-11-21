@@ -1,27 +1,37 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
-async function loadData() {
-    const res = await fetch('http://127.0.0.1:1337/api/kazania?populate=*')
+const Episodes = () => {
+    const [data, setData] = useState(null)
 
-    if (!res.ok) {
-        throw new Error('Failed to fetch data')
-    }
-    
-    return res.json()
-}
+    useEffect(() => {
+        fetch('http://127.0.0.1:1337/api/kazania?populate=*')
+        .then(res => res.json())
+        .then(data => {setData(data)})
+    }, [])
 
-const Episodes = async () => {
-    const data = await loadData();
-    const years = [ new Set(data.data.map(item => item.attributes.data.split('-')[0]))]
     console.log(data);
+    let years = []
+    if (data && data.data) {
+        years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
+    }
+    // const years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
+    const [currentYear, changeYear] = useState(new Date().getFullYear());
+    
+    console.log('yalla');
   return (
 
     <div className='w-screen flex flex-col py-[10vh]'>
-        <p></p>
+        
         <div className='flex flex-row w-full space-x-4 h-[5vh] items-center justify-center '>
             {years && years.map(item => (
-                <p>{item}</p>
+                // eslint-disable-next-line react/jsx-key
+                <button onClick={item => changeYear(item)} className={`bg-dark text-white p-4 ${item == currentYear ? 'bg-dark text-white' : 'bg-white text-black'}`}>
+                    {item}
+                </button>
             ))}
             {/* <button className='bg-dark text-white p-4'>
                 2023
@@ -33,18 +43,7 @@ const Episodes = async () => {
                 2021
             </button> */}
         </div>
-        {/* <div>
-            {data && data.data.map((item) => (
-                <div key={item.id}>Yalla
-                    <p>{item.attributes.tytul}</p>
-                    <p>{item.attributes.data}</p>
-                    <p>{item.attributes.opis}</p>
-                    <p>{item.attributes.link}</p>
-                    <p>{item.attributes.zdjecie.data.attributes.url}</p>
-                    <Image alt="test" src={'http://127.0.0.1:1337' + item.attributes.zdjecie.data.attributes.url}/>
-                </div>
-            ))}
-        </div> */}
+        
         {data && data.data.map((item) => (
         <div key={item.id} className='w-full flex flex-col items-center justify-center'>
             <div className='w-[60%] h-[40vh] flex flex-row'>
