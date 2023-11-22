@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { useHeaderVisibility } from '@/app/HeaderVisibilityContext'
+import Link from 'next/link'
 
 const Navbar = () => {
   const { isHeaderVisible, toggleMenu } = useHeaderVisibility();
@@ -10,7 +11,9 @@ const Navbar = () => {
   return (
     <div className={`fixed top-0 left-0 z-10 flex flex-row w-screen items-center justify-between px-[5vw] h-[15vh] bg-opacity-100 pt-[2vh]`}>
         <div className={` flex relative h-full w-[20%]`}>
-            <Image src="/kosciol_logo.png"  alt="opis parafii" fill={true} objectFit='contain'/>
+            <Link href="/">
+              <Image src="/kosciol_logo.png"  alt="opis parafii" fill={true} objectFit='contain'/>
+            </Link>
         </div>
         
         <div className='flex flex-row  h-[20%]' onClick={() => toggleMenu()}>
