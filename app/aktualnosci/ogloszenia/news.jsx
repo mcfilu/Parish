@@ -45,15 +45,18 @@ const News = () => {
                 {yearsData && yearsData.find(y => y.year == item).data.map(entry => (
                     
                         <div key={entry.id} className={`flex flex-col shadow-xl my-[5vh] w-[17vw] h-[50vh] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
+                            <Link className='w-full h-full' href="">
                             <div className='w-full h-1/2 relative'>
-                                <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://127.0.0.1:1337' + entry.attributes.tapeta.data.attributes.url}></Image>
+                                <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://127.0.0.1:1337' + entry.attributes.tlo.data.attributes.url}></Image>
                             </div>
-                            <Link href="">
+                            
                             <div className='px-[1vw] w-full h-1/2 py-[2vh] flex flex-col justify-center'> 
+                            
                                 <p className='px-[0.3vw] uppercase bg-red-600 bg-opacity-40 text-red-500 inline-block'>{entry.attributes.kategoria}</p>
                                 <h3 className='mt-[1vh] font-header2 text-[30px]'>{entry.attributes.tytul}</h3>
                                 <hr className='w-[40%] border-2 my-[1vh]'></hr>
                                 <p className='font-header2 text-[25px]'>{entry.attributes.data}</p>
+                               
                             </div>
                             </Link>
                         </div>
