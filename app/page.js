@@ -13,6 +13,7 @@ import Wspolnoty from './components/home/wspolnoty'
 import Citations from './components/home/citations'
 import Galeria from './components/home/galeria'
 import News from './components/home/news'
+import Banner from './components/home/banner'
 import { useState } from 'react'
 
 
@@ -35,6 +36,7 @@ export default function Home() {
     <Proboszcz/>
     <Galeria/>
     <Kazania/>
+    <Banner/>
     <Footer/>
    </div>
   )
