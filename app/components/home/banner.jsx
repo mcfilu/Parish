@@ -3,18 +3,31 @@ import Image from 'next/image'
 
 const Banner = () => {
   return (
-    <div className='flex flex-row w-screen h-[25vh]'>
-        <div className='w-1/5 h-full relative'>
-            <Image src="/katolik.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+    <div className='w-screen h-[25vh] grid grid-cols-5 justify-items-center'>
+        <div className='w-3/5 h-full relative'>
+            <a href="https://katolik.pl">
+                <Image src="/katolik.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+            </a>
         </div>
-        <div className='w-1/5 h-full relative'>
-            <Image src="/deon.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+        <div className='w-3/5 h-full relative'>
+            <a href="https://deon.pl">
+                <Image src="/deon.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+            </a>
         </div>
-        <div className='w-1/5 h-full relative'>
-            <Image src="/ekai.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+        <div className='w-3/5 h-full relative'>
+            <a href="https://ekai.pl">
+                <Image src="/ekai.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+            </a>
         </div>
-        <div className='w-1/5 h-full relative'>
-            <Image src="/radio_maryja.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+        <div className='w-3/5 h-full relative'>
+            <a href="https://radiomaryja.pl">
+                <Image src="/radio_maryja.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+            </a>
+        </div>
+        <div className='w-3/5 h-full relative'>
+            <a href="https://gosc.pl">
+                <Image src="/gosc.png" alt="logo serwis katolicki" fill objectFit='contain'/>
+            </a>
         </div>
     </div>
   )
