@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='flex flex-col w-screen h-screen'>
         <div className='w-full h-[80%] relative'>
-            <Image alt="ksiadz proboszcz kazanie" fill objectFit='cover' src="/kancelaria_parafia.png"/>
+            <Image alt="ksiadz proboszcz kazanie" fill objectFit='cover' src="/kosciol.jpg"/>
         </div>
         <div className='bg-white w-full h-[20%] flex flex-row px-[5vw] pb-[3vh] pt-[1vh] items-center justify-between'>
             <h1 className='text-[45px]'>Historia Naszego Kosciola</h1>
