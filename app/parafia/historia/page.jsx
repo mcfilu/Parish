@@ -5,6 +5,7 @@ import Chronology from './chronology'
 import Oldest from './oldest'
 import Detailed from './detailed'
 import Banner from './banner'
+import Gallery from './gallery'
 
 const Page = () => {
   return (
@@ -14,6 +15,7 @@ const Page = () => {
         <Oldest/>
         <Chronology/>
         <Detailed/>
+        <Gallery/>
         <Footer/>
     </div>
   )
