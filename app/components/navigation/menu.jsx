@@ -62,7 +62,9 @@ const Menu = () => {
                 <div className={`flex flex-col w-[65%] text-white text-[30px] justify-center ml-[10%] ${menuElement == 'parafia' ? '' : 'hidden'}`}>
                     <Link onClick={toggleMenu} href="/parafia/historia" className='text-4'>Histora</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={toggleMenu} href="/parafia/gallery">Galeria</Link>
+                    <Link onClick={toggleMenu} href="/parafia/kosciol">Parafia Dzisiaj</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link onClick={toggleMenu} href="/parafia/galeria">Galeria</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={toggleMenu} href="/parafia/ciekawostki">Ciekawosti Parafia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
