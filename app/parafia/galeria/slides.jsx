@@ -14,7 +14,7 @@ const Slides = () => {
 
                 {/* Centered h2 tag */}
                 <h2 className="absolute inset-0 flex items-center justify-center text-white text-[30px] font-header2">
-                    Tytul Galerii2
+                    Tytul Galerii22
                 </h2>
             </div>
             </Link>
