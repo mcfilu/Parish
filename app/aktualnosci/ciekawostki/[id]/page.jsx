@@ -1,16 +1,17 @@
+'use client'
 import React from 'react'
-import Header from './header'
 import Footer from '@/app/components/footer'
 import Content from './content'
 
-const Page = () => {
+
+const page = ({params}) => {
+    // console.log(params.id)
   return (
     <div>
-        <Header/>
-        <Content/>
+        <Content id={params.id}/>
         <Footer/>
     </div>
   )
 }
 
-export default Page
+export default page

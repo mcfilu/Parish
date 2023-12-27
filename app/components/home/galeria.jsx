@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Galeria = () => {
   return (
-    <div className='flex w-screen h-[65vh] flex flex-row'>
+    <div className='flex w-screen h-[70vh] flex flex-row bg-white pb-[5vh]'>
         <div className='flex flex-col w-[50%] h-full'>
             <div className={`flex relative h-[50%] w-full`}>
                 <Image className="p-1" src="/galeria1.jpeg" alt="zdjecie galeria" objectFit='cover' fill={true} />

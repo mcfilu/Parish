@@ -2,11 +2,13 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
-const Files = () => {
-    
+const News = () => {
+    const [data, setData] = useState(null)
+
     useEffect(() => {
-        fetch('http://127.0.0.1:1337/api/biuletyny?populate=*')
+        fetch('http://127.0.0.1:1337/api/ciekawostki?populate=*')
         .then(res => res.json())
         .then(data => {setData(data)})
     }, [])
@@ -42,11 +44,21 @@ const Files = () => {
             <div key={item.id} className={` w-screen grid grid-cols-3 content-center justify-items-center ${item == currentYear ? '' : 'hidden'} px-[5vw]`}>
                 {yearsData && yearsData.find(y => y.year == item).data.map(entry => (
                     
-                        <div key={entry.id} className={`my-[5vh] w-[17vw] h-[50vh] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
-                            <a key={entry.id} href={`http://127.0.0.1:1337` + entry.attributes.plik.data.attributes.url} target="_blank">
+                        <div key={entry.id} className={`flex flex-col shadow-xl my-[5vh] w-[17vw] h-[50vh] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
+                            <Link className='w-full h-full' href={`/aktualnosci/ogloszenia/${entry.id}`}>
+                            <div className='w-full h-1/2 relative'>
                                 <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://127.0.0.1:1337' + entry.attributes.tlo.data.attributes.url}></Image>
-                                <p className='absolute bottom-[10%] left-[17%] text-white text-[40px] font-header3'>{entry.attributes.data}</p>
-                            </a>
+                            </div>
+                            
+                            <div className='px-[1vw] w-full h-1/2 py-[2vh] flex flex-col justify-center'> 
+                            
+                                <p className='px-[0.3vw] uppercase bg-red-600 bg-opacity-40 text-red-500 inline-block'>Ciekawostki</p>
+                                <h3 className='mt-[1vh] font-header2 text-[30px]'>{entry.attributes.tytul}</h3>
+                                <hr className='w-[40%] border-2 my-[1vh]'></hr>
+                                <p className='font-header2 text-[25px]'>{entry.attributes.data}</p>
+                               
+                            </div>
+                            </Link>
                         </div>
                     
                 ))}
@@ -57,4 +69,4 @@ const Files = () => {
   )
 }
 
-export default Files
+export default News

@@ -34,9 +34,10 @@ export default function Home() {
     <Sakramenty/>
     <Wspolnoty/>
     <Proboszcz/>
-    <Galeria/>
-    <Kazania/>
+    
     <Banner/>
+    <Kazania/>
+    <Galeria/>
     <Footer/>
    </div>
   )

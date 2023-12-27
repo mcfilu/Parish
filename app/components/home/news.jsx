@@ -1,39 +1,80 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import { useState, useEffect } from 'react'
 
 const News = () => {
+
+    const [news, setNews] = useState(null);
+    const [data, setData] = useState(null)
+    const [img1, setImg1] = useState(null)
+    const [img2, setImg2] = useState(null)
+
+    function loadImages(id1, id2) {
+        fetch(`http://127.0.0.1:1337/api/ogloszenia/${id1}?populate=*`)
+        .then(res => res.json())
+        .then(data => setImg1('http://127.0.0.1:1337' + data.data.attributes.tlo.data.attributes.url))
+
+        fetch(`http://127.0.0.1:1337/api/ogloszenia/${id2}?populate=*`)
+        .then(res => res.json())
+        .then(data => setImg2('http://127.0.0.1:1337' + data.data.attributes.tlo.data.attributes.url))
+
+        console.log('laduje zdjecia')
+    }
+    
+    useEffect(() => {
+        fetch('http://127.0.0.1:1337/api/ogloszenia-last-two/')
+        .then(res => res.json())
+        .then(data => {
+            setNews([data[0], data[1]])
+            return data
+        })
+        .then(data => {
+            loadImages(data[0].id, data[1].id)})
+    }, []);
+
   return (
-    <div className='flex flex-col w-screen h-screen items-center justify-center'>
+    <div className='flex flex-col w-screen h-screen items-center justify-center bg-white'>
         <h2 className='text-[40px] '>Aktualnosci</h2>
-        <div className='flex flex-col '>
+        
+            {news !== null ? (
+            <div className='flex flex-col '>
             <div className='flex flex-row h-[30vh] w-[60vw] my-[2vh]'>
                 <div className='w-[45%] h-full relative '>
-                <Image alt="tlo aktualnosci" fill objectFit='cover' src="/news1.jpeg" />
+                {img1 !== null ? (
+                        <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
+                    ) : null}
                 </div>
                 <div className='w-[55%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
-                    <h3 className='font-bold text-[25px] mb-[1vh]'>Tytul Danej Aktualnosci</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h3 className='font-bold text-[25px] mb-[1vh]'>{news[0].tytul}</h3>
+                    <p>{news[0].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
-                    <a>Czytaj Wiecej</a>
-                    <p>28.10.2023</p>
+                    <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}>Czytaj Wiecej</Link>
+                    <p>{news[0].data}</p>
                     </div>
                 </div>
             </div>
             <div className='flex flex-row h-[30vh] w-[60vw] my-[2vh]'>
                 <div className='w-[55%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
-                    <h3 className='font-bold text-[25px] mb-[1vh]'>Tytul Danej Aktualnosci</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h3 className='font-bold text-[25px] mb-[1vh]'>{news[1].tytul}</h3>
+                    <p>{news[1].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
-                    <a>Czytaj Wiecej</a>
-                    <p>28.10.2023</p>
+                    <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}>Czytaj Wiecej</Link>
+                    <p>{news[1].data}</p>
                     </div>
                 </div>
                 <div className='w-[45%] h-full relative '>
-                    <Image alt="tlo aktualnosci" fill objectFit='cover' src="/news2.jpeg" />
+                    {img2 !== null ? (
+                        <Image alt="tlo aktualnosci" fill objectFit='cover' src={img2} />
+                    ) : null}
                 </div>
             </div>
-        </div>
-        <button className='bg-dark text-white text-[20px] p-4'>Zobacz Wiecej</button>
+            </div>
+            ) : null}
+        
+        <Link href="/aktualnosci/ogloszenia">
+            <button className='bg-dark text-white text-[20px] p-4'>Zobacz Wiecej</button>
+        </Link>
     </div>
   )
 }

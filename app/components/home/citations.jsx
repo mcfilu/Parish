@@ -2,25 +2,103 @@
 import React from 'react'
 import Image from 'next/image'
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 const Citations = () => {
-    const [activeIndex, setActiveIndex] = useState(0);
-
+  const [activeIndex, setActiveIndex] = useState(1);
+  const [post1, setPost1] = useState(null);
+  const [post2, setPost2] = useState(null);
+  const [post3, setPost3] = useState(null);
+  
   const handleDotClick = (index) => {
     setActiveIndex(index);
   };
+
+  function getRandomNumbers(min, max) {
+    const randomNumbers = new Array(3);
+    for (let i = 0; i < randomNumbers.length; i++) {
+      randomNumbers[i] = Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    return randomNumbers;
+  };
+
+  useEffect(() => {
+    const toGet = getRandomNumbers(1, 3);
+    const toAdd = []
+    console.log(toGet);
+    fetch(`http://127.0.0.1:1337/api/cytaty/${toGet[0]}`)
+    .then(res => res.json())
+    .then(data => {
+      setPost1({
+        author:data.data.attributes.autor,
+        text:data.data.attributes.tekst,
+        id:1,
+      })})
+
+    fetch(`http://127.0.0.1:1337/api/cytaty/${toGet[1]}`)
+    .then(res => res.json())
+    .then(data => {
+      setPost2({
+        author:data.data.attributes.autor,
+        text:data.data.attributes.tekst,
+        id:2,
+      })})
+
+    fetch(`http://127.0.0.1:1337/api/cytaty/${toGet[2]}`)
+    .then(res => res.json())
+    .then(data => {
+      setPost3({
+        author:data.data.attributes.autor,
+        text:data.data.attributes.tekst,
+        id:3,
+      })})
+
+      const intervalId = setInterval(() => {
+        // Increment the active index or reset to the smallest value
+        setActiveIndex((prevIndex) => (prevIndex % 3) + 1);
+      }, 5000);
+    
+      // Cleanup the interval when the component unmounts
+      return () => clearInterval(intervalId);
+  
+  }, []);
+
+
+  // useEffect()
   return (
     <div className="flex w-screen h-[60vh] justify-center items-center relative flex flex-col">
         <Image src="/back_parafia.jpeg" alt="tlo kosciola" fill={true} objectFit='cover'/>
-        <div className='border-[2px] h-auto w-[40%] z-10 flex flex-col justify-center items-center p-[5vh]'>
+        {post1 !== null ? (
+          <div key={post1.id} className={`border-[2px] h-auto w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post1.id == activeIndex ? '' : 'hidden'}`}>
             <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
                 <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
             </div>
-            <p className='text-white text-center'>Cursus lorem, ae iacuis metus sem vitae purus. Vivamus Suscipit velit nee maximus interdum</p>
-            <p className='text-gold1 text-center mt-[2vh]'>FRANKLIN DAVE</p>
-        </div>
-        <div className="flex items-center space-x-2 z-10 mt-[8vh]">
-      {[0, 1, 2].map((index) => (
+            <p className='text-white text-center'>{post1.text}</p>
+            <p className='text-gold1 text-center mt-[2vh]'>{post1.author}</p>
+          </div>
+        ) : null}
+
+        {post2 !== null ? (
+          <div key={post2.id} className={`border-[2px] h-auto w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post2.id == activeIndex ? '' : 'hidden'}`}>
+            <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
+                <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
+            </div>
+            <p className='text-white text-center'>{post2.text}</p>
+            <p className='text-gold1 text-center mt-[2vh]'>{post2.author}</p>
+          </div>
+        ) : null}
+
+          {post3 !== null ? (
+          <div key={post3.id} className={`border-[2px] h-auto w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post3.id == activeIndex ? '' : 'hidden'}`}>
+            <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
+                <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
+            </div>
+            <p className='text-white text-center'>{post3.text}</p>
+            <p className='text-gold1 text-center mt-[2vh]'>{post3.author}</p>
+          </div>
+        ) : null}
+      <div className="flex items-center space-x-2 z-10 mt-[8vh]">
+      {[1,2,3].map((index) => (
         <div
           key={index}
           className={`w-4 h-4 rounded-full cursor-pointer ${
