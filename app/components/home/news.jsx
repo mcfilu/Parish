@@ -39,22 +39,36 @@ const News = () => {
         
             {news !== null ? (
             <div className='flex flex-col '>
-            <div className='flex flex-row h-[30vh] w-[60vw] my-[2vh]'>
-                <div className='w-[45%] h-full relative '>
-                {img1 !== null ? (
-                        <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
-                    ) : null}
-                </div>
-                <div className='w-[55%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
-                    <h3 className='font-bold text-[25px] mb-[1vh]'>{news[0].tytul}</h3>
+            <div className='flex flex-row h-[60vh] w-full my-[2vh] items-center justify-center'>
+                
+                <div className='w-[40%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
+                    <h3 className='font-bold text-[25px] mb-[1vh] text-center'>{news[0].tytul}</h3>
+                    <div className='w-full h-full relative '>
+                    {img1 !== null ? (
+                            <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
+                        ) : null}
+                    </div>
                     <p>{news[0].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
                     <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}>Czytaj Wiecej</Link>
                     <p>{news[0].data}</p>
                     </div>
                 </div>
+                <div className='w-[40%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
+                    <h3 className='font-bold text-[25px] mb-[1vh] text-center'>{news[1].tytul}</h3>
+                    <div className='w-full h-full relative '>
+                    {img1 !== null ? (
+                            <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
+                        ) : null}
+                    </div>
+                    <p>{news[1].skrot_tresci}</p>
+                    <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
+                    <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}>Czytaj Wiecej</Link>
+                    <p>{news[1].data}</p>
+                    </div>
+                </div>
             </div>
-            <div className='flex flex-row h-[30vh] w-[60vw] my-[2vh]'>
+            {/* <div className='flex flex-row h-[30vh] w-[60vw] my-[2vh]'>
                 <div className='w-[55%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
                     <h3 className='font-bold text-[25px] mb-[1vh]'>{news[1].tytul}</h3>
                     <p>{news[1].skrot_tresci}</p>
@@ -68,7 +82,7 @@ const News = () => {
                         <Image alt="tlo aktualnosci" fill objectFit='cover' src={img2} />
                     ) : null}
                 </div>
-            </div>
+            </div> */}
             </div>
             ) : null}
         
