@@ -5,6 +5,8 @@ import Image from 'next/image'
 
 const Files = () => {
     
+    const [data, setData] = useState(null);
+
     useEffect(() => {
         fetch('http://127.0.0.1:1337/api/biuletyny?populate=*')
         .then(res => res.json())
