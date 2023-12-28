@@ -12,7 +12,7 @@ const Content = ({id}) => {
     const [data, setData] = useState(null)
 
     useEffect(() => {
-        fetch('http://localhost:1337/api/ogloszenia/' + id +'?populate=*')
+        fetch('http://52.56.212.148:1337/api/ogloszenia/' + id +'?populate=*')
         .then(res => res.json())
         .then(data => {setData(data)})
     },[])
