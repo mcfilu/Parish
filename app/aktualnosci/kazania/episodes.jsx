@@ -8,7 +8,7 @@ const Episodes = () => {
     const [data, setData] = useState(null)
 
     useEffect(() => {
-        fetch('http://127.0.0.1:1337/api/kazania?populate=*')
+        fetch('http://52.56.212.148:1337/api/kazania?populate=*')
         .then(res => res.json())
         .then(data => {setData(data)})
     }, [])
@@ -56,7 +56,7 @@ const Episodes = () => {
                     <button className='mt-[4vh] p-4 bg-dark text-white w-[30%]'>Obejrzyj</button>
                 </div>
                 <div className='h-full w-1/2 relative'>
-                    <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://127.0.0.1:1337' + item.attributes.zdjecie.data.attributes.url}></Image>
+                    <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://52.56.212.148:1337' + item.attributes.zdjecie.data.attributes.url}></Image>
                 </div>
             </div>
         

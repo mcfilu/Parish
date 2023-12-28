@@ -34,7 +34,7 @@ const Content = ({id}) => {
         return (
             <div className='flex flex-row px-[5vw] bg-white pt-[25vh] pb-[10vh]'>
                 <div className='w-1/2 pr-[5vw] relative'>
-                    <Image fill alt="tlo ogloszenia" src={'http://127.0.0.1:1337' + data.data.attributes.tlo.data.attributes.url}/>
+                    <Image fill alt="tlo ogloszenia" src={'http://52.56.212.148:1337' + data.data.attributes.tlo.data.attributes.url}/>
                 </div>
                 <div className='w-1/2 pl-[5vw]'>
                     <h1 className='text-[50px] font-header2 text-center'>{data.data.attributes.tytul}</h1>

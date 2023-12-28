@@ -11,19 +11,19 @@ const News = () => {
     const [img2, setImg2] = useState(null)
 
     function loadImages(id1, id2) {
-        fetch(`http://127.0.0.1:1337/api/ogloszenia/${id1}?populate=*`)
+        fetch(`http://52.56.212.148:1337/api/ogloszenia/${id1}?populate=*`)
         .then(res => res.json())
-        .then(data => setImg1('http://127.0.0.1:1337' + data.data.attributes.tlo.data.attributes.url))
+        .then(data => setImg1('http://52.56.212.148:1337' + data.data.attributes.tlo.data.attributes.url))
 
-        fetch(`http://127.0.0.1:1337/api/ogloszenia/${id2}?populate=*`)
+        fetch(`http://52.56.212.148:1337/api/ogloszenia/${id2}?populate=*`)
         .then(res => res.json())
-        .then(data => setImg2('http://127.0.0.1:1337' + data.data.attributes.tlo.data.attributes.url))
+        .then(data => setImg2('http://52.56.212.148:1337' + data.data.attributes.tlo.data.attributes.url))
 
         console.log('laduje zdjecia')
     }
     
     useEffect(() => {
-        fetch('http://127.0.0.1:1337/api/ogloszenia-last-two/')
+        fetch('http://52.56.212.148:1337/api/ogloszenia-last-two/')
         .then(res => res.json())
         .then(data => {
             setNews([data[0], data[1]])
