@@ -16,7 +16,7 @@ const News = () => {
         .then(data => setImg1('http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url))
 
         fetch(`http://3.10.214.193:1337/api/ogloszenia/${id2}?populate=*`)
-        .then(res => res.json()) . 
+        .then(res => res.json()) 
         .then(data => setImg2('http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url))
 
         console.log('laduje zdjecia')
