@@ -7,7 +7,7 @@ const Slides = ({id}) => {
     const [data, setData] = useState(null)
 
     useEffect(() => {
-        fetch(`http://52.56.212.148:1337/api/galerias/${id}?populate=*`)
+        fetch(`http://3.10.214.193:1337/api/galerias/${id}?populate=*`)
         .then(res => res.json())
         .then(data => {
             
@@ -37,7 +37,7 @@ const Slides = ({id}) => {
         <div className='w-screen px-[5vw] grid grid-cols-4 gap-4 py-[5vh]'>
             {data.slides && data.slides.map((object) => (
                 <div key="" className='w-full h-[30vh] relative'>
-                    <Image fill objectFit="cover" src={`http://52.56.212.148:1337${object}`} alt="zdjecie galeria" />
+                    <Image fill objectFit="cover" src={`http://3.10.214.193:1337${object}`} alt="zdjecie galeria" />
                 </div>
             ))}
             

@@ -8,7 +8,7 @@ const Files = () => {
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        fetch('http://52.56.212.148:1337/api/biuletyny?populate=*')
+        fetch('http://3.10.214.193:1337/api/biuletyny?populate=*')
         .then(res => res.json())
         .then(data => {setData(data)})
     }, [])
@@ -45,8 +45,8 @@ const Files = () => {
                 {yearsData && yearsData.find(y => y.year == item).data.map(entry => (
                     
                         <div key={entry.id} className={`my-[5vh] w-[17vw] h-[50vh] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
-                            <a key={entry.id} href={`http://52.56.212.148:1337` + entry.attributes.plik.data.attributes.url} target="_blank">
-                                <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://52.56.212.148:1337' + entry.attributes.tlo.data.attributes.url}></Image>
+                            <a key={entry.id} href={`http://3.10.214.193:1337` + entry.attributes.plik.data.attributes.url} target="_blank">
+                                <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + entry.attributes.tlo.data.attributes.url}></Image>
                                 <p className='absolute bottom-[10%] left-[17%] text-white text-[40px] font-header3'>{entry.attributes.data}</p>
                             </a>
                         </div>

@@ -8,7 +8,7 @@ const News = () => {
     const [data, setData] = useState(null)
 
     useEffect(() => {
-        fetch('http://52.56.212.148:1337/api/ciekawostki?populate=*')
+        fetch('http://3.10.214.193:1337/api/ciekawostki?populate=*')
         .then(res => res.json())
         .then(data => {setData(data)})
     }, [])
@@ -47,7 +47,7 @@ const News = () => {
                         <div key={entry.id} className={`flex flex-col shadow-xl my-[5vh] w-[17vw] h-[50vh] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
                             <Link className='w-full h-full' href={`/aktualnosci/ogloszenia/${entry.id}`}>
                             <div className='w-full h-1/2 relative'>
-                                <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://52.56.212.148:1337' + entry.attributes.tlo.data.attributes.url}></Image>
+                                <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + entry.attributes.tlo.data.attributes.url}></Image>
                             </div>
                             
                             <div className='px-[1vw] w-full h-1/2 py-[2vh] flex flex-col justify-center'> 
