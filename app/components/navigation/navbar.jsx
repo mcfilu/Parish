@@ -9,7 +9,7 @@ const Navbar = () => {
   console.log(isHeaderVisible, toggleMenu);
 
   return (
-    <div className={`fixed top-0 left-0 z-10 flex flex-row w-screen items-center bg-black bg-opacity-60 justify-between px-[5vw] h-[15vh] bg-opacity-100 pt-[2vh]`}>
+    <div className={`fixed top-0 left-0 z-10 flex flex-row w-screen items-center justify-between px-[5vw] h-[15vh] bg-opacity-100 pt-[2vh]`}>
         <div className={` flex relative h-full w-[20%]`}>
             <Link href="/">
               <Image src="/kosciol_logo.png"  alt="opis parafii" fill={true} objectFit='contain'/>
