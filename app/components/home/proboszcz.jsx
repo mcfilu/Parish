@@ -12,7 +12,7 @@ const Proboszcz = () => {
                 <Image alt="podpis" src="/signing.png" fill={true} objectFit='contain'/>
             </div>
         </div>
-        <div className='w-[30%] h-[85%] relative ml-[10%] my-auto'>
+        <div className='w-[30%] h-full relative ml-[10%] my-auto'>
             <Image src="/slipek_sekcja_no_bg.png" alt="zdjecie proboszcza" fill={true} objectFit='cover'></Image>
         </div>
     </div>

@@ -29,11 +29,12 @@ export default function Home() {
     <Header/>
     <Intro/>
     <Hours/>
-    <News/>
+    <Proboszcz/>
     <Citations/>
+    <News/>
     <Sakramenty/>
     <Wspolnoty/>
-    <Proboszcz/>
+    
     
     <Banner/>
     <Kazania/>

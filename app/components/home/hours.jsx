@@ -2,14 +2,14 @@ import React from 'react'
 import Image from 'next/image'
 const Hours = () => {
   return (
-    <div className='flex flex-col w-full h-[45vh] relative'>
-        <Image src="/times.jpeg" alt="tlo dziecko" fill={true}/>
+    <div className='flex flex-col w-full h-[55vh] relative justify-center'>
+        <Image src="/godziny.jpeg" alt="tlo dziecko" fill={true} objectFit='cover'/>
         <div className="absolute ml-[50%] w-[40%] h-full text-white py-[5vh] ">
             <div className='w-full h-[15%] flex flex-row '>
                 <div className={`relative w-[10%] h-full`}>
                     <Image alt="ikonka kosciol" src="/icon-1.png" fill={true} objectFit='contain'></Image>
                 </div>
-                <h2 className='text-[40px] ml-[2vw]'>Porzadek Liturgiczny</h2>
+                <h2 className='text-[50px] ml-[2vw] font-header2'>Porzadek Liturgiczny</h2>
             </div>
             <div className='flex flex-row mt-[5vh]'>
                 <div className='mx-[1vw] border-r-[2px]'>
