@@ -5,49 +5,57 @@ import Link from 'next/link'
 const Sakramenty = () => {
   return (
     <div className='w-full h-[50vh] flex relative'>
-        <Image src="/wspolnoty.jpeg" alt="tlo wspolnoty" fill={true} /> 
+        <Image src="/sakramenty_tlo.jpeg" alt="tlo sakramenty" fill={true} objectFit='cover'/> 
         <div className='z-10 w-full h-full py-[8vh] px-[8vw] flex flex-col justify-center items-center'>
             <h2 className='text-white text-[50px] font-header2'>Sakramenty</h2>
             {/* <p className='text-white mt-[3vh]'>W naszym kosciel istnieje nie od dzis wiele roznych zgromadzen ktore zajmuja sie blah blah przerozny;mji rzeczami. Juz dzis mozesz dolaczyc i sie zaangazowac.</p> */}
             <div className='mt-[5vh] flex flex-row justify-center text-white font-header2 text-[30px] gap-10'>
-                <Link href="/wspolnoty/caritas">
+                <Link href="/sakramenty/chrzest">
                 <div className='flex h-[15vh] w-[15vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
-                        <Image src="/handshake.png" alt="ikonka wspolnoty" fill objectFit='contain'/>
+                        <Image src="/baptism_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
                     <p className='text-center text-bold'>CHRZEST</p>
                 </div>
                 </Link>
-                <Link href="/wspolnoty/schola">
+                <Link href="/sakramenty/komunia">
                 <div className='flex h-[15vh] w-[15vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
-                        <Image src="/handshake.png" alt="ikonka wspolnoty" fill objectFit='contain'/>
+                        <Image src="/communion_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
                     <p className='text-center text-bold '>KOMUNIA</p>
                 </div>
                 </Link>
-                <Link href="/wspolnoty/schola-dziecieca">
+                <Link href="/sakramenty/bierzmowanie">
                 <div className='flex h-[15vh] w-[15vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
-                        <Image src="/handshake.png" alt="ikonka wspolnoty" fill objectFit='contain'/>
+                        <Image src="/bierzmowanie_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
                     <p className='text-center text-bold'>BIERZMOWANIE</p>
                 </div>
                 </Link>
-                <Link href="/wspolnoty/ministranci">
+                <Link href="/sakramenty/malzenstwo">
                 <div className='flex h-[15vh] w-[15vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
-                        <Image src="/handshake.png" alt="ikonka wspolnoty" fill objectFit='contain'/>
+                        <Image src="/wedding-rings_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
                     <p className='text-center text-bold'>MAŁZEŃSTWO</p>
                 </div>
                 </Link>
-                <Link href="/wspolnoty/rada">
+                <Link href="/sakramenty/namaszczenie">
                 <div className='flex h-[15vh] w-[15vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
-                        <Image src="/handshake.png" alt="ikonka wspolnoty" fill objectFit='contain'/>
+                        <Image src="/anointing_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
-                    <p className='text-center text-bold'>NAMASZCZENIE CHORYCH</p>
+                    <p className='text-center text-bold'>NAMASZCZENIE</p>
+                </div>
+                </Link>
+                <Link href="/sakramenty/pokuta">
+                <div className='flex h-[15vh] w-[15vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center mx-[1vw]'>
+                    <div className='h-[60%] relative w-[50%]'>
+                        <Image src="/contrition_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
+                    </div>
+                    <p className='text-center text-bold'>POKUTA</p>
                 </div>
                 </Link>
             </div>
