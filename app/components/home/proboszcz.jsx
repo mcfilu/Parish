@@ -9,7 +9,7 @@ const Proboszcz = () => {
             <p className='mt-[5vh]'>Urodził się 10.07.1953 w Legnicy. Ukończył Wyższe Metropolitalne Seminarium Duchowne w Warszawie i w 1978 roku z rąk Kard. Stefana Wyszyńskiego otrzymał święcenia kapłańskie. Przez dwa lata był wikariuszem w parafii Zalesie Dolne. W roku 1980 wyjechał na dalsze studia do Rzymu W 1982 roku uzyskał doktorat z teologii duchowości na Uniwersytecie Gregoriańskim. Po powrocie ze studiów wykładał na Papieskim Wydziale Teologicznym.</p>
             <p className='mt-[2vh]'>Przez cztery lata pełnił funkcję ojca duchownego w Wyższym Seminarium Duchownym w Warszawie. W roku 1987 został proboszczem parafii o wdzięcznej nazwie Jasieniec. Następnie przez dziesięć lat był proboszczem parafii św. Krzysztofa w Podkowie Leśnej.</p>
             <p className='mt-[2vh]'>25 listopada 2001 roku opuścił Miasto Ogród, ponieważ został mianowany przez Kard. Józefa Glempa proboszczem parafii św. Andrzeja Apostoła w Warszawie. Jako proboszcz parafii odpowiedzialny jest za posługę duszpasterską, wykonując zadania nauczania, uświecania i zarządzania.</p>
-            <div className='h-[10vh] w-[30%] relative mt-[2vh] mb-[5vh]'>
+            <div className='h-[10vh] w-[30%] relative mt-[3vh] mb-[3vh]'>
                 <Image alt="podpis" src="/signing.png" fill={true} objectFit='contain'/>
             </div>
         </div>
