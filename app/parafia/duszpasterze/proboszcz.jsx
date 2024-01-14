@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Proboszcz = () => {
   return (
-    <div className='w-screen flex flex-col bg-white px-[5vw]'>
+    <div className='w-full flex flex-col bg-white px-[5vw]'>
         <div className='w-full h-[70vh] relative'>
             <Image alt="ksiadz proboszcz" src="/leszek_slipek.jpeg" fill objectFit='cover'/>
         </div>

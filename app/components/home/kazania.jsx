@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Kazania = () => {
   return (
-    <div className='flex w-screen h-[60vh] flex-row bg-white'>
+    <div className='flex w-full h-[60vh] flex-row bg-white'>
         <div className='w-[50%] h-full flex relative'>
             <Image className='px-[10vw] py-[5vh] ' alt='tlo kazania' fill objectFit='cover' src="/proboszcz2.jpeg"/>
         </div>

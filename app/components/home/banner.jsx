@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Banner = () => {
   return (
-    <div className='w-screen h-[25vh] grid grid-cols-5 justify-items-center bg-white'>
+    <div className='w-full h-[25vh] grid grid-cols-5 justify-items-center bg-white'>
         <div className='w-3/5 h-full relative'>
             <a href="https://katolik.pl">
                 <Image src="/katolik.png" alt="logo serwis katolicki" fill objectFit='contain'/>

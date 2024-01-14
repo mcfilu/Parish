@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 
 const Chronology = () => {
   return (
-    <div className='w-screen flex flex-col px-[5vw] my-[5vh]'>
+    <div className='w-full flex flex-col px-[5vw] my-[5vh]'>
         <div className='flex flex-row w-full h-[60vh] justify-between'>
             <div className='w-2/5 h-full relative '>
                 <Image className='py-[1vh] pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>

@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Faqs = () => {
   return (
-    <div className='w-screen h-[60vh] px-[5vw] flex flex-row bg-white'>
+    <div className='w-full h-[60vh] px-[5vw] flex flex-row bg-white'>
         <div className='h-full w-2/5 relative'>
             <Image className="pr-[5vw]" alt="chrzest faqs tlo" src="/chrzest3.jpeg" fill objectFit='cover'/>
         </div>

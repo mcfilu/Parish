@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <div className='flex flex-col w-screen h-screen'>
+    <div className='flex flex-col w-full h-screen'>
         <div className='w-full h-[80%] relative'>
             <Image alt="schola tlo" fill objectFit='cover' src="/schola1.jpeg"/>
         </div>

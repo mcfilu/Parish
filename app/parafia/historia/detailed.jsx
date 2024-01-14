@@ -2,7 +2,7 @@ import React from 'react'
 
 const Detailed = () => {
   return (
-    <div className='flex flex-col w-screen h-[50vh] px-[5vh] my-[5vh]'>
+    <div className='flex flex-col w-full h-[50vh] px-[5vh] my-[5vh]'>
         <h2 className='text-[40px] font-header2 text-center'>Historia Kosciola az po dzis dzien</h2>
         <div className='flex flex-row w-full mt-[5vh]'>
             <div className='w-1/2 pr-[5vw]'>

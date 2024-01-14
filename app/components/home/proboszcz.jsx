@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Proboszcz = () => {
   return (
-    <div className='w-screen h-[60vh] flex flex-row bg-white'>
+    <div className='w-full h-[60vh] flex flex-row bg-white'>
         <div className='flex flex-col w-[50%] h-full justify-center pl-[20%]'>
             <h1 className='text-[30px] text-bold'>Leszek Slipek</h1>
             <h2 className='text-[25px]'>Ksiądz Proboszcz</h2>
@@ -13,7 +13,7 @@ const Proboszcz = () => {
             </div>
         </div>
         <div className='w-[30%] h-[85%] relative ml-[10%] my-auto'>
-            <Image src="/proboszcz1.jpeg" alt="zdjecie proboszcza" fill={true} objectFit='cover'></Image>
+            <Image src="/slipek_sekcja_no_bg.png" alt="zdjecie proboszcza" fill={true} objectFit='cover'></Image>
         </div>
     </div>
   )

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Pozostali = () => {
   return (
-    <div className='w-screen flex flex-col px-[5vw] py-[10vh] bg-white'>
+    <div className='w-full flex flex-col px-[5vw] py-[10vh] bg-white'>
         <div className='w-full h-[50vh] flex flex-row'>
             <div className='w-1/2 h-full relative'>
                 <Image className='pr-[5vw]' alt="zdjecie wikariusza" src="/ksiadz_andrzej.jpeg" fill objectFit='cover'/>

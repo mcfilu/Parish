@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css'
 
 const Contact = () => {
   return (
-    <div className='w-screen  px-[5vw] my-[5vh] grid grid-cols-3 justify-items-center'>
+    <div className='w-full  px-[5vw] my-[5vh] grid grid-cols-3 justify-items-center'>
         <div className='flex flex-col h-full'>
             <i className='fa-solid fa-envelope text-[40px]'></i>
             <h3 className='mt-[2vh] text-[40px] font-header2'>Email</h3>

@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 const Wspolnoty = () => {
   return (
-    <div className='w-screen h-[50vh] flex relative'>
+    <div className='w-full h-[50vh] flex relative'>
         <Image src="/wspolnoty.jpeg" alt="tlo wspolnoty" fill={true} /> 
-        <div className='z-10 w-screen h-full py-[8vh] px-[8vw] flex flex-col justify-center items-center'>
+        <div className='z-10 w-full h-full py-[8vh] px-[8vw] flex flex-col justify-center items-center'>
             <h2 className='text-white text-[30px]'>Poznaj Nasze Wspolnoty Parafialne</h2>
             <p className='text-white mt-[3vh]'>W naszym kosciel istnieje nie od dzis wiele roznych zgromadzen ktore zajmuja sie blah blah przerozny;mji rzeczami. Juz dzis mozesz dolaczyc i sie zaangazowac.</p>
             <div className='mt-[5vh] flex flex-row justify-center'>

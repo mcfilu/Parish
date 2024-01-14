@@ -14,7 +14,7 @@
 //   return (
 //     <html lang="en">
 //       <body className={inter.className}>
-//           <Navbar className={`w-screen `} changeVisibility={changeVisibility} isHeaderVisible={isHeaderVisible}></Navbar>
+//           <Navbar className={`w-full `} changeVisibility={changeVisibility} isHeaderVisible={isHeaderVisible}></Navbar>
 //           {children}
 //         </body>
 //     </html>
@@ -39,7 +39,7 @@
 //   return (
 //     <html lang="en">
 //       <body className={inter.className}>
-//         <Navbar className="w-screen" changeVisibility={changeVisibility} isHeaderVisible={isHeaderVisible} />
+//         <Navbar className="w-full" changeVisibility={changeVisibility} isHeaderVisible={isHeaderVisible} />
 //         {/* Pass the state and function to children as needed */}
 //         {React.Children.map(children, child => 
 //           React.cloneElement(child, { changeVisibility, isHeaderVisible })
@@ -73,7 +73,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         
         <HeaderVisibilityProvider>
-          <Navbar className="w-screen"/>
+          <Navbar className="w-full"/>
           <Menu/>
           {/* Your layout structure */}
           {children}

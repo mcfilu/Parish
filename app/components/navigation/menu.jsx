@@ -14,7 +14,7 @@ const Menu = () => {
     }
     console.log(isHeaderVisible, toggleMenu);
   return (
-    <div className={`fixed z-50 overflow-hidden w-screen h-screen bg-dark text-white px-[10vw] pb-[10vh] ${isHeaderVisible ? 'fixed' : 'hidden'}`}>
+    <div className={`fixed z-50 overflow-hidden w-full h-screen bg-dark text-white px-[10vw] pb-[10vh] ${isHeaderVisible ? 'fixed' : 'hidden'}`}>
         <div className='flex flex-col'>
             <div className={`flex flex-row justify-end h-auto mt-[5vh] mb-[10vh]`}  onClick={() => closeReset()}>
                 <Image src="/close.png" alt="close icon"  width={20} height={10} objectFit='contain'></Image>

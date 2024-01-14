@@ -29,12 +29,12 @@ const Slides = ({id}) => {
     
         
         <div>
-        <div className='flex flex-col w-screen pt-[20vh]'>
+        <div className='flex flex-col w-full pt-[20vh]'>
             <h2 className='text-[50px] font-header2 text-center'>{data.tytul}</h2>
             <h3 className='text-[30px] font-header2 mt-[2vh] mb-[5vh] text-center'>{data.data}</h3>
         </div>
     
-        <div className='w-screen px-[5vw] grid grid-cols-4 gap-4 py-[5vh]'>
+        <div className='w-full px-[5vw] grid grid-cols-4 gap-4 py-[5vh]'>
             {data.slides && data.slides.map((object) => (
                 <div key="" className='w-full h-[30vh] relative'>
                     <Image fill objectFit="cover" src={`http://3.10.214.193:1337${object}`} alt="zdjecie galeria" />

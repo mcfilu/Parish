@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Content = () => {
   return (
-    <div className='w-screen flex flex-col bg-white py-[10vh]'>
+    <div className='w-full flex flex-col bg-white py-[10vh]'>
         <div className=' h-[55vh] w-full px-[5vw] py-[2vh] flex flex-row'>
             <div className='w-1/2 h-full relative '>
                 <Image className="px-[4vw]" alt="tlo msza swieta" src="/nabozenstwa2.jpeg" fill objectFit='cover'></Image>

@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 const Sakramenty = () => {
   return (
-    <div className='flex flex-col w-screen pb-[5vh] bg-white'>
+    <div className='flex flex-col w-full pb-[5vh] bg-white'>
         <h2 className='text-[40px] text-center my-[5vh]'>Sakramenty</h2>
-        <div className='flex flex-col w-screen '>
+        <div className='flex flex-col w-full '>
             <div className='flex flex-row h-[30vh] w-full justify-center'>
                 <Link href="/sakramenty/chrzest">
                 <div className='flex flex-col h-full w-[17vw] mx-[5vw] border-4 border-white hover:border-black p-1  '>

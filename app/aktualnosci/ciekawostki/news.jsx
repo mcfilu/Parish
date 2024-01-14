@@ -28,7 +28,7 @@ const News = () => {
     // console.log(yearsData);
   return (
 
-    <div className='w-screen flex flex-col py-[10vh] bg-white'>
+    <div className='w-full flex flex-col py-[10vh] bg-white'>
         
         <div className='flex flex-row w-full space-x-4 h-[5vh] pb-[5vh] items-center justify-center '>
             {years && years.map(item => (
@@ -41,7 +41,7 @@ const News = () => {
         </div>
         
         {years && years.map(item => (
-            <div key={item.id} className={` w-screen grid grid-cols-3 content-center justify-items-center ${item == currentYear ? '' : 'hidden'} px-[5vw]`}>
+            <div key={item.id} className={` w-full grid grid-cols-3 content-center justify-items-center ${item == currentYear ? '' : 'hidden'} px-[5vw]`}>
                 {yearsData && yearsData.find(y => y.year == item).data.map(entry => (
                     
                         <div key={entry.id} className={`flex flex-col shadow-xl my-[5vh] w-[17vw] h-[50vh] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>

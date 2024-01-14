@@ -34,7 +34,7 @@ const News = () => {
     }, []);
 
   return (
-    <div className='flex flex-col w-screen h-screen items-center justify-center bg-white'>
+    <div className='flex flex-col w-full h-screen items-center justify-center bg-white'>
         <h2 className='text-[40px] '>Aktualnosci</h2>
         
             {news !== null ? (

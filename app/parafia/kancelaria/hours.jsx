@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hours = () => {
   return (
-    <div className='w-screen h-[60vh] px-[5vw] flex flex-row bg-white my-[5vh]'>
+    <div className='w-full h-[60vh] px-[5vw] flex flex-row bg-white my-[5vh]'>
         <div className='w-1/2 h-full relative'>
             <Image className='pr-[5vw]' fill objectFit='cover' alt="Godziny Otwarcia Tlo" src="/Image.png"/>
         </div>

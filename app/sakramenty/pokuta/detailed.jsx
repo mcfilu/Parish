@@ -2,7 +2,7 @@ import React from 'react'
 
 const Detailed = () => {
   return (
-    <div className='w-screen h-[30vh] px-[5vw] flex flex-row bg-white'>
+    <div className='w-full h-[30vh] px-[5vw] flex flex-row bg-white'>
         <div className='h-full w-1/2 pr-[5vw] items-center flex'>
             <h2 className='text-[40px] font-header2'>Long heading is what you see here in this feature section</h2>
         </div>
