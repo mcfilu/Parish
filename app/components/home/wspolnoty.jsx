@@ -4,21 +4,57 @@ import Link from 'next/link'
 
 const Wspolnoty = () => {
   return (
-    <div className='w-full h-[50vh] flex relative'>
-        <Image src="/wspolnoty.jpeg" alt="tlo wspolnoty" fill={true} /> 
-        <div className='z-10 w-full h-full py-[8vh] px-[8vw] flex flex-col justify-center items-center'>
-            <h2 className='text-white text-[30px]'>Poznaj Nasze Wspolnoty Parafialne</h2>
-            <p className='text-white mt-[3vh]'>W naszym kosciel istnieje nie od dzis wiele roznych zgromadzen ktore zajmuja sie blah blah przerozny;mji rzeczami. Juz dzis mozesz dolaczyc i sie zaangazowac.</p>
-            <div className='mt-[5vh] flex flex-row justify-center'>
+    <div className='w-full flex flex-col relative bg-white py-[5vh] px-[8vw]'>
+        <h2 className='text-center text-[50px] text-black font-header2'>Poznaj Nasze Wspolnoty Parafialne</h2>
+        {/* <Image src="/wspolnoty.jpeg" alt="tlo wspolnoty" fill={true} />  */}
+        <div className='z-10 w-full h-full grid grid-cols-3 grid-rows-2 justify-center items-center gap-[2vh] mt-[5vh]'>
+            {/* <h2 className='text-white text-[30px] text-black font-header2'>Poznaj Nasze Wspolnoty Parafialne</h2> */}
+            {/* <p className='text-white mt-[3vh]'>W naszym kosciel istnieje nie od dzis wiele roznych zgromadzen ktore zajmuja sie blah blah przerozny;mji rzeczami. Juz dzis mozesz dolaczyc i sie zaangazowac.</p> */}
+            
                 <Link href="/wspolnoty/caritas">
-                <div className='flex h-[15vh] w-[15vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center mx-[1vw]'>
-                    <div className='h-[60%] relative w-[50%]'>
-                        <Image src="/handshake.png" alt="ikonka wspolnoty" fill objectFit='contain'/>
-                    </div>
-                    <p className='text-center text-bold'>CARITAS</p>
+                <div className='flex w-full h-full bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
+                    
+                    <p className='text-center text-bold text-white font-header2 text-[40px]'>SCHOLA</p>
                 </div>
                 </Link>
-                <Link href="/wspolnoty/schola">
+
+                <Link href="/wspolnoty/caritas">
+                <div className='flex w-full h-full bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
+                    
+                    <p className='text-center text-bold text-white font-header2 text-[40px]'>SCHOLA DZIECIĘCA</p>
+                </div>
+                </Link>
+
+                <Link href="/wspolnoty/caritas">
+                <div className='flex w-full h-full bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
+                    
+                    <p className='text-center text-bold text-white font-header2 text-[40px]'>CARITAS</p>
+                </div>
+                </Link>
+
+                <Link href="/wspolnoty/caritas">
+                <div className='flex w-full h-full bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
+                    
+                    <p className='text-center text-bold text-white font-header2 text-[40px]'>MINISTRANCI</p>
+                </div>
+                </Link>
+
+                <Link href="/wspolnoty/caritas">
+                <div className='flex w-full h-full bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
+                    
+                    <p className='text-center text-bold text-white font-header2 text-[40px]'>KOŁO RÓŹAŃCA</p>
+                </div>
+                </Link>
+
+                <Link href="/wspolnoty/caritas">
+                <div className='flex w-full h-full bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
+                    
+                    <p className='text-center text-bold text-white font-header2 text-[40px]'>RADA PARAFIALNA</p>
+                </div>
+                </Link>
+
+
+                {/* <Link href="/wspolnoty/schola">
                 <div className='flex h-[15vh] w-[15vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
                         <Image src="/handshake.png" alt="ikonka wspolnoty" fill objectFit='contain'/>
@@ -49,8 +85,8 @@ const Wspolnoty = () => {
                     </div>
                     <p className='text-center text-bold'>RADA PARAFIALNA</p>
                 </div>
-                </Link>
-            </div>
+                </Link> */}
+            
         </div>
     </div>
   )

@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Sakramenty = () => {
   return (
-    <div className='w-full h-[50vh] flex relative'>
+    <div className='w-full h-[60vh] flex relative'>
         <Image src="/sakramenty_tlo.jpeg" alt="tlo sakramenty" fill={true} objectFit='cover'/> 
         <div className='z-10 w-full h-full py-[8vh] px-[8vw] flex flex-col justify-center items-center'>
             <h2 className='text-white text-[50px] font-header2'>Sakramenty</h2>

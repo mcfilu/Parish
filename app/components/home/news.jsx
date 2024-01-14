@@ -35,14 +35,14 @@ const News = () => {
 
   return (
     <div className='flex flex-col w-full h-screen items-center justify-center bg-white'>
-        <h2 className='text-[40px] '>Aktualnosci</h2>
+        <h2 className='text-[50px] font-header2'>Aktualnosci</h2>
         
             {news !== null ? (
             <div className='flex flex-col '>
             <div className='flex flex-row h-[60vh] w-full my-[2vh] items-center justify-center'>
                 
                 <div className='w-[40%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
-                    <h3 className='font-bold text-[25px] mb-[1vh] text-center'>{news[0].tytul}</h3>
+                    <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[0].tytul}</h3>
                     <div className='w-full h-full relative '>
                     {img1 !== null ? (
                             <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
@@ -55,7 +55,7 @@ const News = () => {
                     </div>
                 </div>
                 <div className='w-[40%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
-                    <h3 className='font-bold text-[25px] mb-[1vh] text-center'>{news[1].tytul}</h3>
+                    <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[1].tytul}</h3>
                     <div className='w-full h-full relative '>
                     {img1 !== null ? (
                             <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>

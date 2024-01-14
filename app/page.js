@@ -14,6 +14,7 @@ import Citations from './components/home/citations'
 import Galeria from './components/home/galeria'
 import News from './components/home/news'
 import Banner from './components/home/banner'
+import Contact from './components/home/contact'
 import { useState } from 'react'
 
 
@@ -33,12 +34,15 @@ export default function Home() {
     <Citations/>
     <News/>
     <Sakramenty/>
+    
     <Wspolnoty/>
     
     
-    <Banner/>
+    
     <Kazania/>
+    <Banner/>
     <Galeria/>
+    <Contact/>
     <Footer/>
    </div>
   )
