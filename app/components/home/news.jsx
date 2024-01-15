@@ -40,7 +40,7 @@ const News = () => {
         
             {news !== null ? (
             <div className='flex flex-col '>
-                <div className='flex flex-row  w-full items-center justify-center'>
+                <div className='flex flex-col md:flex-row w-full items-center justify-center'>
                 
                 <div className='w-[25%] px-[0.5vw] py-[1vh] mx-[1vw] h-full flex flex-col justify-center hover:bg-slate-200'>
                     <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[0].tytul}</h3>
