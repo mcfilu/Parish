@@ -30,7 +30,7 @@ const Slides = ({id}) => {
         
         <div>
         <div className='flex flex-col w-full pt-[20vh]'>
-            <h2 className='text-[50px] font-header2 text-center'>{data.tytul}</h2>
+            <h2 className='text-[5.5vh] font-header2 text-center'>{data.tytul}</h2>
             <h3 className='text-[30px] font-header2 mt-[2vh] mb-[5vh] text-center'>{data.data}</h3>
         </div>
     

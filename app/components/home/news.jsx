@@ -35,7 +35,7 @@ const News = () => {
 
   return (
     <div className='flex flex-col w-full h-screen items-center justify-center bg-white'>
-        <h2 className='text-[50px] font-header2'>Aktualnosci</h2>
+        <h2 className='text-[5.5vh] font-header2'>Aktualnosci</h2>
         
             {news !== null ? (
             <div className='flex flex-col '>

@@ -4,7 +4,7 @@ const Proboszcz = () => {
   return (
     <div className='w-full  flex flex-row bg-white pt-[5vh]'>
         <div className='flex flex-col w-[50%] h-full justify-center pl-[10%]'>
-            <h1 className='text-[50px] text-bold font-header2'>Leszek Slipek</h1>
+            <h1 className='text-[5.5vh] text-bold font-header2'>Leszek Slipek</h1>
             <h2 className='text-[35px] font-header2'>Ksiądz Proboszcz</h2>
             <p className='mt-[5vh]'>Urodził się 10.07.1953 w Legnicy. Ukończył Wyższe Metropolitalne Seminarium Duchowne w Warszawie i w 1978 roku z rąk Kard. Stefana Wyszyńskiego otrzymał święcenia kapłańskie. Przez dwa lata był wikariuszem w parafii Zalesie Dolne. W roku 1980 wyjechał na dalsze studia do Rzymu W 1982 roku uzyskał doktorat z teologii duchowości na Uniwersytecie Gregoriańskim. Po powrocie ze studiów wykładał na Papieskim Wydziale Teologicznym.</p>
             <p className='mt-[2vh]'>Przez cztery lata pełnił funkcję ojca duchownego w Wyższym Seminarium Duchownym w Warszawie. W roku 1987 został proboszczem parafii o wdzięcznej nazwie Jasieniec. Następnie przez dziesięć lat był proboszczem parafii św. Krzysztofa w Podkowie Leśnej.</p>
@@ -20,7 +20,7 @@ const Proboszcz = () => {
     </div>
 //     <div className='w-full flex bg-white pt-[5vh]'>
 //     <div className='flex flex-col flex-1 justify-center pl-[10%]'>
-//         <h1 className='text-[50px] text-bold font-header2'>Leszek Slipek</h1>
+//         <h1 className='text-[5.5vh] text-bold font-header2'>Leszek Slipek</h1>
 //         <h2 className='text-[35px] font-header2'>Ksiądz Proboszcz</h2>
 //         <p className='mt-[5vh]'> 
 

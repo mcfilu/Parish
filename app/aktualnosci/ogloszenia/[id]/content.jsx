@@ -37,7 +37,7 @@ const Content = ({id}) => {
                     <Image fill alt="tlo ogloszenia" src={'http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url}/>
                 </div>
                 <div className='w-1/2 pl-[5vw]'>
-                    <h1 className='text-[50px] font-header2 text-center'>{data.data.attributes.tytul}</h1>
+                    <h1 className='text-[5.5vh] font-header2 text-center'>{data.data.attributes.tytul}</h1>
                     {/* <textarea className='w-full mt-[5vh]'>{data.data.attributes.tresc}</textarea> */}
                     <div className="markdown" dangerouslySetInnerHTML={{ __html: htmlContent }} />
                 </div>

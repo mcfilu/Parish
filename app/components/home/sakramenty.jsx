@@ -7,7 +7,7 @@ const Sakramenty = () => {
     <div className='w-full h-[60vh] flex relative'>
         <Image src="/sakramenty_tlo.jpeg" alt="tlo sakramenty" fill={true} objectFit='cover'/> 
         <div className='z-10 w-full h-full py-[8vh] px-[8vw] flex flex-col justify-center items-center'>
-            <h2 className='text-white text-[50px] font-header2'>Sakramenty</h2>
+            <h2 className='text-white text-[5.5vh] font-header2'>Sakramenty</h2>
             {/* <p className='text-white mt-[3vh]'>W naszym kosciel istnieje nie od dzis wiele roznych zgromadzen ktore zajmuja sie blah blah przerozny;mji rzeczami. Juz dzis mozesz dolaczyc i sie zaangazowac.</p> */}
             <div className='mt-[5vh] flex flex-row justify-center text-white font-header2 text-[30px] gap-10'>
                 <Link href="/sakramenty/chrzest">
