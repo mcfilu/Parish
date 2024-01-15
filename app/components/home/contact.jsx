@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className='w-full bg-white h-[80vh] flex flex-row py-[10vh px-[8vw text-black relative'>
-        <div className='child absolute right-[50px] p-6 z-10 bg-black text-white'>
+        <div className='child absolute right-[50px] p-6 z-10 bg-white text-black'>
             <div className='flex flex-col h-full justify-center '>
                 <i className='fa-solid fa-envelope text-[4.3vh]'></i>
                 <h3 className='mt-[1vh] text-[4.3vh] font-header2'>Email</h3>
