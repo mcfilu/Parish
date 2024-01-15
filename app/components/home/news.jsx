@@ -7,8 +7,9 @@ const News = () => {
 
     const [news, setNews] = useState(null);
     const [data, setData] = useState(null)
-    const [img1, setImg1] = useState('')
-    const [img2, setImg2] = useState('')
+    const [img1, setImg1] = useState(null)
+    const [img2, setImg2] = useState(null)
+    const [img3, setImg3] = useState(null)
 
     function loadImages(id1, id2) {
         fetch(`http://3.10.214.193:1337/api/ogloszenia/${id1}?populate=*`)
@@ -34,37 +35,50 @@ const News = () => {
     }, []);
 
   return (
-    <div className='flex flex-col w-full h-screen items-center justify-center bg-white text-black'>
-        <h2 className='text-[5.5vh] font-header2'>Aktualnosci</h2>
+    <div className='flex flex-col w-full py-[10vh] items-center justify-center bg-white text-black'>
+        <h2 className='text-[5.5vh] font-header2 mb-[3vh]'>Aktualności</h2>
         
             {news !== null ? (
             <div className='flex flex-col '>
-            <div className='flex flex-row h-[60vh] w-full my-[2vh] items-center justify-center'>
+                <div className='flex flex-row  w-full items-center justify-center'>
                 
-                <div className='w-[40%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
+                <div className='w-[25%] px-[0.5vw] py-[1vh] mx-[1vw] h-full flex flex-col justify-center hover:bg-slate-200'>
                     <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[0].tytul}</h3>
-                    <div className='w-full h-full relative '>
+                    <div className='w-full h-[30vh] relative '>
                     {img1 !== null ? (
                             <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
                         ) : null}
                     </div>
-                    <p>{news[0].skrot_tresci}</p>
+                    <p className='mt-[2vh] text-[1.8vh]'>{news[0].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
                     <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}>Czytaj Wiecej</Link>
                     <p>{news[0].data}</p>
                     </div>
                 </div>
-                <div className='w-[40%] px-[2vw] py-[1vh] h-full flex flex-col justify-center'>
+                <div className='w-[25%] px-[0.5vw] hover:bg-slate-200 mx-[1vw] py-[1vh] h-full flex flex-col justify-center'>
                     <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[1].tytul}</h3>
-                    <div className='w-full h-full relative '>
-                    {img1 !== null ? (
+                    <div className='w-full h-[30vh] relative '>
+                    {img2 !== null ? (
                             <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img2} /></Link>
                         ) : null}
                     </div>
-                    <p>{news[1].skrot_tresci}</p>
+                    <p className='mt-[2vh] text-[1.8vh]'>{news[1].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
                     <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}>Czytaj Wiecej</Link>
                     <p>{news[1].data}</p>
+                    </div>
+                </div>
+                <div className='w-[25%] px-[0.5vw] mx-[1vw] py-[1vh] h-full flex flex-col justify-center hover:bg-slate-200'>
+                    <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[0].tytul}</h3>
+                    <div className='w-full h-[30vh] relative '>
+                    {img1 !== null ? (
+                            <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
+                        ) : null}
+                    </div>
+                    <p className='mt-[2vh] text-[1.8vh]'>{news[0].skrot_tresci}</p>
+                    <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
+                    <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}>Czytaj Wiecej</Link>
+                    <p>{news[0].data}</p>
                     </div>
                 </div>
             </div>
@@ -86,7 +100,7 @@ const News = () => {
             </div>
             ) : null}
         
-        <Link href="/aktualnosci/ogloszenia">
+        <Link href="/aktualnosci/ogloszenia" className='mt-[5vh]'>
             <button className='bg-dark text-white text-[2.3vh] p-4'>Zobacz Wiecej</button>
         </Link>
     </div>

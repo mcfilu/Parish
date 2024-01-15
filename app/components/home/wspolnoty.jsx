@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Wspolnoty = () => {
   return (
-    <div className='w-full flex flex-col relative bg-white py-[5vh] px-[8vw]'>
+    <div className='w-full flex flex-col relative bg-white py-[10vh] px-[8vw]'>
         <h2 className='text-center text-[5.5vh] text-black font-header2'>Poznaj Nasze Wspolnoty Parafialne</h2>
         {/* <Image src="/wspolnoty.jpeg" alt="tlo wspolnoty" fill={true} />  */}
         <div className='z-10 w-full h-full grid grid-cols-3 grid-rows-2 justify-center items-center gap-[2vh] mt-[5vh]'>
