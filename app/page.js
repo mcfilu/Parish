@@ -39,9 +39,11 @@ export default function Home() {
     
     
     
-    <Kazania/>
-    <Banner/>
+    
+    
     <Galeria/>
+    <Banner/>
+    <Kazania/>
     <Contact/>
     <Footer/>
    </div>
