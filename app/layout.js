@@ -58,6 +58,7 @@ import './globals.css';
 import Navbar from './components/navigation/navbar';
 import Menu from './components/navigation/menu';
 import { HeaderVisibilityProvider } from './HeaderVisibilityContext.js';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 const inter = Inter({ subsets: ['latin'] });
 
 // export const metadata = {
@@ -73,7 +74,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         
         <HeaderVisibilityProvider>
-          <Navbar className="w-full"/>
+          <Navbar/>
           <Menu/>
           {/* Your layout structure */}
           {children}
