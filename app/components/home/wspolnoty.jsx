@@ -7,7 +7,7 @@ const Wspolnoty = () => {
     <div className='w-full flex flex-col relative bg-white py-[10vh] px-[8vw]'>
         <h2 className='text-center text-[5.5vh] text-black font-header2'>Poznaj Nasze Wspolnoty Parafialne</h2>
         {/* <Image src="/wspolnoty.jpeg" alt="tlo wspolnoty" fill={true} />  */}
-        <div className='z-10 w-full h-full grid grid-cols-3 grid-rows-2 justify-center items-center gap-[2vh] mt-[5vh]'>
+        <div className='z-10 w-full h-full grid grid-cols-1 md:grid-cols-3 grid-rows-2 justify-center items-center gap-[2vh] mt-[5vh]'>
             {/* <h2 className='text-white text-[30px] text-black font-header2'>Poznaj Nasze Wspolnoty Parafialne</h2> */}
             {/* <p className='text-white mt-[3vh]'>W naszym kosciel istnieje nie od dzis wiele roznych zgromadzen ktore zajmuja sie blah blah przerozny;mji rzeczami. Juz dzis mozesz dolaczyc i sie zaangazowac.</p> */}
             

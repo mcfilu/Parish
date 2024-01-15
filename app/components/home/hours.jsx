@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 const Hours = () => {
   return (
-    <div className='flex flex-col w-full py-[10vh] relative justify-center'>
-        <Image src="/godziny.jpeg" alt="tlo dziecko" fill={true} objectFit='cover'/>
-        <div className="ml-[50%] w-[40%] h-full text-white py-[5vh] flex flex-col justify-center z-10">
-            <div className='w-full flex flex-row '>
+    <div className='flex flex-col w-full py-[10vh] relative justify-center bg-black'>
+        <Image src="/godziny.jpeg" alt="tlo dziecko" fill={true} objectFit='cover' className='hidden md:flex'/>
+        <div className="pl-[5vw] md:ml-[50%] w-full md:w-[40%] h-full text-white py-[5vh] flex flex-col justify-center z-10">
+            <div className='flex w-full flex-row '>
                 <div className={`relative w-[10%] h-[8vh] `}>
                     <Image alt="ikonka kosciol" src="/icon-1.png" fill={true} objectFit='contain '></Image>
                 </div>
