@@ -73,8 +73,8 @@ const Citations = () => {
             <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
                 <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
             </div>
-            <p className='text-white text-center'>{post1.text}</p>
-            <p className='text-gold1 text-center mt-[2vh]'>{post1.author}</p>
+            <p className='text-white text-center text-[2.2vh]'>{post1.text}</p>
+            <p className='text-gold1 text-center mt-[2vh] text-[2vh]'>{post1.author}</p>
           </div>
         ) : null}
 
@@ -83,8 +83,8 @@ const Citations = () => {
             <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
                 <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
             </div>
-            <p className='text-white text-center'>{post2.text}</p>
-            <p className='text-gold1 text-center mt-[2vh]'>{post2.author}</p>
+            <p className='text-white text-center text-[2.2vh]'>{post2.text}</p>
+            <p className='text-gold1 text-center mt-[2vh] text-[2vh]'>{post2.author}</p>
           </div>
         ) : null}
 
@@ -93,15 +93,15 @@ const Citations = () => {
             <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
                 <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
             </div>
-            <p className='text-white text-center'>{post3.text}</p>
-            <p className='text-gold1 text-center mt-[2vh]'>{post3.author}</p>
+            <p className='text-white text-center text-[2.2vh]'>{post3.text}</p>
+            <p className='text-gold1 text-center mt-[2vh] text-[2vh]'>{post3.author}</p>
           </div>
         ) : null}
       <div className="flex items-center space-x-2 z-10 mt-[8vh]">
       {[1,2,3].map((index) => (
         <div
           key={index}
-          className={`w-4 h-4 rounded-full cursor-pointer ${
+          className={`w-[2vh] h-[2vh] rounded-full cursor-pointer ${
             index === activeIndex
               ? 'bg-gold1' // Active dot is gold background
               : 'border border-gold1' // Inactive dots have gold border
