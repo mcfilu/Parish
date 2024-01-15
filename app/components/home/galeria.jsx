@@ -19,7 +19,7 @@ const Galeria = () => {
         return (<div>Problem</div>)
     }
   else return (
-    <div className='flex w-full h-[70vh] flex flex-row bg-white pb-[5vh]'>
+    <div className='flex w-full h-[70vh] flex flex-row bg-white '>
         <div className='flex flex-col w-[50%] h-full'>
             <div className={`flex relative h-[50%] w-full`}>
                 <Link href={`/parafia/galeria/${data[0].id}`}>

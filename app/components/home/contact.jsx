@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='w-full h-[70vh] bg-white flex flex-row py-[5vh] px-[5vw]'>
+    <div className='w-full h-[70vh] bg-white flex flex-row py-[5vh] px-[5vw] text-black'>
         <div className='flex flex-col w-1/2 '>
             <div className='flex flex-row h-full items-center '>
                 <i className='fa-solid fa-envelope text-[40px]'></i>
