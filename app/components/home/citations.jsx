@@ -66,7 +66,7 @@ const Citations = () => {
 
   // useEffect()
   return (
-    <div className="flex w-full h-[60vh] justify-center items-center relative flex flex-col">
+    <div className="flex w-full py-[10vh] justify-center items-center relative flex flex-col">
         <Image src="/cytaty2.jpeg" alt="tlo kosciola" fill={true} objectFit='cover'/>
         {post1 !== null ? (
           <div key={post1.id} className={`border-[2px] h-auto w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post1.id == activeIndex ? '' : 'hidden'}`}>
