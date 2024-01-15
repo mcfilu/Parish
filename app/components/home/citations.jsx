@@ -69,7 +69,7 @@ const Citations = () => {
     <div className="flex w-full py-[10vh] justify-center items-center relative flex flex-col">
         <Image src="/cytaty2.jpeg" alt="tlo kosciola" fill={true} objectFit='cover'/>
         {post1 !== null ? (
-          <div key={post1.id} className={`border-[2px] h-auto w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post1.id == activeIndex ? '' : 'hidden'}`}>
+          <div key={post1.id} className={`border-[2px] h-auto w-[80%] m:w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post1.id == activeIndex ? '' : 'hidden'}`}>
             <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
                 <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
             </div>
@@ -79,7 +79,7 @@ const Citations = () => {
         ) : null}
 
         {post2 !== null ? (
-          <div key={post2.id} className={`border-[2px] h-auto w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post2.id == activeIndex ? '' : 'hidden'}`}>
+          <div key={post2.id} className={`border-[2px] h-auto w-[80%] m:w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post2.id == activeIndex ? '' : 'hidden'}`}>
             <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
                 <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
             </div>
@@ -89,7 +89,7 @@ const Citations = () => {
         ) : null}
 
           {post3 !== null ? (
-          <div key={post3.id} className={`border-[2px] h-auto w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post3.id == activeIndex ? '' : 'hidden'}`}>
+          <div key={post3.id} className={`border-[2px] h-auto w-[80%] m:w-[40%] z-10 flex flex-col justify-center items-center p-[5vh] ${post3.id == activeIndex ? '' : 'hidden'}`}>
             <div className='relative h-[3vh] w-[10%] mb-[3vh]'>
                 <Image alt="ikonka cytat" src="/quotation-marks.png" fill={true} objectFit='contain'></Image>
             </div>
