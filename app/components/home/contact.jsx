@@ -5,22 +5,22 @@ const Contact = () => {
     <div className='w-full bg-white h-[80vh] flex flex-row py-[10vh px-[8vw text-black relative'>
         <div className='child absolute right-[50px] p-6 z-10 bg-black text-white'>
             <div className='flex flex-col h-full justify-center '>
-                <i className='fa-solid fa-envelope text-[40px]'></i>
-                <h3 className='mt-[1vh] text-[40px] font-header2'>Email</h3>
+                <i className='fa-solid fa-envelope text-[4.3vh]'></i>
+                <h3 className='mt-[1vh] text-[4.3vh] font-header2'>Email</h3>
                 {/* <p className='mt-[1vh]'>Zachecamy do kontaktu mailowego</p> */}
-                <a className='mt-[2vh]'>parafianachlodnej@gmail.com</a>
+                <a className='mt-[2vh] text-[1.8vh]'>parafianachlodnej@gmail.com</a>
             </div>
             <div className='flex flex-col h-full justify-center mt-[3vh]'>
-                <i className='fa-solid fa-phone text-[40px]'></i>
-                <h3 className='mt-[1vh] text-[40px] font-header2'>Telefon</h3>
+                <i className='fa-solid fa-phone text-[4.3vh]'></i>
+                <h3 className='mt-[1vh] text-[4.3vh] font-header2'>Telefon</h3>
                 {/* <p className='mt-[1vh]'>Zachecamy do kontaktu mailowego</p> */}
-                <a className='mt-[2vh]'>22 620 37 47</a>
+                <a className='mt-[2vh] text-[1.8vh]'>22 620 37 47</a>
             </div>
             <div className='flex flex-col h-full justify-center mt-[3vh]'>
-                <i className='fa-solid fa-location-dot text-[40px]'></i>
-                <h3 className='mt-[2vh] text-[40px] font-header2'>Adres</h3>
-                <p className='mt-[1vh]'>ul. Chłodna 9</p>
-                <p className='mt-[1vh]'>00-891 Warszawa</p>
+                <i className='fa-solid fa-location-dot text-[4.3vh]'></i>
+                <h3 className='mt-[2vh] text-[4.3vh] font-header2'>Adres</h3>
+                <p className='mt-[1vh] text-[1.8vh]'>ul. Chłodna 9</p>
+                <p className='mt-[1vh] text-[1.8vh]'>00-891 Warszawa</p>
             </div>
         </div>
 
