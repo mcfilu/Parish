@@ -11,9 +11,9 @@ const Hours = () => {
                 </div>
                 <h2 className='text-white text-[5.5vh] ml-[2vw] font-header2'>Porządek Liturgiczny</h2>
             </div>
-            <div className='flex flex-row mt-[5vh]'>
+            <div className='flex flex-row mt-[5vh] text-white'>
                 <div className='mx-[1vw] border-r-[2px]'>
-                    <h4 className='font-bold text-[20px]'>Niedziele i Swieta</h4>
+                    <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
                     <p className='mt-[2vh]'>7:00</p>
                     <p>8:30</p>
                     <p>10:00</p>
@@ -23,7 +23,7 @@ const Hours = () => {
                 </div>
 
                 <div className='mx-[1vw] border-r-[2px]'>
-                    <h4 className='font-bold text-[20px]'>Dni Powszednie</h4>
+                    <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
                     <p className='mt-[2vh]'>6:30</p>
                     <p>8:00</p>
                     <p>9:00</p>
@@ -31,7 +31,7 @@ const Hours = () => {
                 </div>
                 
                 <div className='mx-[1vw]'>
-                    <h3 className='font-bold text-[20px]'>Spowiedz</h3>
+                    <h3 className='font-bold text-[2.3vh]'>Spowiedz</h3>
                     <p className='mt-[2vh]'>Dni tygodnia: 30min przed msza</p>
                     <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kosciele</p>
                     <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kosciele</p>

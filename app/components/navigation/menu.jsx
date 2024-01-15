@@ -22,7 +22,7 @@ const Menu = () => {
                 
             </div> */}
             <div className={`flex flex-row`}>
-                <div className={`flex flex-col w-[35%]  text-[20px]`}>
+                <div className={`flex flex-col w-[35%]  text-[2.3vh]`}>
                     <div className={`flex relative h-[35vh] w-[60%] mb-[5vh] `}>
                     <Link href="/" onClick={closeReset}><Image src="/kosciol_logo.png" alt="logo kosciola" fill={true} objectFit='contain' className='align-left' ></Image></Link>
                     </div>

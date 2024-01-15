@@ -87,7 +87,7 @@ const News = () => {
             ) : null}
         
         <Link href="/aktualnosci/ogloszenia">
-            <button className='bg-dark text-white text-[20px] p-4'>Zobacz Wiecej</button>
+            <button className='bg-dark text-white text-[2.3vh] p-4'>Zobacz Wiecej</button>
         </Link>
     </div>
   )

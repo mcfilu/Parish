@@ -13,16 +13,16 @@ const Footer = () => {
             
         </div>
         <div className={`w-[20%] flex flex-col ml-[3vw]`}>
-                    <h3 className='font-bold text-[20px]'>Adres</h3>
+                    <h3 className='font-bold text-[2.3vh]'>Adres</h3>
                     <p>Chłodna 9</p>
                     <p>00-891 Warszawa</p>
-                    <h2 className='font-bold text-[20px] mt-[3vh] '>Kontakt</h2>
+                    <h2 className='font-bold text-[2.3vh] mt-[3vh] '>Kontakt</h2>
                     <p>parafiachlodna@gmail.com</p>
                     <p>22 620 37 47</p>
             
         </div>
         <div className='flex flex-col w-[20%] mx-[2vw] border-r-[2px]'>
-            <h3 className='font-bold text-[20px]'>Msze Swiete</h3>
+            <h3 className='font-bold text-[2.3vh]'>Msze Swiete</h3>
             <div className='w-full flex flex-row mt-[2vh]'>
                 <div>
                     <h4>Dni Powszednie</h4>
@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='w-[20%] mx-[2vw] flex flex-col border-r-[2px]'>
-            <h3 className='font-bold text-[20px]'>Spowiedz</h3>
+            <h3 className='font-bold text-[2.3vh]'>Spowiedz</h3>
             <p className='mt-[2vh]'>Dni tygodnia: 30min przed msza</p>
             <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kosciele</p>
             <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kosciele</p>

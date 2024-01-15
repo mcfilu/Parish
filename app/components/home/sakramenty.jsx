@@ -70,7 +70,7 @@ const Sakramenty = () => {
     //                 <div className='w-full h-[35%] relative'>
     //                     <Image alt="ikonka " fill objectFit="contain" src="/baptism.png"/>
     //                 </div>
-    //                 <h3 className='text-[20px] text-center mt-[2vh] '>Chrzest Swiety</h3>
+    //                 <h3 className='text-[2.3vh] text-center mt-[2vh] '>Chrzest Swiety</h3>
     //                 <p className='text-center mt-[1vh]'>Jest to sakrament, w którym ciężko chory otrzymuje przez namaszczenie olejem św. i modlitwę kapłana szczególne łaski, ulgę w cierpieniu, a niekiedy przywrócenie zdrowia.</p>
     //             </div>
     //             </Link>
@@ -79,7 +79,7 @@ const Sakramenty = () => {
     //                 <div className='w-full h-[35%] relative'>
     //                     <Image alt="ikonka " fill objectFit="contain" src="/communion.png"/>
     //                 </div>
-    //                 <h3 className='text-[20px] text-center mt-[2vh]'>Eucharystia</h3>
+    //                 <h3 className='text-[2.3vh] text-center mt-[2vh]'>Eucharystia</h3>
     //                 <p className='text-center mt-[1vh] '>Jest to sakrament, w którym ciężko chory otrzymuje przez namaszczenie olejem św. i modlitwę kapłana szczególne łaski, ulgę w cierpieniu, a niekiedy przywrócenie zdrowia.</p>
     //             </div>
     //             </Link>
@@ -88,7 +88,7 @@ const Sakramenty = () => {
     //                 <div className='w-full h-[35%] relative'>
     //                     <Image alt="ikonka " fill objectFit="contain" src="/bierzmowanie.png"/>
     //                 </div>
-    //                 <h3 className='text-[20px] text-center mt-[2vh]'>Bierzmowanie</h3>
+    //                 <h3 className='text-[2.3vh] text-center mt-[2vh]'>Bierzmowanie</h3>
     //                 <p className='text-center mt-[1vh] '>Jest to sakrament, w którym ciężko chory otrzymuje przez namaszczenie olejem św. i modlitwę kapłana szczególne łaski, ulgę w cierpieniu, a niekiedy przywrócenie zdrowia.</p>
     //             </div>
     //             </Link>
@@ -99,7 +99,7 @@ const Sakramenty = () => {
     //                 <div className='w-full h-[35%] relative'>
     //                     <Image alt="ikonka " fill objectFit="contain" src="/contrition.png"/>
     //                 </div>
-    //                 <h3 className='text-[20px] text-center mt-[2vh]'>Pokuta</h3>
+    //                 <h3 className='text-[2.3vh] text-center mt-[2vh]'>Pokuta</h3>
     //                 <p className='text-center mt-[1vh] '>Jest to sakrament, w którym ciężko chory otrzymuje przez namaszczenie olejem św. i modlitwę kapłana szczególne łaski, ulgę w cierpieniu, a niekiedy przywrócenie zdrowia.</p>
     //             </div>
     //             </Link>
@@ -108,7 +108,7 @@ const Sakramenty = () => {
     //                 <div className='w-full h-[35%] relative'>
     //                     <Image alt="ikonka " fill objectFit="contain" src="/wedding-rings.png"/>
     //                 </div>
-    //                 <h3 className='text-[20px] text-center mt-[2vh]'>Malzenstwo</h3>
+    //                 <h3 className='text-[2.3vh] text-center mt-[2vh]'>Malzenstwo</h3>
     //                 <p className='text-center mt-[1vh] '>Jest to sakrament, w którym ciężko chory otrzymuje przez namaszczenie olejem św. i modlitwę kapłana szczególne łaski, ulgę w cierpieniu, a niekiedy przywrócenie zdrowia.</p>
     //             </div>
     //             </Link>
@@ -117,7 +117,7 @@ const Sakramenty = () => {
     //                 <div className='w-full h-[35%] relative'>
     //                     <Image alt="ikonka " fill objectFit="contain" src="/pope.png"/>
     //                 </div>
-    //                 <h3 className='text-[20px] text-center mt-[2vh]'>Kaplanstwo</h3>
+    //                 <h3 className='text-[2.3vh] text-center mt-[2vh]'>Kaplanstwo</h3>
     //                 <p className='text-center mt-[1vh] '>Jest to sakrament, w którym ciężko chory otrzymuje przez namaszczenie olejem św. i modlitwę kapłana szczególne łaski, ulgę w cierpieniu, a niekiedy przywrócenie zdrowia.</p>
     //             </div>
     //             </Link> */}
@@ -126,7 +126,7 @@ const Sakramenty = () => {
     //                 <div className='w-full h-[35%] relative'>
     //                     <Image alt="ikonka " fill objectFit="contain" src="/anointing.png"/>
     //                 </div>
-    //                 <h3 className='text-[20px] text-center mt-[2vh]'>Namaszczenie Chorych</h3>
+    //                 <h3 className='text-[2.3vh] text-center mt-[2vh]'>Namaszczenie Chorych</h3>
     //                 <p className='text-center mt-[1vh] '>Jest to sakrament, w którym ciężko chory otrzymuje przez namaszczenie olejem św. i modlitwę kapłana szczególne łaski, ulgę w cierpieniu, a niekiedy przywrócenie zdrowia.</p>
     //             </div>
     //             </Link>
@@ -137,7 +137,7 @@ const Sakramenty = () => {
     //                 <div className='w-full h-[35%] relative'>
     //                     <Image alt="ikonka " fill objectFit="contain" src="/anointing.png"/>
     //                 </div>
-    //                 <h3 className='text-[20px] text-center mt-[2vh]'>Namaszczenie Chorych</h3>
+    //                 <h3 className='text-[2.3vh] text-center mt-[2vh]'>Namaszczenie Chorych</h3>
     //                 <p className='text-center mt-[1vh] '>Jest to sakrament, w którym ciężko chory otrzymuje przez namaszczenie olejem św. i modlitwę kapłana szczególne łaski, ulgę w cierpieniu, a niekiedy przywrócenie zdrowia.</p>
     //             </div>
     //             </Link>
