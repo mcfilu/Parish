@@ -11,7 +11,7 @@ const Header = () => {
             <h1 className='text-[45px]'>Teren Parafii</h1>
             <div className='w-[50%] h-full flex flex-col justify-center'>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
-                <button className='bg-dark text-white px-4 py-3 w-[20%] mt-[2vh]'>Zobacz Wiecej</button>
+                <button className='bg-dark text-white px-4 py-3 w-[20%] mt-[2vh]'>Zobacz Więcej</button>
             </div>
         </div>
     </div>
