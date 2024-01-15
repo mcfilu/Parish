@@ -7,8 +7,8 @@ const News = () => {
 
     const [news, setNews] = useState(null);
     const [data, setData] = useState(null)
-    const [img1, setImg1] = useState(null)
-    const [img2, setImg2] = useState(null)
+    const [img1, setImg1] = useState('')
+    const [img2, setImg2] = useState('')
 
     function loadImages(id1, id2) {
         fetch(`http://3.10.214.193:1337/api/ogloszenia/${id1}?populate=*`)
@@ -34,7 +34,7 @@ const News = () => {
     }, []);
 
   return (
-    <div className='flex flex-col w-full h-screen items-center justify-center bg-white'>
+    <div className='flex flex-col w-full h-screen items-center justify-center bg-white text-black'>
         <h2 className='text-[5.5vh] font-header2'>Aktualnosci</h2>
         
             {news !== null ? (
@@ -58,7 +58,7 @@ const News = () => {
                     <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[1].tytul}</h3>
                     <div className='w-full h-full relative '>
                     {img1 !== null ? (
-                            <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
+                            <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img2} /></Link>
                         ) : null}
                     </div>
                     <p>{news[1].skrot_tresci}</p>
