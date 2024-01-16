@@ -14,15 +14,15 @@ const Menu = () => {
     }
     console.log(isHeaderVisible, toggleMenu);
   return (
-    <div className={`fixed z-20 overflow-hidden w-full h-screen bg-dark text-white px-[10vw] flex flex-col justify-center ${isHeaderVisible ? 'fixed' : 'hidden'} `}>
-        <div className='flex flex-col'>
+    <div className={`fixed z-20 overflow-hidden w-full h-screen bg-dark text-white px-[10vw] flex md:flex-col justify-center ${isHeaderVisible ? 'fixed' : 'hidden'} `}>
+        <div className='flex flex-col w-full h-full'>
             {/* <div className={`flex flex-row justify-end h-auto mt-[5vh] mb-[10vh]`}  onClick={() => closeReset()}>
                 <Image src="/close.png" alt="close icon"  width={20} height={10} objectFit='contain'></Image>
                 <p className='flex align-center justify-center ml-[10px]'>ZAMKNIJ</p>
                 
             </div> */}
-            <div className={`flex flex-row`}>
-                <div className={`flex flex-col w-[35%]  text-[2.3vh]`}>
+            <div className={`flex flex-row w-full h-full`}>
+                <div className={`hidden md:flex flex-col w-[35%]  text-[2.3vh]`}>
                     <div className={`flex relative h-[35vh] w-[60%] mb-[5vh] `}>
                     <Link href="/" onClick={closeReset}><Image src="/kosciol_logo.png" alt="logo kosciola" fill={true} objectFit='contain' className='align-left' ></Image></Link>
                     </div>
@@ -33,7 +33,7 @@ const Menu = () => {
                     <p>parafiachlodna@gmail.com</p>
                     <p>22 620 37 47</p>
                 </div>
-                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == '' ? '' : 'hidden'} font-header2`}>
+                <div className={`flex flex-col w-full md:w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == '' ? '' : 'hidden'} font-header2`}>
                     <Link href="/nabozenstwa" onClick={closeReset}>Nabozenstwa</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('aktualnosci')}>Aktualnosci</a>

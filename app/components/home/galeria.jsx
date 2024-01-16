@@ -19,8 +19,8 @@ const Galeria = () => {
         return (<div>Problem</div>)
     }
   else return (
-    <div className='flex w-full h-[70vh] flex flex-row bg-white '>
-        <div className='flex flex-col w-[50%] h-full'>
+    <div className='flex w-full h-[110vh] md:h-[70vh] flex flex-row bg-white '>
+        <div className='hidden md:flex flex-col w-[50%] h-full'>
             <div className={`flex relative h-[50%] w-full`}>
                 <Link href={`/parafia/galeria/${data[0].id}`}>
                     <Image className="p-1" src={`http://3.10.214.193:1337${data[0].img}`} alt="zdjecie galeria" objectFit='cover' fill={true} />
@@ -39,7 +39,7 @@ const Galeria = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-col w-[50%] h-full'>
+        <div className='hidden md:flex flex flex-col w-[50%] h-full'>
             <div className='flex h-[50%] w-full flex flex-row'>
                 <div className={`flex relative h-full w-[50%]`}>
                 <Link href={`/parafia/galeria/${data[3].id}`}>
@@ -58,6 +58,44 @@ const Galeria = () => {
                 </Link>
             </div>
         </div>
+
+        <div className='w-full flex flex-col '>
+            <div className={`flex relative h-[50%] w-full`}>
+                <Link href={`/parafia/galeria/${data[0].id}`}>
+                    <Image className="p-1" src={`http://3.10.214.193:1337${data[0].img}`} alt="zdjecie galeria" objectFit='cover' fill={true} />
+                </Link>
+            </div>
+            <div className='w-full h-[50%] flex flex-row '>
+                <div className={`flex relative h-full w-[50%]`}>
+                <Link href={`/parafia/galeria/${data[1].id}`}>
+                    <Image className="p-1" src={`http://3.10.214.193:1337${data[1].img}`} alt="zdjecie galeria" objectFit='cover' fill={true} />
+                </Link>
+                </div>
+                <div className={`flex relative h-full w-[50%] p-[5vh]`}>
+                <Link href={`/parafia/galeria/${data[2].id}`}>
+                    <Image className="p-1" src={`http://3.10.214.193:1337${data[2].img}`} alt="zdjecie galeria" objectFit='cover' fill={true} />
+                </Link>
+                </div>
+            </div>
+            <div className={`flex relative h-[50%] w-full`}>
+            <Link href={`/parafia/galeria/${data[5].id}`}>
+                    <Image className="p-1" src={`http://3.10.214.193:1337${data[5].img}`} alt="zdjecie galeria" objectFit='cover' fill={true} />
+                </Link>
+            </div>
+            <div className='flex h-[50%] w-full flex flex-row'>
+                <div className={`flex relative h-full w-[50%]`}>
+                <Link href={`/parafia/galeria/${data[3].id}`}>
+                    <Image className="p-1" src={`http://3.10.214.193:1337${data[3].img}`} alt="zdjecie galeria" objectFit='cover' fill={true} />
+                </Link>
+                </div>
+                <div className={`flex relative h-full w-[50%]`}>
+                <Link href={`/parafia/galeria/${data[4].id}`}>
+                    <Image className="p-1" src={`http://3.10.214.193:1337${data[4].img}`} alt="zdjecie galeria" objectFit='cover' fill={true} />
+                </Link>
+                </div>
+            </div>
+        </div>
+        
     </div>
   )
 }

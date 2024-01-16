@@ -4,10 +4,10 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <div className={`bg-dark w-full h-auto text-white flex flex-col pt-[4vh] pb-[2vh] px-[5vw]`}>
-        <div className='flex flex-row'>
-        <div className={`flex flex-col w-[15%]`}>
+        <div className='hidden md:flex flex-col md:flex-row'>
+        <div className={`flex flex-col w-full h-[30vh] md:h-full md:w-[15%]`}>
             <div className={`w-full h-full relative`}>
-                <Image alt="logo kosciola" src="/kosciol_logo.png" fill={true}></Image>
+                <Image alt="logo kosciola" src="/kosciol_logo.png" fill={true} objectFit='contain'></Image>
             
             </div>
             
@@ -48,7 +48,7 @@ const Footer = () => {
             <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kosciele</p>
             <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kosciele</p>
         </div>
-        <div className='w-[10vw] h-auto relative flex flex-col ml-[2vw]'>
+        <div className='w-full md:w-[10vw] h-[20vh] md:h-auto relative flex flex-row md:flex-col ml-[2vw]'>
                 <div className='relative w-[30%] h-full'>
                     <Image src="/instagram.png" alt="ikonka instagrama" fill={true} objectFit='contain'></Image>
                 </div>
@@ -60,9 +60,78 @@ const Footer = () => {
                 </div>
             </div>
             </div>
-            <div className=' mt-[1vh] w-full flex flex-col'>
+            <div className=' mt-[1vh] w-full hidden md:flex flex-col'>
                 <p className='text-center'>© 2023 – Wszelkie prawa zastrzezone</p>
                 <p className='mt-[1vh] text-center'>Developed by - Filip Olszewski</p>
+            </div>
+            <div className='flex md:hidden flex-col w-full '>
+            <div className='flex flex-row  text-white'>
+                <div className='pr-[1vw] border-r-[2px]'>
+                    <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
+                    <p className='mt-[2vh]'>7:00</p>
+                    <p>8:30</p>
+                    <p>10:00</p>
+                    <p>11:30</p>
+                    <p>13:00</p>
+                    <p>18:00</p>
+                </div>
+
+                <div className='px-[1vw]'>
+                    <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
+                    <p className='mt-[2vh]'>6:30</p>
+                    <p>8:00</p>
+                    <p>9:00</p>
+                    <p>18:00</p>
+                </div>
+                
+                <div className='pl-[1vw] border-l-[2px]'>
+                    <h3 className='font-bold text-[2.3vh]'>Spowiedz</h3>
+                    <p className='mt-[2vh]'>Dni tygodnia: 30min przed msza</p>
+                    <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kosciele</p>
+                    <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kosciele</p>
+                </div>
+            </div>
+
+
+            <div className={`w-full flex flex-row gap-4`}>
+                    <div>
+
+                    <h3 className='font-bold text-[2.3vh]'>Adres</h3>
+                    <p>Chłodna 9</p>
+                    <p>00-891 Warszawa</p>
+                    </div>
+                    <div>
+
+                    <h2 className='font-bold text-[2.3vh] '>Kontakt</h2>
+                    <p>parafiachlodna@gmail.com</p>
+                    <p>22 620 37 47</p>
+                    </div>
+            
+            </div>
+            
+
+                <div className='w-full md:w-[10vw] h-[10vh] md:h-auto relative flex flex-row md:flex-col ml-[2vw]'>
+                    <div className='relative w-[30%] h-full'>
+                        <Image src="/instagram.png" alt="ikonka instagrama" fill={true} objectFit='contain'></Image>
+                    </div>
+                    <div className='relative w-[30%] h-full'>
+                        <Image src="/youtube.png" alt="ikonka youtube" fill={true} objectFit='contain'></Image>
+                    </div>
+                    <div className='relative w-[30%] h-full'>
+                        <Image src="/facebook.png" alt="ikonka facebooka" fill={true} objectFit='contain'></Image>
+                    </div>
+                </div>
+                <div className={`flex flex-col w-full h-[30vh] md:h-full md:w-[15%]`}>
+                <div className={`w-full h-full relative`}>
+                    <Image alt="logo kosciola" src="/kosciol_logo.png" fill={true} objectFit='contain'></Image>
+                
+                </div>
+                <div className=' mt-[1vh] w-full flex flex-col'>
+                    <p className='text-center'>© 2023 – Wszelkie prawa zastrzezone</p>
+                    <p className='mt-[1vh] text-center'>Developed by - Filip Olszewski</p>
+                </div>
+            
+        </div>
             </div>
     </div>
   )

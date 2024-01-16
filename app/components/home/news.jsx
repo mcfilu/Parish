@@ -42,9 +42,9 @@ const News = () => {
             <div className='flex flex-col '>
                 <div className='flex flex-col md:flex-row w-full items-center justify-center'>
                 
-                <div className='w-[25%] px-[0.5vw] py-[1vh] mx-[1vw] h-full flex flex-col justify-center hover:bg-slate-200'>
+                <div className='w-3/4 md:w-[25%] px-[0.5vw] py-[1vh] mx-[1vw] h-full flex flex-col justify-center hover:bg-slate-200 mt-[3vh] md:mt-0'>
                     <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[0].tytul}</h3>
-                    <div className='w-full h-[30vh] relative '>
+                    <div className='w-full h-[25vh] md:h-[30vh] relative '>
                     {img1 !== null ? (
                             <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
                         ) : null}
@@ -55,9 +55,9 @@ const News = () => {
                     <p>{news[0].data}</p>
                     </div>
                 </div>
-                <div className='w-[25%] px-[0.5vw] hover:bg-slate-200 mx-[1vw] py-[1vh] h-full flex flex-col justify-center'>
+                <div className='w-3/4 md:w-[25%] px-[0.5vw] hover:bg-slate-200 mx-[1vw] py-[1vh] h-full flex flex-col justify-center mt-[3vh] md:mt-0'>
                     <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[1].tytul}</h3>
-                    <div className='w-full h-[30vh] relative '>
+                    <div className='w-full h-[25vh] md:h-[30vh] relative '>
                     {img2 !== null ? (
                             <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img2} /></Link>
                         ) : null}
@@ -68,9 +68,9 @@ const News = () => {
                     <p>{news[1].data}</p>
                     </div>
                 </div>
-                <div className='w-[25%] px-[0.5vw] mx-[1vw] py-[1vh] h-full flex flex-col justify-center hover:bg-slate-200'>
+                <div className='w-3/4 md:w-[25%] px-[0.5vw] mx-[1vw] py-[1vh] h-full flex flex-col justify-center hover:bg-slate-200 mt-[3vh] md:mt-0'>
                     <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[0].tytul}</h3>
-                    <div className='w-full h-[30vh] relative '>
+                    <div className='w-full h-[25vh] md:h-[30vh] relative '>
                     {img1 !== null ? (
                             <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
                         ) : null}
