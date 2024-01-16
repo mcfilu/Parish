@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={`bg-dark w-full h-auto text-white flex flex-col pt-[4vh] pb-[2vh] px-[5vw]`}>
         <div className='hidden md:flex flex-col md:flex-row'>
         <div className={`flex flex-col w-full h-[30vh] md:h-full md:w-[15%]`}>
-            <div className={`w-full h-full relative`}>
+            <div className={`w-full h-[30vh] relative`}>
                 <Image alt="logo kosciola" src="/kosciol_logo.png" fill={true} objectFit='contain'></Image>
             
             </div>
