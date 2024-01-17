@@ -33,7 +33,7 @@ const Menu = () => {
                     <p>parafiachlodna@gmail.com</p>
                     <p>22 620 37 47</p>
                 </div>
-                <div className={`flex flex-col w-full md:w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == '' ? '' : 'hidden'} font-header2`}>
+                <div className={`flex flex-col w-full md:w-[65%] text-white text-[35px] justify-center md:ml-[10%] ${menuElement == '' ? '' : 'hidden'} font-header2`}>
                     <Link href="/nabozenstwa" onClick={closeReset}>Nabożeństwa</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('aktualnosci')}>Aktualności</a>
@@ -46,7 +46,7 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
-                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == 'aktualnosci' ? '' : 'hidden'} font-header2`}>
+                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center md:ml-[10%] ${menuElement == 'aktualnosci' ? '' : 'hidden'} font-header2`}>
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
                     <Link onClick={closeReset} href="/aktualnosci/ogloszenia">Ogłoszenia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -60,7 +60,7 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
-                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == 'parafia' ? '' : 'hidden'} font-header2`}>
+                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center md:ml-[10%] ${menuElement == 'parafia' ? '' : 'hidden'} font-header2`}>
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
                     <Link onClick={closeReset} href="/parafia/historia" className='text-4'>Histora</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -78,7 +78,7 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
-                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == 'sakramenty' ? '' : 'hidden'} font-header2`}>
+                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center md:ml-[10%] ${menuElement == 'sakramenty' ? '' : 'hidden'} font-header2`}>
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
                     <Link onClick={closeReset} href="/sakramenty/chrzest" className='text-4'>Chrzest</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -96,7 +96,7 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
-                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == 'wspolnoty' ? '' : 'hidden'} font-header2`}>
+                <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center md:ml-[10%] ${menuElement == 'wspolnoty' ? '' : 'hidden'} font-header2`}>
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
                     <Link onClick={closeReset} href="/wspolnoty/schola" className='text-4'>Schola</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>

@@ -41,12 +41,12 @@ const News = () => {
         </div>
         
         {years && years.map(item => (
-            <div key={item.id} className={` w-full grid grid-cols-3 content-center justify-items-center ${item == currentYear ? '' : 'hidden'} px-[5vw]`}>
+            <div key={item.id} className={` w-full grid grid-cols-1 md:grid-cols-3 content-center justify-items-center ${item == currentYear ? '' : 'hidden'} px-[5vw]`}>
                 {yearsData && yearsData.find(y => y.year == item).data.map(entry => (
                     
-                        <div key={entry.id} className={`flex flex-col shadow-xl my-[5vh] w-[17vw] h-[50vh] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
+                        <div key={entry.id} className={`flex flex-col shadow-xl my-[5vh] w-4/5 md:w-[17vw] h-[50vh relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
                             <Link className='w-full h-full' href={`/aktualnosci/ogloszenia/${entry.id}`}>
-                            <div className='w-full h-1/2 relative'>
+                            <div className='w-full h-[25vh] relative'>
                                 <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + entry.attributes.tlo.data.attributes.url}></Image>
                             </div>
                             
