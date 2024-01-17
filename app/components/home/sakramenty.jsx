@@ -62,7 +62,7 @@ const Sakramenty = () => {
         </div>
     </div>
     // <div className='flex flex-col w-full pb-[5vh] bg-white'>
-    //     <h2 className='text-[40px] text-center my-[5vh]'>Sakramenty</h2>
+    //     <h2 className='text-[4.5vh] text-center my-[5vh]'>Sakramenty</h2>
     //     <div className='flex flex-col w-full '>
     //         <div className='flex flex-row h-[30vh] w-full justify-center'>
     //             <Link href="/sakramenty/chrzest">

@@ -15,7 +15,7 @@ const Chronology = () => {
             </div>
 
             <div className='w-2/5 h-full flex flex-col'>
-                <h2 className='text-[40px] font-header2'>1948</h2>
+                <h2 className='text-[4.5vh] font-header2'>1948</h2>
                 <p className='mt-[3vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 <p className='mt-[2vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
@@ -23,7 +23,7 @@ const Chronology = () => {
 
         <div className='flex flex-row w-full h-[60vh] justify-between'>
             <div className='w-2/5 h-full flex flex-col'>
-                <h2 className='text-[40px] font-header2'>1948</h2>
+                <h2 className='text-[4.5vh] font-header2'>1948</h2>
                 <p className='mt-[3vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 <p className='mt-[2vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
@@ -47,14 +47,14 @@ const Chronology = () => {
             </div>
 
             <div className='w-2/5 h-full flex flex-col'>
-                <h2 className='text-[40px] font-header2'>1948</h2>
+                <h2 className='text-[4.5vh] font-header2'>1948</h2>
                 <p className='mt-[3vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 <p className='mt-[2vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>
         </div>
         <div className='flex flex-row w-full h-[60vh] justify-between'>
             <div className='w-2/5 h-full flex flex-col'>
-                <h2 className='text-[40px] font-header2'>1948</h2>
+                <h2 className='text-[4.5vh] font-header2'>1948</h2>
                 <p className='mt-[3vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                 <p className='mt-[2vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             </div>

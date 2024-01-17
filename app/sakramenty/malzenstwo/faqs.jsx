@@ -18,7 +18,7 @@ const Faqs = () => {
             <Image className="pr-[5vw]" alt="chrzest faqs tlo" src="/chrzest3.jpeg" fill objectFit='cover'/>
         </div>
         <div className='w-full md:w-3/5 h-full flex flex-col'>
-            <h2 className='text-black text-[40px] font-header2'>FAQs</h2>
+            <h2 className='text-black text-[4.5vh] font-header2'>FAQs</h2>
             <p className='mt-[2vh] w-[80%] mb-[5vh] text-black text-[1.7vh]'>Zobacz odpowiedzi na najczęściej zadawane pytanie i zagwostki ktęre mnieli inni. </p>
             <div className='my-[1vh] w-full flex flex-col  border-2 border-black  '>
                 <div className='flex flex-row w-full items-center justify-between px-[2vw] py-[2vh] h-full' onClick={() => {set1(!show1)}}>

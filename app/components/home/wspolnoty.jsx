@@ -15,7 +15,7 @@ const Wspolnoty = () => {
                 <div className='flex w-full h-full bg-black bg-opacity-50 min-h-[30vh] relative hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
                     <div className='absolute z-20 top-0 left-0 w-full h-full bg-black bg-opacity-80 hover:bg-opacity-60'></div>
                     <Image alt="" src="/schola_dorosla.jpeg" fill objectFit='cover'></Image>
-                    <p className='z-30 text-center text-bold text-white font-header2 text-[40px]'>SCHOLA</p>
+                    <p className='z-30 text-center text-bold text-white font-header2 text-[4.5vh]'>SCHOLA</p>
                 </div>
                 </Link>
 
@@ -23,7 +23,7 @@ const Wspolnoty = () => {
                 <div className='flex w-full h-full relative bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
                     <div className='absolute z-20 top-0 left-0 w-full h-full bg-black bg-opacity-80 hover:bg-opacity-60'></div>
                     <Image alt="" src="/schola_dziecieca.jpeg" fill objectFit='cover'></Image>
-                    <p className='z-20 text-center text-bold text-white font-header2 text-[40px]'>SCHOLA DZIECIĘCA</p>
+                    <p className='z-20 text-center text-bold text-white font-header2 text-[4.5vh]'>SCHOLA DZIECIĘCA</p>
                 </div>
                 </Link>
 
@@ -31,7 +31,7 @@ const Wspolnoty = () => {
                 <div className='flex w-full h-full relative bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
                     <div className='absolute z-20 top-0 left-0 w-full h-full bg-black bg-opacity-80 hover:bg-opacity-60'></div>
                     <Image alt="" src="/caritas.jpeg" fill objectFit='cover'></Image>
-                    <p className='z-20 text-center text-bold text-white font-header2 text-[40px]'>CARITAS</p>
+                    <p className='z-20 text-center text-bold text-white font-header2 text-[4.5vh]'>CARITAS</p>
                 </div>
                 </Link>
 
@@ -39,7 +39,7 @@ const Wspolnoty = () => {
                 <div className='flex w-full h-full relative bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
                     <div className='absolute z-20 top-0 left-0 w-full h-full bg-black bg-opacity-80 hover:bg-opacity-60'></div>
                     <Image alt="" src="/ministranci.jpeg" fill objectFit='cover'></Image>
-                    <p className='z-20 text-center text-bold text-white font-header2 text-[40px]'>MINISTRANCI</p>
+                    <p className='z-20 text-center text-bold text-white font-header2 text-[4.5vh]'>MINISTRANCI</p>
                 </div>
                 </Link>
 
@@ -47,7 +47,7 @@ const Wspolnoty = () => {
                 <div className='flex w-full h-full relative bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
                     <div className='absolute z-20 top-0 left-0 w-full h-full bg-black bg-opacity-80 hover:bg-opacity-60'></div>
                     <Image alt="" src="/kolo_rozanca.webp" fill objectFit='cover'></Image>
-                    <p className='z-20 text-center text-bold text-white font-header2 text-[40px]'>KOŁO RÓŹAŃCA</p>
+                    <p className='z-20 text-center text-bold text-white font-header2 text-[4.5vh]'>KOŁO RÓŹAŃCA</p>
                 </div>
                 </Link>
 
@@ -55,7 +55,7 @@ const Wspolnoty = () => {
                 <div className='flex w-full h-full relative bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
                     <div className='absolute z-20 top-0 left-0 w-full h-full bg-black bg-opacity-80 hover:bg-opacity-60'></div>
                     <Image alt="" src="/rada_parafialna.jpg" fill objectFit='cover'></Image>
-                    <p className='z-20 text-center text-bold text-white font-header2 text-[40px]'>RADA PARAFIALNA</p>
+                    <p className='z-20 text-center text-bold text-white font-header2 text-[4.5vh]'>RADA PARAFIALNA</p>
                 </div>
                 </Link>
 

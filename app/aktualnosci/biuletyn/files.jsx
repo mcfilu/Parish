@@ -47,7 +47,7 @@ const Files = () => {
                         <div key={entry.id} className={`my-[5vh] w-[17vw] h-[50vh] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
                             <a key={entry.id} href={`http://3.10.214.193:1337` + entry.attributes.plik.data.attributes.url} target="_blank">
                                 <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + entry.attributes.tlo.data.attributes.url}></Image>
-                                <p className='absolute bottom-[10%] left-[17%] text-white text-[40px] font-header3'>{entry.attributes.data}</p>
+                                <p className='absolute bottom-[10%] left-[17%] text-white text-[4.5vh] font-header3'>{entry.attributes.data}</p>
                             </a>
                         </div>
                     

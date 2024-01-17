@@ -10,7 +10,7 @@ const Content = () => {
                 <Image className="px-[4vw" alt="tlo msza swieta" src="/nabozenstwa2.jpeg" fill objectFit='cover'></Image>
             </div>
             <div className='w-1/2  justify-center flex flex-col pl-[5vw]'>
-                <h2 className='text-[40px] font-main font-bold'>Msze Swięte</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Msze Swięte</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
@@ -35,7 +35,7 @@ const Content = () => {
         <div className='mt-[10vh h-[55vh] w-full px-[5v flex flex-row'>
             
             <div className='w-1/2  justify-center flex flex-col pl-[5vw]'>
-                <h2 className='text-[40px] font-main font-bold'>Spowiedź</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Spowiedź</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
@@ -65,7 +65,7 @@ const Content = () => {
                 <Image className="px-[4vw" alt="tlo msza swieta" src="/nabozenstwa4.jpeg" fill objectFit='cover'></Image>
             </div>
             <div className='w-1/2  justify-center flex flex-col pl-[5vw]'>
-                <h2 className='text-[40px] font-main font-bold'>Adoracja Najswietszego Sakramentu</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Adoracja Najswietszego Sakramentu</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
@@ -90,7 +90,7 @@ const Content = () => {
         <div className='mt-[10vh h-[55vh] w-full px-[5vw flex flex-row'>
             
             <div className='w-1/2  justify-center flex flex-col pl-[5vw]'>
-                <h2 className='text-[40px] font-main font-bold'>Nabozenstwa</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Nabozenstwa</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
@@ -119,7 +119,7 @@ const Content = () => {
         <div className=' h-[55vh w-full px-[5v flex flex-col'>
             
             <div className='w-full  justify-center flex flex-col pl-[5vw] mt-[5vh]'>
-                <h2 className='text-[40px] font-main font-bold'>Msze Swięte</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Msze Swięte</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
@@ -147,7 +147,7 @@ const Content = () => {
         <div className='mt-[10vh h- w-full px-[5v flex flex-col'>
             
             <div className='w-full  justify-center flex flex-col pl-[5vw] mt-[5vh]'>
-                <h2 className='text-[40px] font-main font-bold'>Spowiedź</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Spowiedź</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
@@ -175,7 +175,7 @@ const Content = () => {
         <div className='mt-[10vh h-[55vh w-full px-[5vw flex flex-col'>
             
             <div className='w-full  justify-center flex flex-col pl-[5vw] mt-[5vh]'>
-                <h2 className='text-[40px] font-main font-bold'>Adoracja Najswietszego Sakramentu</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Adoracja Najswietszego Sakramentu</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
@@ -203,7 +203,7 @@ const Content = () => {
         <div className='mt-[10vh h-[55vh w-full px-[5vw flex flex-col'>
             
             <div className='w-full  justify-center flex flex-col pl-[5vw] mt-[5vh]'>
-                <h2 className='text-[40px] font-main font-bold'>Nabozenstwa</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Nabozenstwa</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>

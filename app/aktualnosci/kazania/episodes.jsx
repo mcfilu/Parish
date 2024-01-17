@@ -50,7 +50,7 @@ const Episodes = () => {
             <div key={item.id} className={`my-[5vh] w-[60%] h-[40vh] flex flex-row ${item.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
                 <div className='flex flex-col h-full w-1/2 justify-center'>
                     <h2 className='text-[2.3vh] font-header2'>{item.attributes.data}</h2>
-                    <h2 className='text-[40px] font-header2'>{item.attributes.tytul}</h2>
+                    <h2 className='text-[4.5vh] font-header2'>{item.attributes.tytul}</h2>
                     
                     <p className='mt-[2vh] '>{item.attributes.opis}</p>
                     <button className='mt-[4vh] p-4 bg-dark text-white w-[30%]'>Obejrzyj</button>
