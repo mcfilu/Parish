@@ -11,7 +11,7 @@ const Sakramenty = () => {
             {/* <p className='text-white mt-[3vh]'>W naszym kosciel istnieje nie od dzis wiele roznych zgromadzen ktore zajmuja sie blah blah przerozny;mji rzeczami. Juz dzis mozesz dolaczyc i sie zaangazowac.</p> */}
             <div className='mt-[5vh] flex flex-col md:flex-row justify-center text-white font-header2 text-[3vh] '>
                 <Link href="/sakramenty/chrzest">
-                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] m:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
+                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] md:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
                         <Image src="/baptism_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
@@ -19,7 +19,7 @@ const Sakramenty = () => {
                 </div>
                 </Link>
                 <Link href="/sakramenty/komunia">
-                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] m:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
+                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] md:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
                         <Image src="/communion_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
@@ -27,7 +27,7 @@ const Sakramenty = () => {
                 </div>
                 </Link>
                 <Link href="/sakramenty/bierzmowanie">
-                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] m:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
+                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] md:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
                         <Image src="/bierzmowanie_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
@@ -35,7 +35,7 @@ const Sakramenty = () => {
                 </div>
                 </Link>
                 <Link href="/sakramenty/malzenstwo">
-                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] m:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
+                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] md:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
                         <Image src="/wedding-rings_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
@@ -43,7 +43,7 @@ const Sakramenty = () => {
                 </div>
                 </Link>
                 <Link href="/sakramenty/namaszczenie">
-                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] m:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
+                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] md:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
                         <Image src="/anointing_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>
@@ -51,7 +51,7 @@ const Sakramenty = () => {
                 </div>
                 </Link>
                 <Link href="/sakramenty/pokuta">
-                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] m:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
+                <div className='flex h-[20vh] py-[2.5vh]  w-[40vw] md:w-[12vw] hover:bg-white hover:bg-opacity-10 flex-col justify-center items-center mx-[1vw]'>
                     <div className='h-[60%] relative w-[50%]'>
                         <Image src="/contrition_white.png" alt="ikonka sakramenty" fill objectFit='contain'/>
                     </div>

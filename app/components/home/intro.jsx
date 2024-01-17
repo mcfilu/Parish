@@ -15,7 +15,7 @@ const Intro = () => {
             <p className='text-black text-[1.8vh] mt-[1vh]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content her,</p>
             <Link href="/parafia/kosciol"><button className='p-4  bg-dark text-white mt-[2vh] md:mt-[5vh]'>Zobacz Więcej</button></Link>
         </div>
-        <div className='hidden md:flex h-[20vh] w-full w-1/2  relative'>
+        <div className='hidden md:flex w-full w-1/2  relative'>
             <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill />
         </div>
     </div>

@@ -59,7 +59,7 @@ const Galeria = () => {
             </div>
         </div>
 
-        <div className='w-full flex flex-col '>
+        <div className='w-full flex md:hidden  flex-col '>
             <div className={`flex relative h-[50%] w-full`}>
                 <Link href={`/parafia/galeria/${data[0].id}`}>
                     <Image className="p-1" src={`http://3.10.214.193:1337${data[0].img}`} alt="zdjecie galeria" objectFit='cover' fill={true} />
