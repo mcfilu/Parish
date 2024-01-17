@@ -22,7 +22,7 @@ const Slides = () => {
         })
     }, [])
   return (
-    <div className='w-full grid grid-cols-4 gap-4 bg-white px-[5vw] py-[5vh]'>
+    <div className='w-full grid grid-cols-1 md:grid-cols-4 gap-4 bg-white px-[5vw] py-[10vh]'>
         {data && data.map((object) => (
 
             <div key="" className='w-full h-[30vh]'>
