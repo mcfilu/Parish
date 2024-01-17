@@ -47,15 +47,17 @@ const Episodes = () => {
         
         <div  className={`w-full flex flex-col items-center justify-center `}>
         {data && data.data.map((item) => (
-            <div key={item.id} className={`my-[5vh] w-[60%] h-[40vh] flex flex-row ${item.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
-                <div className='flex flex-col h-full w-1/2 justify-center'>
+            <div key={item.id} className={`my-[5vh] w-4/5 flex flex-col md:flex-row ${item.attributes.data.split('-')[0] == currentYear ? '': 'hidden'} items-center`}>
+                <div className='flex flex-col h-full w-full md:w-1/2 justify-center items-start'>
                     <h2 className='text-[2.3vh] font-header2'>{item.attributes.data}</h2>
                     <h2 className='text-[4.5vh] font-header2'>{item.attributes.tytul}</h2>
-                    
+                    <div className='flex md:hidden h-[40vh] w-full relative'>
+                        <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + item.attributes.zdjecie.data.attributes.url}></Image>
+                    </div>
                     <p className='mt-[2vh] '>{item.attributes.opis}</p>
-                    <button className='mt-[4vh] p-4 bg-dark text-white w-[30%]'>Obejrzyj</button>
+                    <button className='mt-[4vh] p-4 bg-dark text-white'>Obejrzyj</button>
                 </div>
-                <div className='h-full w-1/2 relative'>
+                <div className='hidden md:flex h-[40vh] w-1/2 relative'>
                     <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + item.attributes.zdjecie.data.attributes.url}></Image>
                 </div>
             </div>
