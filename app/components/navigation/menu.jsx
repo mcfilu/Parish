@@ -22,7 +22,7 @@ const Menu = () => {
                 
             </div> */}
             <div className={`flex flex-row w-full h-full`}>
-                <div className={`hidden md:flex flex-col w-[35%]  text-[2.3vh]`}>
+                <div className={`hidden md:flex flex-col w-[35%]  text-[2.3vh] h-full justify-center`}>
                     <div className={`flex relative h-[35vh] w-[60%] mb-[5vh] `}>
                     <Link href="/" onClick={closeReset}><Image src="/kosciol_logo.png" alt="logo kosciola" fill={true} objectFit='contain' className='align-left' ></Image></Link>
                     </div>
@@ -34,27 +34,27 @@ const Menu = () => {
                     <p>22 620 37 47</p>
                 </div>
                 <div className={`flex flex-col w-full md:w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == '' ? '' : 'hidden'} font-header2`}>
-                    <Link href="/nabozenstwa" onClick={closeReset}>Nabozenstwa</Link>
+                    <Link href="/nabozenstwa" onClick={closeReset}>Nabożeństwa</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('aktualnosci')}>Aktualnosci</a>
+                    <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('aktualnosci')}>Aktualności</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('parafia')}>Parafia</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('sakramenty')}>Sakramenty</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('wspolnoty')}>Wspolnoty</a>
+                    <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('wspolnoty')}>Wspólnoty</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
                 <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center ml-[10%] ${menuElement == 'aktualnosci' ? '' : 'hidden'} font-header2`}>
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
-                    <Link onClick={closeReset} href="/aktualnosci/ogloszenia">Ogloszenia</Link>
+                    <Link onClick={closeReset} href="/aktualnosci/ogloszenia">Ogłoszenia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/aktualnosci/biuletyn">Biuletyn</Link>
+                    {/* <hr className='mt-[1vh] mb-[1vh] border-1'/> */}
+                    {/* <Link onClick={closeReset} href="/aktualnosci/wydarzenia">Wydarzenia</Link> */}
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/aktualnosci/wydarzenia">Wydarzenia</Link>
-                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/aktualnosci/ciekawostki">Ciekawostki Kosciola</Link>
+                    <Link onClick={closeReset} href="/aktualnosci/ciekawostki">Ciekawostki z Kościoła</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/aktualnosci/kazania">Kazania Proboszcza</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -64,11 +64,11 @@ const Menu = () => {
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
                     <Link onClick={closeReset} href="/parafia/historia" className='text-4'>Histora</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/kosciol">Parafia Dzisiaj</Link>
+                    <Link onClick={closeReset} href="/parafia/kosciol">Kościół Dzisiaj</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/galeria">Galeria</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/ciekawostki">Ciekawosti Parafia</Link>
+                    <Link onClick={closeReset} href="/parafia/ciekawostki">Ciekawostki Parafia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/duszpasterze">Duszpasterze</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -88,9 +88,9 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/sakramenty/pokuta">Pokuta</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/sakramenty/malzenstwo">Malzenstwo</Link>
+                    <Link onClick={closeReset} href="/sakramenty/malzenstwo">Małżenstwo</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/sakramenty/kaplanstwo">Kaplanstwo</Link>
+                    <Link onClick={closeReset} href="/sakramenty/kaplanstwo">Kapłaństwo</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/sakramenty/namaszczenie">Namaszczenie Chorych</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -108,7 +108,7 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="">Rada Parafialna</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="">Kolo Zywego Rozanca</Link>
+                    <Link onClick={closeReset} href="">Koło Żywego Rożańca</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
                 
