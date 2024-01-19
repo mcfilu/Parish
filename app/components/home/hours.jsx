@@ -13,7 +13,7 @@ const Hours = () => {
             </div>
             <div className='flex flex-row mt-[8vh] text-white'>
                 <div className='pr-[1vw] border-r-[2px]'>
-                    <h4 className='font-bold text-[2.3vh]'>Niedziele i Swięta</h4>
+                    <h4 className='font-bold text-[2.3vh]'>Msze w Niedziele i Swięta</h4>
                     <p className='mt-[2vh]'>7:00</p>
                     <p>8:30</p>
                     <p>10:00</p>
@@ -23,7 +23,7 @@ const Hours = () => {
                 </div>
 
                 <div className='px-[1vw]'>
-                    <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
+                    <h4 className='font-bold text-[2.3vh]'>Msze w Dni Powszednie</h4>
                     <p className='mt-[2vh]'>6:30</p>
                     <p>8:00</p>
                     <p>9:00</p>
