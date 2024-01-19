@@ -18,8 +18,8 @@ const Navbar = () => {
         
         <div className='flex flex-row  items-center cursor-pointer' onClick={() => toggleMenu()}>
             {/* <Image src="/more_white.png" alt="close icon"  width={20} height={30} ></Image> */}
-            <i className={`${isHeaderVisible ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-bars'} text-white text-[3vh]`}></i>
-            <p className='flex ml-[10px] text-white text-[3vh] font-header2'>{isHeaderVisible ? 'ZAMKNIJ' : "MENU"}</p>
+            <i className={`${isHeaderVisible ? 'fa-regular fa-circle-xmark' : 'fa-solid fa-bars'} text-zinc-200 text-[3vh]`}></i>
+            <p className='flex ml-[10px] text-zinc-200 text-[3vh] font-header2'>{isHeaderVisible ? 'ZAMKNIJ' : "MENU"}</p>
         </div>
     </div>
   )
