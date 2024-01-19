@@ -11,8 +11,9 @@ const Intro = () => {
             <div className='flex md:hidden h-[30vh] w-full md:w-1/2  relative'>
               <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill />
             </div>
-            <p className='text-black text-[1.8vh] mt-[3vh]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content her,</p>
-            <p className='text-black text-[1.8vh] mt-[1vh]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content her,</p>
+            <p className='text-black text-[1.8vh] mt-[3vh]'>Parafia to dom wszystkich, to namiot Boga ustawiony pośród zwyczajnych ludzi, brama, która otwarta jest dla każdego. </p>
+            <p className='text-black text-[1.8vh] mt-[1vh]'>Widzę parafię jako wspólnotę, w której każdy należący do niej powinien czuć się jak we własnym domu. Parafia ma być właśnie takim domem, który wypełnia wielka rodzina dzieci, młodzieży, dorosłych i osób starszych.</p>
+            <p className='text-black text-[1.8vh] mt-[1vh]'>Parafia ma być wspólnotą otwartą, w której każdy czuje się jak w domu, w której jest miejsce dla wszystkich, w której nikt nie zachowuje się jak pan i władca (bo posiadł tajemnicę).</p>
             <Link href="/parafia/kosciol"><button className='p-4  bg-dark text-white mt-[2vh] md:mt-[5vh]'>Zobacz Więcej</button></Link>
         </div>
         <div className='hidden md:flex w-full w-1/2  relative'>
