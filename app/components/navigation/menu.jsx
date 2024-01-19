@@ -38,11 +38,11 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('aktualnosci')}>Aktualności</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('parafia')}>Parafia</a>
-                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('sakramenty')}>Sakramenty</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('wspolnoty')}>Wspólnoty</a>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('parafia')}>Parafia</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
@@ -82,17 +82,17 @@ const Menu = () => {
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
                     <Link onClick={closeReset} href="/sakramenty/chrzest" className='text-4'>Chrzest</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/sakramenty/komunia">Komunia</Link>
+                    <Link onClick={closeReset} href="/sakramenty/pokuta">Pokuta</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link onClick={closeReset} href="/sakramenty/komunia">Eucharystia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/sakramenty/bierzmowanie">Bierzmowanie</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/sakramenty/pokuta">Pokuta</Link>
-                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/sakramenty/malzenstwo">Małżenstwo</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/sakramenty/kaplanstwo">Kapłaństwo</Link>
-                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/sakramenty/namaszczenie">Namaszczenie Chorych</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link onClick={closeReset} href="/sakramenty/kaplanstwo">Kapłaństwo</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
