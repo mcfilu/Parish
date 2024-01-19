@@ -5,7 +5,7 @@ const Hours = () => {
   return (
     <div className='w-full h-[60vh px-[5vw] flex flex-col md:flex-row bg-white py-[10vh] items-center'>
         <div className='w-full md:w-1/2 h-[50vh] relative'>
-            <Image className='pr-[5vw]' fill objectFit='cover' alt="Godziny Otwarcia Tlo" src="/Image.png"/>
+            <Image className='pr-[5vw]' fill objectFit='cover' alt="Godziny Otwarcia Tlo" src="/kancelaria_drzwi2.jpeg"/>
         </div>
         <div className='w-full md:w-1/2 h-full flex flex-col justify-center'>
             <h2 className='text-[5.5vh] font-header2'>Godziny Otwarcia</h2>
