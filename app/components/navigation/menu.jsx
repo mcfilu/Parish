@@ -62,19 +62,19 @@ const Menu = () => {
 
                 <div className={`flex flex-col w-[65%] text-white text-[35px] justify-center md:ml-[10%] ${menuElement == 'parafia' ? '' : 'hidden'} font-header2`}>
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
-                    <Link onClick={closeReset} href="/parafia/historia" className='text-4'>Histora</Link>
+                    <Link onClick={closeReset} href="/parafia/duszpasterze">Duszpasterze</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link onClick={closeReset} href="/parafia/historia" className='text-4'>Historia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/kosciol">Kościół Dzisiaj</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/galeria">Galeria</Link>
+                    <Link onClick={closeReset} href="/parafia/teren">Teren Parafii</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/ciekawostki">Ciekawostki Parafia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/duszpasterze">Duszpasterze</Link>
-                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/teren">Teren Parafii</Link>
-                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/kancelaria">Kancelaria</Link>
+                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    <Link onClick={closeReset} href="/parafia/galeria">Galeria</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
