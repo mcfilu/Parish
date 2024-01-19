@@ -45,7 +45,7 @@ const News = () => {
                 {yearsData && yearsData.find(y => y.year == item).data.map(entry => (
                     
                         <div key={entry.id} className={`flex flex-col shadow-xl my-[5vh] w-4/5 md:w-[17vw] relative ${entry.attributes.data.split('-')[0] == currentYear ? '': 'hidden'}`}>
-                            <Link className='w-full h-full' href={`/aktualnosci/ogloszenia/${entry.id}`}>
+                            <Link className='w-full h-full' href={`/aktualnosci/ciekawostki/${entry.id}`}>
                             <div className='w-full h-[25vh] relative'>
                                 <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + entry.attributes.tlo.data.attributes.url}></Image>
                             </div>

@@ -32,14 +32,18 @@ const Content = ({id}) => {
     else {
         console.log(data);
         return (
-            <div className='flex flex-row px-[5vw] bg-white pt-[25vh] pb-[10vh]'>
-                <div className='w-1/2 pr-[5vw] relative'>
-                    <Image fill alt="tlo ogloszenia" src={'http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url}/>
-                </div>
-                <div className='w-1/2 pl-[5vw]'>
-                    <h1 className='text-[5.5vh] font-header2 text-center'>{data.data.attributes.tytul}</h1>
+            <div className='flex flex-col md:flex-row px-[5vw] md:px-[10vw] bg-white pt-[20vh] md:pt-[25vh] pb-[10vh]'>
+                
+                <div className='w-full md:w-1/2 md:pr-[5vw]'>
+                    <h1 className='text-[5.5vh] font-header2 text-center mb-[2vh]'>{data.data.attributes.tytul}</h1>
+                    <div className='flex md:hidden  w-full h-[30vh] mb-[2vh] relative'>
+                        <Image fill alt="tlo ciekawostki" objectFit="cover" src={'http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url}/>
+                    </div>
                     {/* <textarea className='w-full mt-[5vh]'>{data.data.attributes.tresc}</textarea> */}
                     <div className="markdown" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+                </div>
+                <div className='hidden md:flex w-1/2 pl-[5vw] min-h-[50vh] relative'>
+                    <Image fill alt="tlo ciekawostki" objectFit="cover" src={'http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url}/>
                 </div>
             </div>
         )

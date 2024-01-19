@@ -42,7 +42,7 @@ const Content = ({id}) => {
                     {/* <textarea className='w-full mt-[5vh]'>{data.data.attributes.tresc}</textarea> */}
                     <div className="markdown" dangerouslySetInnerHTML={{ __html: htmlContent }} />
                 </div>
-                <div className='hidden md:flex w-1/2 pl-[5vw] relative'>
+                <div className='hidden md:flex w-1/2 pl-[5vw] min-h-[50vh] relative'>
                     <Image fill alt="tlo ogloszenia" objectFit="cover" src={'http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url}/>
                 </div>
             </div>
