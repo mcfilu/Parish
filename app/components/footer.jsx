@@ -22,7 +22,7 @@ const Footer = () => {
             
         </div>
         <div className='flex flex-col w-[20%] mx-[2vw] border-r-[2px]'>
-            <h3 className='font-bold text-[2.3vh]'>Msze Swiete</h3>
+            <h3 className='font-bold text-[2.3vh]'>Msze Święte</h3>
             <div className='w-full flex flex-row mt-[2vh]'>
                 <div>
                     <h4>Dni Powszednie</h4>
@@ -32,7 +32,7 @@ const Footer = () => {
                     <p>18:00</p>
                 </div>
                 <div className='ml-[2vw]'>
-                    <h4>Niedziele i Swieta</h4>
+                    <h4>Niedziele i Święta</h4>
                     <p className='mt-[2vh]'>7:00</p>
                     <p>8:30</p>
                     <p>10:00</p>
@@ -43,10 +43,10 @@ const Footer = () => {
             </div>
         </div>
         <div className='w-[20%] mx-[2vw] flex flex-col border-r-[2px]'>
-            <h3 className='font-bold text-[2.3vh]'>Spowiedz</h3>
-            <p className='mt-[2vh]'>Dni tygodnia: 30min przed msza</p>
-            <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kosciele</p>
-            <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kosciele</p>
+            <h3 className='font-bold text-[2.3vh]'>Spowiedź</h3>
+            <p className='mt-[2vh]'>Dni tygodnia: 30min przed mszą</p>
+            <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kościele</p>
+            <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kościele</p>
         </div>
         <div className='w-full md:w-[10vw] h-[20vh] md:h-auto relative flex flex-row md:flex-col ml-[2vw]'>
                 <div className='relative w-[30%] h-full'>
@@ -61,13 +61,13 @@ const Footer = () => {
             </div>
             </div>
             <div className=' mt-[1vh] w-full hidden md:flex flex-col'>
-                <p className='text-center'>© 2023 – Wszelkie prawa zastrzezone</p>
-                <p className='mt-[1vh] text-center'>Developed by - Filip Olszewski</p>
+                <p className='text-center'>© 2023 – Wszelkie prawa zastrzeżone</p>
+                <p className='mt-[1vh] text-center'>Developed by - <a href='https://filipolszewski.co.uk'>Filip Olszewski</a></p>
             </div>
             <div className='flex md:hidden flex-col w-full '>
             <div className='flex flex-row  text-white'>
                 <div className='pr-[1vw] border-r-[2px]'>
-                    <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
+                    <h4 className='font-bold text-[2.3vh]'>Niedziele i Święta</h4>
                     <p className='mt-[2vh]'>7:00</p>
                     <p>8:30</p>
                     <p>10:00</p>
@@ -85,10 +85,10 @@ const Footer = () => {
                 </div>
                 
                 <div className='pl-[1vw] border-l-[2px]'>
-                    <h3 className='font-bold text-[2.3vh]'>Spowiedz</h3>
-                    <p className='mt-[2vh]'>Dni tygodnia: 30min przed msza</p>
-                    <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kosciele</p>
-                    <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kosciele</p>
+                    <h3 className='font-bold text-[2.3vh]'>Spowiedź</h3>
+                    <p className='mt-[2vh]'>Dni tygodnia: 30min przed mszą</p>
+                    <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kosściele</p>
+                    <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kościele</p>
                 </div>
             </div>
 
@@ -127,8 +127,8 @@ const Footer = () => {
                 
                 </div>
                 <div className=' mt-[1vh] w-full flex flex-col'>
-                    <p className='text-center'>© 2023 – Wszelkie prawa zastrzezone</p>
-                    <p className='mt-[1vh] text-center'>Developed by - Filip Olszewski</p>
+                    <p className='text-center'>© 2023 – Wszelkie prawa zastrzeżone</p>
+                    <p className='mt-[1vh] text-center'>Developed by - <a href='https://filipolszewski.co.uk'>Filip Olszewski</a></p>
                 </div>
             
         </div>
