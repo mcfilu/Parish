@@ -8,7 +8,7 @@ const News = () => {
     const [data, setData] = useState(null)
 
     useEffect(() => {
-        fetch('http://3.10.214.193:1337/api/ciekawostki?populate=*')
+        fetch('https://parafia.bieda.it/api/ciekawostki?populate=*')
         .then(res => res.json())
         .then(data => {setData(data)})
     }, [])

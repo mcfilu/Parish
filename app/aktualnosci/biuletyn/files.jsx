@@ -8,7 +8,7 @@ const Files = () => {
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        fetch('http://3.10.214.193:1337/api/biuletyny?populate=*')
+        fetch('https://parafia.bieda.it/api/biuletyny?populate=*')
         .then(res => res.json())
         .then(data => {setData(data)})
     }, [])

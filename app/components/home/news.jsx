@@ -12,11 +12,11 @@ const News = () => {
     const [img3, setImg3] = useState(null)
 
     function loadImages(id1, id2) {
-        fetch(`http://3.10.214.193:1337/api/ogloszenia/${id1}?populate=*`)
+        fetch(`https://parafia.bieda.it/api/ogloszenia/${id1}?populate=*`)
         .then(res => res.json())
         .then(data => setImg1('http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url))
 
-        fetch(`http://3.10.214.193:1337/api/ogloszenia/${id2}?populate=*`)
+        fetch(`https://parafia.bieda.it/api/ogloszenia/${id2}?populate=*`)
         .then(res => res.json()) 
         .then(data => setImg2('http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url))
 
@@ -24,7 +24,7 @@ const News = () => {
     }
     
     useEffect(() => {
-        fetch('http://3.10.214.193:1337/api/ogloszenia-last-two/')
+        fetch('https://parafia.bieda.it/api/ogloszenia-last-two/')
         .then(res => res.json())
         .then(data => {
             setNews([data[0], data[1]])

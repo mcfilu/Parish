@@ -26,7 +26,7 @@ const Citations = () => {
     const toGet = getRandomNumbers(1, 3);
     const toAdd = []
     console.log(toGet);
-    fetch(`http://3.10.214.193:1337/api/cytaty/${toGet[0]}`)
+    fetch(`https://parafia.bieda.it/api/cytaty/${toGet[0]}`)
     .then(res => res.json())
     .then(data => {
       setPost1({
@@ -35,7 +35,7 @@ const Citations = () => {
         id:1,
       })})
 
-    fetch(`http://3.10.214.193:1337/api/cytaty/${toGet[1]}`)
+    fetch(`https://parafia.bieda.it/api/cytaty/${toGet[1]}`)
     .then(res => res.json())
     .then(data => {
       setPost2({
@@ -44,7 +44,7 @@ const Citations = () => {
         id:2,
       })})
 
-    fetch(`http://3.10.214.193:1337/api/cytaty/${toGet[2]}`)
+    fetch(`https://parafia.bieda.it/api/cytaty/${toGet[2]}`)
     .then(res => res.json())
     .then(data => {
       setPost3({

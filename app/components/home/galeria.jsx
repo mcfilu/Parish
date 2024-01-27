@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Galeria = () => {
     const [data, setData] = useState(null);
     useEffect(() => {
-        fetch('http://3.10.214.193:1337/api/last-galleries')
+        fetch('https://parafia.bieda.it/api/last-galleries')
         .then(res => res.json())
         .then(data => {
             const toSet = []
