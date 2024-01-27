@@ -4,8 +4,8 @@ const Proboszcz = () => {
   return (
     <div className='w-full  flex flex-col md:flex-row bg-white pt-[5vh]'>
         <div className='flex flex-col w-full md:w-[50%] h-full justify-center pl-[5vw] md:pl-[10%] text-black'>
-            <h1 className='text-[5.5vh] text-bold font-header2'>Leszek Slipek</h1>
-            <h2 className='text-[3.8vh] font-header2'>Ksiądz Proboszcz</h2>
+            <h1 className='text-[5.5vh] text-bold font-header2'>Proboszcz</h1>
+            <h2 className='text-[3.8vh] font-header2'>Ks. Prałat Dr Leszek Slipek</h2>
             <div className='flex md:hidden w-full md:w-[35%] h-[30vh] relative md:ml-[10%] '>
             {/* <Image src="/slipek_sekcja_no_bg.png" alt="zdjecie proboszcza" fill={true} objectFit='cover'></Image> */}
                 <Image src="/slipek_sekcja_removed_2.png" alt="zdjecie proboszcza" fill={true} objectFit='cover' className='h-full'></Image>
