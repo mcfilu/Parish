@@ -52,13 +52,13 @@ const Episodes = () => {
                     <h2 className='text-[2.3vh] font-header2'>{item.attributes.data}</h2>
                     <h2 className='text-[4.5vh] font-header2'>{item.attributes.tytul}</h2>
                     <div className='flex md:hidden h-[40vh] w-full relative'>
-                        <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + item.attributes.zdjecie.data.attributes.url}></Image>
+                        <Image fill objectFit="cover" alt='zdjecie kazanie' src={'https://parafia.bieda.it' + item.attributes.zdjecie.data.attributes.url}></Image>
                     </div>
                     <p className='mt-[2vh] '>{item.attributes.opis}</p>
                     <button className='mt-[4vh] p-4 bg-dark text-white'>Obejrzyj</button>
                 </div>
                 <div className='hidden md:flex h-[40vh] w-1/2 relative'>
-                    <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + item.attributes.zdjecie.data.attributes.url}></Image>
+                    <Image fill objectFit="cover" alt='zdjecie kazanie' src={'https://parafia.bieda.it' + item.attributes.zdjecie.data.attributes.url}></Image>
                 </div>
             </div>
         

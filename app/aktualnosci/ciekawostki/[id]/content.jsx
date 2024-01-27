@@ -37,13 +37,13 @@ const Content = ({id}) => {
                 <div className='w-full md:w-1/2 md:pr-[5vw]'>
                     <h1 className='text-[5.5vh] font-header2 text-center mb-[2vh]'>{data.data.attributes.tytul}</h1>
                     <div className='flex md:hidden  w-full h-[30vh] mb-[2vh] relative'>
-                        <Image fill alt="tlo ciekawostki" objectFit="cover" src={'http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url}/>
+                        <Image fill alt="tlo ciekawostki" objectFit="cover" src={'https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url}/>
                     </div>
                     {/* <textarea className='w-full mt-[5vh]'>{data.data.attributes.tresc}</textarea> */}
                     <div className="markdown" dangerouslySetInnerHTML={{ __html: htmlContent }} />
                 </div>
                 <div className='hidden md:flex w-1/2 pl-[5vw] min-h-[50vh] relative'>
-                    <Image fill alt="tlo ciekawostki" objectFit="cover" src={'http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url}/>
+                    <Image fill alt="tlo ciekawostki" objectFit="cover" src={'https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url}/>
                 </div>
             </div>
         )

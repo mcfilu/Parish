@@ -28,7 +28,7 @@ const Slides = () => {
             <div key="" className='w-full h-[30vh]'>
                 <Link href={`/parafia/galeria/${object.id}`}>
                 <div className='w-full h-full relative bg-black'>
-                    <Image className="bg-opacity-50" src={`http://3.10.214.193:1337${object.img}`} fill objectFit='cover' alt="zdjecie tytulowe z galerii" />
+                    <Image className="bg-opacity-50" src={`https://parafia.bieda.it${object.img}`} fill objectFit='cover' alt="zdjecie tytulowe z galerii" />
                     {/* Dark background layer with 50% opacity */}
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 

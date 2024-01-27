@@ -14,11 +14,11 @@ const News = () => {
     function loadImages(id1, id2) {
         fetch(`https://parafia.bieda.it/api/ogloszenia/${id1}?populate=*`)
         .then(res => res.json())
-        .then(data => setImg1('http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url))
+        .then(data => setImg1('https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url))
 
         fetch(`https://parafia.bieda.it/api/ogloszenia/${id2}?populate=*`)
         .then(res => res.json()) 
-        .then(data => setImg2('http://3.10.214.193:1337' + data.data.attributes.tlo.data.attributes.url))
+        .then(data => setImg2('https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url))
 
         console.log('laduje zdjecia')
     }

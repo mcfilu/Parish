@@ -37,7 +37,7 @@ const Slides = ({id}) => {
         <div className='w-full px-[5vw] grid grid-cols-1 md:grid-cols-4 gap-4 py-[5vh]'>
             {data.slides && data.slides.map((object) => (
                 <div key="" className='w-full h-[30vh] relative'>
-                    <Image fill objectFit="cover" src={`http://3.10.214.193:1337${object}`} alt="zdjecie galeria" />
+                    <Image fill objectFit="cover" src={`https://parafia.bieda.it${object}`} alt="zdjecie galeria" />
                 </div>
             ))}
             
