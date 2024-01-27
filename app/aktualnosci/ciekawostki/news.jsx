@@ -50,7 +50,7 @@ const News = () => {
                                 <Image fill objectFit="cover" alt='zdjecie kazanie' src={'http://3.10.214.193:1337' + entry.attributes.tlo.data.attributes.url}></Image>
                             </div>
                             
-                            <div className='px-[1vw] w-full h-1/2 py-[2vh] flex flex-col justify-center'> 
+                            <div className='px-[1vw] w-full py-[2vh] flex flex-col justify-center'> 
                             
                                 <p className='px-[0.3vw] uppercase bg-red-600 bg-opacity-40 text-red-500 inline-block'>Ciekawostki</p>
                                 <h3 className='mt-[1vh] font-header2 text-[30px]'>{entry.attributes.tytul}</h3>
