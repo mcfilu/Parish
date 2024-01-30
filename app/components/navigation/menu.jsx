@@ -34,7 +34,7 @@ const Menu = () => {
                     <p>22 620 37 47</p>
                 </div>
                 <div className={`flex flex-col w-full md:w-[65%] text-white text-[35px] justify-center md:ml-[10%] ${menuElement == '' ? '' : 'hidden'} font-header2`}>
-                    <Link href="/nabozenstwa" onClick={closeReset}>Nabożeństwa</Link>
+                    <Link href="/nabozenstwa" onClick={closeReset}>Msze św. i nabożeństwa</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('aktualnosci')}>Aktualności</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -70,7 +70,7 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/teren">Teren Parafii</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/ciekawostki">Ciekawostki Parafia</Link>
+                    <Link onClick={closeReset} href="/parafia/ciekawostki">Ciekawostki w Parafii</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/kancelaria">Kancelaria</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
