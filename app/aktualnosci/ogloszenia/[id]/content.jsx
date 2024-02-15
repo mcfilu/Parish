@@ -3,6 +3,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { marked } from 'marked'
+import ReactMarkdown from 'react-markdown';
 
 const Content = ({id}) => {
     // const router = useRouter()
@@ -10,6 +11,10 @@ const Content = ({id}) => {
     console.log(id)
     // const [data, setData] = useState(null);
     const [data, setData] = useState(null)
+
+    const CustomParagraph = ({ children }) => (
+        <p className="my-4">{children}</p>
+      );
 
     useEffect(() => {
         fetch('https://parafia.bieda.it/api/ogloszenia/' + id +'?populate=*')
@@ -40,7 +45,8 @@ const Content = ({id}) => {
                         <Image fill alt="tlo ogloszenia" objectFit="cover" src={'https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url}/>
                     </div>
                     {/* <textarea className='w-full mt-[5vh]'>{data.data.attributes.tresc}</textarea> */}
-                    <div className="markdown" dangerouslySetInnerHTML={{ __html: htmlContent }} />
+                    {/* <div className="markdown" dangerouslySetInnerHTML={{ __html: htmlContent }} /> */}
+                    <ReactMarkdown components={{ p: CustomParagraph }}>{data.data.attributes.tresc}</ReactMarkdown>
                 </div>
                 <div className='hidden md:flex w-1/2 pl-[5vw] min-h-[50vh] relative'>
                     <Image fill alt="tlo ogloszenia" objectFit="cover" src={'https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url}/>
