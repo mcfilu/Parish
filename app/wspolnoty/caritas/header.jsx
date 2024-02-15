@@ -10,7 +10,7 @@ const Header = () => {
         <div className='bg-white w-full flex flex-col md:flex-row px-[5vw] md:py-[2vh] pt-[0] pb-[1vh] items-start md:items-center justify-between'>
             <h1 className='text-[55px] font-header2 font-bold text-black'>Caritas</h1>
             <div className='w-full md:w-[50%] h-full flex flex-col justify-center items-start'>
-                <p className='text-black text-[1.7vh]'>„Wszystko co uczyniliście jednemu z tych braci Moich najmniejszych, Mnie uczyniliście” - powiedział nasz Pan Jezus Chrystus.</p>
+                <p className='text-black text-[1.7vh]'>&ldquo;Wszystko co uczyniliście jednemu z tych braci Moich najmniejszych, Mnie uczyniliście&rdquo; - powiedział nasz Pan Jezus Chrystus.</p>
                 <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz Więcej</button>
             </div>
         </div>
