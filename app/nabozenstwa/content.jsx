@@ -10,23 +10,23 @@ const Content = () => {
                 <Image className="px-[4vw" alt="tlo msza swieta" src="/nabozenstwa2.jpeg" fill objectFit='cover'></Image>
             </div>
             <div className='w-1/2  justify-center flex flex-col pl-[5vw]'>
-                <h2 className='text-[4.5vh] font-main font-bold'>Msze Swięte</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Msze Święte</h2>
                 <div className='flex flex-row mt-[5vh]'>
-                    <div className='ml-0 mx-[1vw] border-r-[2px]'>
+                    <div className='ml-0 mx-[1vw] border-r-[2px] pr-[1vw]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
-                        <p className='mt-[2vh]'>6:30</p>
-                        <p>8:00</p>
-                        <p>9:00</p>
-                        <p>18:00</p>
+                        <p className='mt-[2vh] text-[1.8vh]'>6:30</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>8:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>9:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>18:00</p>
                     </div>
-                    <div className='mx-[1vw] border-r-[2px]'>
+                    <div className='mx-[1vw] border-r-[2px] pr-[1vw]'>
                         <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
-                        <p className='mt-[2vh]'>7:00</p>
-                        <p>8:30</p>
-                        <p>10:00</p>
-                        <p>11:30</p>
-                        <p>13:00</p>
-                        <p>18:00</p>
+                        <p className='mt-[2vh] text-[1.8vh]'>7:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>8:30</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>10:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>11:30 (Dziecięca)</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>13:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>18:00</p>
                     </div>
                 </div>
             </div>
@@ -36,23 +36,10 @@ const Content = () => {
             
             <div className='w-1/2  justify-center flex flex-col pl-[5vw]'>
                 <h2 className='text-[4.5vh] font-main font-bold'>Spowiedź</h2>
-                <div className='flex flex-row mt-[5vh]'>
-                    <div className='ml-0 mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
-                        <p className='mt-[2vh]'>6:30</p>
-                        <p>8:00</p>
-                        <p>9:00</p>
-                        <p>18:00</p>
-                    </div>
-                    <div className='mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
-                        <p className='mt-[2vh]'>7:00</p>
-                        <p>8:30</p>
-                        <p>10:00</p>
-                        <p>11:30</p>
-                        <p>13:00</p>
-                        <p>18:00</p>
-                    </div>
+                <div className='flex flex-col mt-[5vh]'>
+                    <p className='mt-[1vh] text-[1.8vh]'>W dni powszednie - 30 minut przed Mszą Św.</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>W Sobotę (kaplica Miłosierdzia Bozego) - Godz 16.00 do 17:30</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>W Niedzielę (kaplica Miłosierdzia Bozego) - Godz 7:30 do 13:00</p>
                 </div>
             </div>
             <div className='w-1/2 h-full relative '>
@@ -65,24 +52,12 @@ const Content = () => {
                 <Image className="px-[4vw" alt="tlo msza swieta" src="/nabozenstwa4.jpeg" fill objectFit='cover'></Image>
             </div>
             <div className='w-1/2  justify-center flex flex-col pl-[5vw]'>
-                <h2 className='text-[4.5vh] font-main font-bold'>Adoracja Najswietszego Sakramentu</h2>
-                <div className='flex flex-row mt-[5vh]'>
-                    <div className='ml-0 mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
-                        <p className='mt-[2vh]'>6:30</p>
-                        <p>8:00</p>
-                        <p>9:00</p>
-                        <p>18:00</p>
-                    </div>
-                    <div className='mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
-                        <p className='mt-[2vh]'>7:00</p>
-                        <p>8:30</p>
-                        <p>10:00</p>
-                        <p>11:30</p>
-                        <p>13:00</p>
-                        <p>18:00</p>
-                    </div>
+                <h2 className='text-[4.5vh] font-main font-bold'>Nabożeństwa</h2>
+                <div className='flex flex-col mt-[5vh]'>
+                    <p className='mt-[1vh] text-[1.8vh]'>Nabożeństwa Majowe - Po Mszy Św. o godz 18.00</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Nabożeństwa Czerwcowe - Po Mszy Św. o godz 18.00</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Nabożeństwa Październikowe - Po Mszy Św. o godz 18.00</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Medytacją Różańcowa - każdy piątek października 19.00</p>
                 </div>
             </div>
             
@@ -90,24 +65,12 @@ const Content = () => {
         <div className='mt-[10vh h-[55vh] w-full px-[5vw flex flex-row'>
             
             <div className='w-1/2  justify-center flex flex-col pl-[5vw]'>
-                <h2 className='text-[4.5vh] font-main font-bold'>Nabozenstwa</h2>
-                <div className='flex flex-row mt-[5vh]'>
-                    <div className='ml-0 mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
-                        <p className='mt-[2vh]'>6:30</p>
-                        <p>8:00</p>
-                        <p>9:00</p>
-                        <p>18:00</p>
-                    </div>
-                    <div className='mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
-                        <p className='mt-[2vh]'>7:00</p>
-                        <p>8:30</p>
-                        <p>10:00</p>
-                        <p>11:30</p>
-                        <p>13:00</p>
-                        <p>18:00</p>
-                    </div>
+            <h2 className='text-[4.5vh] font-main font-bold'>Okres Wielkiego Postu</h2>
+                <div className='flex flex-col mt-[5vh]'>
+                    <p className='mt-[1vh] text-[1.8vh]'>Gorzkie Żale - Niedziela 17.15</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Droga krzyżowa (dzieci) - Piątek 16.30</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Droga krzyżowa (dorośli) - Piątek 17.15</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Nabożeństwo Chrystusa Ukrzyżowanego - Piątek 19.00</p>
                 </div>
             </div>
             <div className='w-1/2 h-full relative '>
@@ -119,23 +82,23 @@ const Content = () => {
         <div className=' h-[55vh w-full px-[5v flex flex-col'>
             
             <div className='w-full  justify-center flex flex-col pl-[5vw] mt-[5vh]'>
-                <h2 className='text-[4.5vh] font-main font-bold'>Msze Swięte</h2>
+                <h2 className='text-[4.5vh] font-main font-bold'>Msze Święte</h2>
                 <div className='flex flex-row mt-[5vh]'>
-                    <div className='ml-0 mx-[1vw] border-r-[2px]'>
+                    <div className='ml-0 mx-[1vw] border-r-[2px] pr-[1vw]'>
                         <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
-                        <p className='mt-[2vh]'>6:30</p>
-                        <p>8:00</p>
-                        <p>9:00</p>
-                        <p>18:00</p>
+                        <p className='mt-[2vh] text-[1.8vh]'>6:30</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>8:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>9:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>18:00</p>
                     </div>
-                    <div className='mx-[1vw] border-r-[2px'>
+                    <div className='mx-[1vw] border-r-[2px] pr-[1vw]'>
                         <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
-                        <p className='mt-[2vh]'>7:00</p>
-                        <p>8:30</p>
-                        <p>10:00</p>
-                        <p>11:30</p>
-                        <p>13:00</p>
-                        <p>18:00</p>
+                        <p className='mt-[2vh] text-[1.8vh]'>7:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>8:30</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>10:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>11:30 (Dziecięca)</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>13:00</p>
+                        <p className='mt-[1vh] text-[1.8vh]'>18:00</p>
                     </div>
                 </div>
             </div>
@@ -148,23 +111,10 @@ const Content = () => {
             
             <div className='w-full  justify-center flex flex-col pl-[5vw] mt-[5vh]'>
                 <h2 className='text-[4.5vh] font-main font-bold'>Spowiedź</h2>
-                <div className='flex flex-row mt-[5vh]'>
-                    <div className='ml-0 mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
-                        <p className='mt-[2vh]'>6:30</p>
-                        <p>8:00</p>
-                        <p>9:00</p>
-                        <p>18:00</p>
-                    </div>
-                    <div className='mx-[1vw] border-r-[2px'>
-                        <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
-                        <p className='mt-[2vh]'>7:00</p>
-                        <p>8:30</p>
-                        <p>10:00</p>
-                        <p>11:30</p>
-                        <p>13:00</p>
-                        <p>18:00</p>
-                    </div>
+                <div className='flex flex-col mt-[5vh]'>
+                    <p className='mt-[1vh] text-[1.8vh]'>W dni powszednie - 30 minut przed Mszą Św.</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>W Sobotę (kaplica Miłosierdzia Bozego) - Godz 16.00 do 17:30</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>W Niedzielę (kaplica Miłosierdzia Bozego) - Godz 7:30 do 13:00</p>
                 </div>
             </div>
             <div className='w-full h-[40vh] relative mt-[2vh]'>
@@ -175,24 +125,12 @@ const Content = () => {
         <div className='mt-[10vh h-[55vh w-full px-[5vw flex flex-col'>
             
             <div className='w-full  justify-center flex flex-col pl-[5vw] mt-[5vh]'>
-                <h2 className='text-[4.5vh] font-main font-bold'>Adoracja Najswietszego Sakramentu</h2>
-                <div className='flex flex-row mt-[5vh]'>
-                    <div className='ml-0 mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
-                        <p className='mt-[2vh]'>6:30</p>
-                        <p>8:00</p>
-                        <p>9:00</p>
-                        <p>18:00</p>
-                    </div>
-                    <div className='mx-[1vw] border-r-[2px'>
-                        <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
-                        <p className='mt-[2vh]'>7:00</p>
-                        <p>8:30</p>
-                        <p>10:00</p>
-                        <p>11:30</p>
-                        <p>13:00</p>
-                        <p>18:00</p>
-                    </div>
+                <h2 className='text-[4.5vh] font-main font-bold'>Nabożeństwa</h2>
+                <div className='flex flex-col mt-[5vh]'>
+                    <p className='mt-[1vh] text-[1.8vh]'>Nabożeństwa Majowe - Po Mszy Św. o godz 18.00</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Nabożeństwa Czerwcowe - Po Mszy Św. o godz 18.00</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Nabożeństwa Październikowe - Po Mszy Św. o godz 18.00</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Medytacją Różańcowa - każdy piątek października 19.00</p>
                 </div>
             </div>
             <div className='w-full h-[40vh] relative mt-[2vh]'>
@@ -203,24 +141,13 @@ const Content = () => {
         <div className='mt-[10vh h-[55vh w-full px-[5vw flex flex-col'>
             
             <div className='w-full  justify-center flex flex-col pl-[5vw] mt-[5vh]'>
-                <h2 className='text-[4.5vh] font-main font-bold'>Nabozenstwa</h2>
-                <div className='flex flex-row mt-[5vh]'>
-                    <div className='ml-0 mx-[1vw] border-r-[2px]'>
-                        <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
-                        <p className='mt-[2vh]'>6:30</p>
-                        <p>8:00</p>
-                        <p>9:00</p>
-                        <p>18:00</p>
-                    </div>
-                    <div className='mx-[1vw] border-r-[2px'>
-                        <h4 className='font-bold text-[2.3vh]'>Niedziele i Swieta</h4>
-                        <p className='mt-[2vh]'>7:00</p>
-                        <p>8:30</p>
-                        <p>10:00</p>
-                        <p>11:30</p>
-                        <p>13:00</p>
-                        <p>18:00</p>
-                    </div>
+                <h2 className='text-[4.5vh] font-main font-bold'>Okres Wielkiego Postu</h2>
+                <div className='flex flex-col mt-[5vh]'>
+                    <p className='mt-[1vh] text-[1.8vh]'>Gorzkie Żale - Niedziela 17.15</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Droga krzyżowa (dzieci) - Piątek 16.30</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Droga krzyżowa (dorośli) - Piątek 17.15</p>
+                    <p className='mt-[1vh] text-[1.8vh]'>Nabożeństwo Chrystusa Ukrzyżowanego - Piątek 19.00</p>
+                    
                 </div>
             </div>
             <div className='w-full h-[40vh] relative mt-[5vh'>
