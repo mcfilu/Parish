@@ -14,7 +14,7 @@ const Pozostali = () => {
                 <div className='flex md:hidden w-full h-[40vh] relative my-[2vh]'>
                     <Image className='' alt="zdjecie wikariusza" src="/ksiadz_andrzej.jpeg" fill objectFit='cover'/>
                 </div>
-                <p className='pt-[2vh]'>Urodził się 27 listopada 1979 w Warszawie. Ukończył Wyższe Seminarium Duchowne w Warszawie i przyjął święcenia kapłańskie w roku 2005. Ukończył Papieski Wydział Teologiczny (2004) i studia podyplomowe w Wyższej Szkole Filologii Hebrajskiej w Toruniu (2013). Posługę w parafii św. Andrzeja Apostoła w Warszawie rozpoczął 26 sierpnia 2020 r.</p>
+                <p className='pt-[2vh]'>Człowiek, ksiądz, duszpasterz, katecheta. Obieżyświat, lubiący podróże, przewodnik po świecie arabskim. Zafascynowany Ziemią Boga - Ziemią Świętą i Bliskim Wschodem. Duszpasterz, nauczyciel i wychowawca w klasach SMS Akademii Legia Warszawa.</p>
                 <Link href="/parafia/duszpasterze/ostrowski"><button className='bg-dark text-white px-4 py-3 mt-[2vh]'>Zobacz Więcej</button></Link>
             </div>
         </div>
