@@ -17,7 +17,7 @@ const Hours = () => {
                     <p className='mt-[2vh]'>7:00</p>
                     <p>8:30</p>
                     <p>10:00</p>
-                    <p>11:30</p>
+                    <p>11:30 (Dziecięca)</p>
                     <p>13:00</p>
                     <p>18:00</p>
                 </div>
