@@ -37,7 +37,7 @@ module.exports = {
         // gold2: "#d9c61c",
         gold2: "#c7a94c",
         // dark: "#0D2C4B",
-        dark: "#212121",
+        dark: "#0C2D57",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
