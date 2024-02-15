@@ -25,7 +25,7 @@ const Pozostali = () => {
                 <div className='flex md:hidden w-full h-[40vh] relative my-[2vh]'>
                     <Image className='' alt="zdjecie wikariusza" src="/ksiadz_pawel2.jpeg" fill objectFit='cover'/>
                 </div>
-                <p className='pt-[2vh]'>Urodził się 13 stycznia 1973 w Warszawie. Ukończył Warszawskie Metropolitalne Seminarium Duchowne i przyjął święcenia kapłańskie w roku 1998 r. Ukończył Papieski Wydział Teologiczny w Warszawie (1999). Posługę w parafii św. Andrzeja Apostoła w Warszawie rozpoczął w 2020 roku.</p>
+                <p className='pt-[2vh]'>Wikariusz Parafii św. Andrzeja Apostoła od 2020 r., katecheta, miłośnik filozofii i historii szczególnie tej najnowszej, pasjonat gór i pieszych wycieczek</p>
                 <Link href="/parafia/duszpasterze/powierza"><button className='bg-dark text-white px-4 py-3 mt-[2vh]'>Zobacz Więcej</button></Link>
             </div>
             <div className='hidden md:flex w-1/2 h-[50vh] relative'>
