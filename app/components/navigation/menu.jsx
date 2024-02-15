@@ -100,7 +100,7 @@ const Menu = () => {
                     <p className='mb-[3vh] text-[25px] cursor-pointer' onClick={() => {setElement('')}}><i className='fa-solid fa-arrow-left mr-[0.5vw]'></i>Powrót</p>
                     <Link onClick={closeReset} href="/wspolnoty/schola" className='text-4'>Schola</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/wspolnoty/schola-dziecieca">Schola Dzieci</Link>
+                    <Link onClick={closeReset} href="/wspolnoty/schola-dziecieca">Schola Rodzinna</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/wspolnoty/caritas">Caritas</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
