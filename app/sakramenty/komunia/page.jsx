@@ -14,12 +14,12 @@ const Page = () => {
     <div className='bg-white'>
         <Header/>
         <Intro/>
-        <Detailed/>
+        {/* <Detailed/> */}
         <Gallery/>
-        <Day/>
-        <Banner/>
-        <Faqs/>
-        <Documents/>
+        {/* <Day/> */}
+        {/* <Banner/> */}
+        {/* <Faqs/> */}
+        {/* <Documents/> */}
         <Footer/>
     </div>
   )
