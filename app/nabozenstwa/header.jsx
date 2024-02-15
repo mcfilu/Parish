@@ -10,7 +10,7 @@ const Header = () => {
         <div className='bg-white w-full flex flex-col md:flex-row px-[5vw] md:py-[2vh] pt-[0] pb-[1vh] items-start md:items-center justify-between'>
             <h1 className='text-[55px] font-header2 font-bold '>Msze św i nabożeństwa</h1>
             <div className='w-full md:w-[50%] h-full flex flex-col justify-center items-start'>
-                <p>"Celebracja Mszy Świętej jest tak cenna, jak śmierć Jezusa na krzyżu." - św. Tomasz z Akwinu </p>
+                <p>&ldquo;Celebracja Mszy Świętej jest tak cenna, jak śmierć Jezusa na krzyżu.&rdquo; - św. Tomasz z Akwinu </p>
                 <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz Więcej</button>
             </div>
         </div>
