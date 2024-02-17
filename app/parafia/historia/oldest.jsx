@@ -11,8 +11,8 @@ const Oldest = () => {
             
             <div className='w-full hidden md:flex flex-col md:flex-row justify-between'>
                 <div className='mt-[2vh]'>
-                    <p className='text-[4.5vh] font-header2'>1738</p>
-                    <p className='text-[4.5vh] font-header2'>Rok Zalozenia</p>
+                    <p className='text-[4.5vh] font-header2'>1774</p>
+                    <p className='text-[4.5vh] font-header2'>Rok Fundacyjny</p>
                 </div>
                 <div>
                     <p className='text-[4.5vh] font-header2'>15</p>
