@@ -39,7 +39,7 @@ const Wspolnoty = () => {
                 <div className='flex w-full h-full relative bg-black bg-opacity-50 min-h-[30vh] hover:bg-white hover:bg-opacity-30 flex-col justify-center items-center'>
                     <div className='absolute z-20 top-0 left-0 w-full h-full bg-black bg-opacity-80 hover:bg-opacity-60'></div>
                     <Image alt="" src="/ministranci.jpeg" fill objectFit='cover'></Image>
-                    <p className='z-20 text-center text-bold text-white font-header2 text-[4.5vh]'>SŁUZBA LITURGICZNA</p>
+                    <p className='z-20 text-center text-bold text-white font-header2 text-[4.5vh]'>SŁUŻBA LITURGICZNA</p>
                 </div>
                 </Link>
 

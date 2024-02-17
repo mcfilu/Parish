@@ -23,7 +23,7 @@ const Citations = () => {
   };
 
   useEffect(() => {
-    const toGet = getRandomNumbers(1, 3);
+    const toGet = getRandomNumbers(1, 18);
     const toAdd = []
     console.log(toGet);
     fetch(`https://parafia.bieda.it/api/cytaty/${toGet[0]}`)
