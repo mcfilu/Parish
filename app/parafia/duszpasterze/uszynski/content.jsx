@@ -7,7 +7,7 @@ const Content = () => {
         <div className='w-full md:w-1/2 flex flex-col text-black md:mr-[2vw] justify-center'>
           <h2 className='text-[4.5vh] font-header2'>Ks. diakon Cezary J. Uszyński</h2>
           <div className='flex md:hidden w-full h-[40vh] md:h-[60vh] relative'>
-            <Image alt="ksiadz proboszcz" src="/ksiadz_andrzej.jpeg" fill objectFit='cover'/>
+            <Image alt="ksiadz proboszcz" src="/diakon.jpg" fill objectFit='cover'/>
           </div>
           <p className='text-[1.7vh] mt-[2vh] md:mt-[5vh]'>Urodził się 15.04.1953 r. w Szczecinie. Wychowywał się w Warszawie, na Woli, w parafii Św.
 Stanisława Biskupa. 31.12.1974 r., w parafii św. Andrzeja Apostoła w Warszawie, zawarł
@@ -43,7 +43,7 @@ zainteresowaniem, troską, słuchaniem, bezinteresowną pomocą ze względu na C
 którego staramy się dostrzegać w każdym bracie i każdej siostrze.</p>
         </div>
         <div className='hidden md:flex w-1/2 h-[50vh] md:h-[60vh] relative'>
-            <Image alt="ksiadz proboszcz" src="/ksiadz_andrzej.jpeg" fill objectFit='cover'/>
+            <Image alt="ksiadz proboszcz" src="/diakon.jpg" fill objectFit='cover'/>
         </div>
     </div>
   )
