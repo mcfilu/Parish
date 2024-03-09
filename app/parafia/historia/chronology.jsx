@@ -7,7 +7,7 @@ const Chronology = () => {
     <div className='w-full flex flex-col px-[3vw] md:px-[5vw] my-[5vh]'>
         <div className='flex flex-row w-full justify-between '>
             <div className='hidden md:flex w-2/5 h-[50vh] relative '>
-                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/historia1.jpg"/>
             </div>
             <div className='flex flex-col justify-center items-center pr-[2vw] md:pr-0'>
                 <i className='fa-solid fa-circle my-[2vh]'></i>
@@ -17,7 +17,7 @@ const Chronology = () => {
             <div className='w-full md:w-2/5 h-full flex flex-col'>
                 <h2 className='text-[4.5vh] font-header2 '>Do 1840</h2>
                 <div className='flex md:hidden w-full h-[40vh] relative mt-[2vh]'>
-                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/historia1.jpg"/>
                 </div>
                 <p className='mt-[3vh]'>Początkowo kościół zgodnie z wolą fundatorki miał służyć przedmieściom Warszawy
 i parafii wolskiej pozbawionej w wyniku represji po powstaniu listopadowym kościoła
@@ -38,7 +38,7 @@ Apostoła (1774), w której granicach administracyjnych się znalazł.</p>
             <div className='w-full md:w-2/5 h-full flex flex-col'>
                 <h2 className='text-[4.5vh] font-header2 '>1841</h2>
                 <div className='flex md:hidden w-full h-[40vh] relative mt-[2vh]'>
-                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/historia2.jpg"/>
                 </div>
                 <p className='mt-[3vh]'>Uroczystość wmurowania kamienia węgielnego odbyła się 18 sierpnia 1841 roku.
 W końcowych latach budowy okazało się, że pierwotne fundusze są niewystarczające do
@@ -53,7 +53,7 @@ oddany do odbioru technicznego 30 września 1849 r., natomiast właściwa konsek
                 <div className='h-full border-black border-l-2'></div>
             </div>
             <div className='hidden md:flex w-2/5 h-[50vh] relative '>
-                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/historia2.jpg"/>
             </div>
         </div>
 
@@ -62,7 +62,7 @@ oddany do odbioru technicznego 30 września 1849 r., natomiast właściwa konsek
 
         <div className='flex flex-row w-full justify-between mt-[5vh]'>
             <div className='hidden md:flex w-2/5 h-[50vh] relative '>
-                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/historia3.jpg"/>
             </div>
             <div className='flex flex-col justify-center items-center pr-[2vw] md:pr-0'>
                 <i className='fa-solid fa-circle my-[2vh]'></i>
@@ -72,7 +72,7 @@ oddany do odbioru technicznego 30 września 1849 r., natomiast właściwa konsek
             <div className='w-full md:w-2/5 h-full flex flex-col'>
                 <h2 className='text-[4.5vh] font-header2 '>1849</h2>
                 <div className='flex md:hidden w-full h-[40vh] relative mt-[2vh]'>
-                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/historia3.jpg"/>
                 </div>
                 <p className='mt-[3vh]'>Uroczystości związane z konsekracją kościoła rozpoczęły się w jej wigilię 3 listopada
 1849 r., kiedy to w uroczystej procesji z licznym udziałem bractw religijnych, duchownych,
@@ -99,7 +99,7 @@ na to wydarzenie Mszę a-moll (op. 81) Józefa Elsnera (1769-1854).</p>
             <div className='w-full md:w-2/5 h-full flex flex-col'>
                 <h2 className='text-[4.5vh] font-header2 '>II poł. XIX wieku</h2>
                 <div className='flex md:hidden w-full h-[40vh] relative mt-[2vh]'>
-                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/historia5.jpg"/>
                 </div>
                 <p className='mt-[3vh]'>W XIX w. kościół zapisał się w pamięci podróżnych wyjeżdżających ze stolicy
 i przybywających do niej z zachodu. W swej historii przechodził kilka restauracji w latach:
@@ -110,13 +110,13 @@ i przybywających do niej z zachodu. W swej historii przechodził kilka resta
                 <div className='h-full border-black border-l-2'></div>
             </div>
             <div className='hidden md:flex w-2/5 h-[50vh] relative '>
-                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/historia5.jpg"/>
             </div>
         </div>
 
         <div className='flex flex-row w-full justify-between mt-[5vh]'>
             <div className='hidden md:flex w-2/5 h-[50vh] relative '>
-                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                <Image className='' fill objectFit='cover' alt="zdjecie historyczne" src="/historia6.jpg"/>
             </div>
             <div className='flex flex-col justify-center items-center pr-[2vw] md:pr-0'>
                 <i className='fa-solid fa-circle my-[2vh]'></i>
@@ -126,7 +126,7 @@ i przybywających do niej z zachodu. W swej historii przechodził kilka resta
             <div className='w-full md:w-2/5 h-full flex flex-col'>
                 <h2 className='text-[4.5vh] font-header2 '>Newsy z mediów</h2>
                 <div className='flex md:hidden w-full h-[40vh] relative mt-[2vh]'>
-                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/Historia1.png"/>
+                    <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/historia6.jpg"/>
                 </div>
                 
 <p className='mt-[3vh]'>XIX-wieczna prasa jak „Gazeta Warszawska” w następujący sposób oceniała nową
