@@ -56,7 +56,7 @@ const Pozostali = () => {
                 <Link href="/parafia/duszpasterze/uszynski"><button className='bg-dark text-white px-4 py-3 mt-[2vh]'>Zobacz Więcej</button></Link>
             </div>
             <div className='hidden md:flex w-1/2 h-[50vh] relative'>
-                <Image className='pl-[5vw]' alt="zdjecie wikariusza" src="/diakon.jpg" fill objectFit='cover'/>
+                <Image className='pl-[5vw]' alt="zdjecie wikariusza" src="/diakonnew1.jpeg" fill objectFit='cover'/>
             </div>
         </div>
     </div>
