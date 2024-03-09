@@ -16,7 +16,7 @@ const Episodes = () => {
     console.log(data);
     let years = []
     if (data && data.data) {
-        years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
+        // years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
     }
     // const years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
     const [currentYear, changeYear] = useState(new Date().getFullYear());
