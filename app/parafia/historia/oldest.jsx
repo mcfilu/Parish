@@ -5,7 +5,7 @@ const Oldest = () => {
     <div className='w-full flex flex-col md:flex-row px-[5vw] my-[5vh]'>
         <div className='w-full md:w-1/2 h-full pr-[5vw]'>
             <h2 className='text-[4.5vh] font-header2'>Najstarsza Parafia Na Woli</h2>
-            <p className='mt-[2vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+            <p className='mt-[2vh]'>Parafia św. Andrzeja Apostoła jest czwartą najstarszą parafią w Warszawie. Erygowana w roku 1774 swą pierwszą siedzibę miała w kościele św. Andrzeja Apostoła przy pl. Teatralnym, a następnie w kościele oo. Reformatów przy ul. Senatorskiej. W związku z bujnym rozwojem terenów miasta na zachód od pl. Bankowego postanowiono o ufundowaniu nowej świątyni na terenie ówczesnego pl. Pod Lwem, położonego między ulicami Chłodną i Elektoralną.</p>
         </div>
         <div className='w-full md:w-1/2 h-full '>
             
