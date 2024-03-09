@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className='w-full px-[5vw] bg-white py-[5vh]'>
         <div className='w-full h-[50vh] relative'>
-            <Image fill objectFit='cover' alt="kosciol tlo" src="/kosciol2.jpeg" />
+            <Image fill objectFit='cover' alt="kosciol tlo" src="/newhistoria3.jpeg" />
         </div>
     </div>
   )
