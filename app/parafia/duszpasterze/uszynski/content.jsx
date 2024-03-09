@@ -14,8 +14,8 @@ Stanisława Biskupa. 31.12.1974 r., w parafii św. Andrzeja Apostoła w Warszawi
 związek małżeński z Magdaleną. Państwo Uszyńscy mają cztery dorosłe córki i pięciu wnuków.</p>
           <p className='text-[1.7vh] mt-[2vh]'>Od 2008 r. pełnił posługę Nadzwyczajnego Szafarza Komunii Świętej w parafii Św. Krzysztofa w
 Podkowie Leśnej. W latach 2009 - 2015 odbył studia teologiczne w Papieskim Wydziale
-Teologicznym w Warszawie. Napisał pracę magisterską na temat "Rodzina miejscem
-uświęcenia małżonków w świetle wybranych tekstów nauczania Św. Jana Pawła II". Egzamin
+Teologicznym w Warszawie. Napisał pracę magisterską na temat &lquot;Rodzina miejscem
+uświęcenia małżonków w świetle wybranych tekstów nauczania Św. Jana Pawła II&rquot;. Egzamin
 magisterski z Teologii Ogólnej zdał 16.06.2018 r. Odbył 4,5-letnią formację przygotowującą do
 Święceń Diakonatu prowadzoną przez zespół kapłanów Archidiecezji Warszawskiej, pod opieką
 biskupa Michała Janochy. Dnia 23.05.20 21 r., w Uroczystość Zesłania Ducha Świętego, w
@@ -35,7 +35,7 @@ wychowania młodzieży do samodzielności i zaradności, przez praktyczne dział
 Wydziału Elektrycznego Politechniki Warszawskiej (inżynier elektryk); od 1980 roku prowadzi
 działalność we własnej firmie instalacyjnej; dziś - czynny zawodowo emeryt.</p>
 <p className='text-[1.7vh] mt-[2vh]'>Inspiracje
-" Więcej szczęścia jest w dawaniu aniżeli w braniu" Dz.20,35</p>
+&lquot; Więcej szczęścia jest w dawaniu aniżeli w braniu&rquot; Dz.20,35</p>
 <p className='text-[1.7vh] mt-[2vh]'>Przesłanie do parafian:
 Pragnę dzielić się z innymi ludźmi receptą na szczęście możliwe do osiągnięcia już tu, w czasie
 naszej ziemskiej pielgrzymki. Szczęście czerpiemy obdarowując innych swoim czasem,
