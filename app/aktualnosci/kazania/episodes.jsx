@@ -15,8 +15,8 @@ const Episodes = () => {
 
     console.log(data);
     let years = []
-    if (data && data.data) {
-        // years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
+    if (data != null && data.data) {
+        years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
     }
     // const years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
     const [currentYear, changeYear] = useState(new Date().getFullYear());
@@ -46,7 +46,7 @@ const Episodes = () => {
         
         
         <div  className={`w-full flex flex-col items-center justify-center `}>
-        {data && data.data.map((item) => (
+        {data !== null && data.data.map((item) => (
             <div key={item.id} className={`my-[5vh] w-4/5 flex flex-col md:flex-row ${item.attributes.data.split('-')[0] == currentYear ? '': 'hidden'} items-center`}>
                 <div className='flex flex-col h-full w-full md:w-1/2 justify-center items-start'>
                     <h2 className='text-[2.3vh] font-header2'>{item.attributes.data}</h2>
