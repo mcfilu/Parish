@@ -60,7 +60,7 @@ const Episodes = () => {
                     <p className='mt-[2vh] '>{item.attributes.opis}</p>
                     <button className='mt-[4vh] p-4 bg-dark text-white'>Obejrzyj</button>
                 </div>
-                <div className='hidden md:flex h-[40vh] w-1/2 relative'>
+                <div className='hidden md:flex h-[50vh] w-1/2 relative'>
                     <Image fill objectFit="cover" alt='zdjecie kazanie' src={'https://parafia.bieda.it' + item.attributes.zdjecie.data.attributes.url}></Image>
                 </div>
             </div>
