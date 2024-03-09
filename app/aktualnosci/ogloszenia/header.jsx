@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='flex flex-col w-full h-screen'>
         <div className='w-full h-full relative'>
-            <Image alt="ksiadz proboszcz ogloszenia" fill objectFit='cover' src="/ogloszenia2.jpeg"/>
+            <Image alt="ksiadz proboszcz ogloszenia" fill objectFit='cover' src="/ogloszenianew1.jpeg"/>
         </div>
         <div className='bg-white w-full flex flex-col md:flex-row px-[5vw] md:py-[2vh] pt-[0] pb-[1vh] items-start md:items-center justify-between'>
             <h1 className='text-[55px] font-header2 font-bold text-black'>Ogłoszenia</h1>
