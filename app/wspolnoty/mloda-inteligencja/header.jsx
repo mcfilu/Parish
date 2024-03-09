@@ -5,12 +5,12 @@ const Header = () => {
   return (
     <div className='flex flex-col w-full h-screen'>
         <div className='w-full h-full relative'>
-            <Image alt="ksiadz proboszcz kazanie" fill objectFit='cover' src="/schola1.jpeg"/>
+            <Image alt="ksiadz proboszcz kazanie" fill objectFit='cover' src="/kim6.jpeg"/>
         </div>
         <div className='bg-white w-full flex flex-col md:flex-row px-[5vw] md:py-[2vh] pt-[0] pb-[1vh] items-start md:items-center justify-between'>
             <h1 className='text-[55px] font-header2 font-bold text-black'>Klub Młodej Inteligencji</h1>
             <div className='w-full md:w-[50%] h-full flex flex-col justify-center items-start'>
-                <p className='text-black text-[1.7vh]'>„Chrzcić” – oznacza zanurzać w wodzie. Każdy ochrzczony zostaje zanurzony w śmierci Chrystusa, z której powstaje przez zmartwychwstanie z Nim jako „nowe stworzenie” (2 Kor 5,17).</p>
+                <p className='text-black text-[1.7vh]'>Zapraszamy na spotkania Klubu Młodej Inteligencji.</p>
                 <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz Więcej</button>
             </div>
         </div>
