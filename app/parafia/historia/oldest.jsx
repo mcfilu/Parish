@@ -15,19 +15,19 @@ const Oldest = () => {
                     <p className='text-[4.5vh] font-header2'>Rok Fundacyjny</p>
                 </div>
                 <div>
-                    <p className='text-[4.5vh] font-header2'>15</p>
+                    <p className='text-[4.5vh] font-header2'>20</p>
                     <p className='text-[4.5vh] font-header2'>Liczba Proboszczy</p>
                 </div>
             </div>
             <div className='w-full flex md:hidden flex-col md:flex-row justify-between'>
                 <div className='mt-[2vh]'>
-                    <p className='text-[4.5vh] text-center font-header2'>Rok Zalozenia</p>
+                    <p className='text-[4.5vh] text-center font-header2'>Rok Fundacyjny</p>
                     <p className='text-[7.5vh] text-center mt-[1vh] font-header2'>1738</p>
                     
                 </div>
                 <div>
                     <p className='text-[4.5vh] text-center font-header2 mt-[5vh]'>Liczba Proboszczy</p>
-                    <p className='text-[7.5vh] text-center mt-[1vh] font-header2'>15</p>
+                    <p className='text-[7.5vh] text-center mt-[1vh] font-header2'>20</p>
                     
                 </div>
             </div>
