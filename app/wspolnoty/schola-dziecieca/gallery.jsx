@@ -11,10 +11,10 @@ const Gallery = () => {
                 <Image src="/rodz2.jpeg" alt="zdjecie schola" fill objectFit='cover'/>
             </div>
             <div className='relative h-full w-full'>
-                <Image src="/rodz3.jpeg" alt="zdjecie schola" fill objectFit='cover'/>
+                <Image src="/scholar1.jpg" alt="zdjecie schola" fill objectFit='cover'/>
             </div>
             <div className='relative h-full w-full'>
-                <Image src="/rodz4.jpeg" alt="zdjecie schola" fill objectFit='cover'/>
+                <Image src="/scholar2.jpg" alt="zdjecie schola" fill objectFit='cover'/>
             </div>
             <div className='relative h-full w-full'>
                 <Image src="/rodz5.jpeg" alt="zdjecie schola" fill objectFit='cover'/>
