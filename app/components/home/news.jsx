@@ -35,7 +35,7 @@ const News = () => {
             return data
         })
         .then(data => {
-            loadImages(data[0].id, data[1].id), data[2].id})
+            loadImages(data[0].id, data[1].id, data[2].id)})
     }, []);
 
   return (
