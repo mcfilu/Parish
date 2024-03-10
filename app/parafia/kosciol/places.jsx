@@ -182,12 +182,12 @@ Sakrament Pokuty i Pojednania.</p>
         </div>
         <div className='flex flex-col md:flex-row w-full  my-[5vh]'>
             <div className='hidden md:flex w-full md:w-1/2 h-[50vh] relative'>
-                <Image fill objectFit='cover' className='pr-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/oltarz.jpeg"/>
+                <Image fill objectFit='cover' className='pr-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/organy.jpeg"/>
             </div>
             <div className="md:pl-[5vw] w-full md:w-1/2 h-full flex flex-col justify-center">
                 <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Organy</h2>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
-                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/oltarz.jpeg"/>
+                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/organy.jpeg"/>
                 </div>
                 <p className='pt-[2vh]'>Na chórze muzycznym podpartym arkadową ścianą z dwiema kolumnami korynckimi
 i filarami po bokach, znajdują się posiadające 13 głosów organy piszczałkowe, z trakturą
