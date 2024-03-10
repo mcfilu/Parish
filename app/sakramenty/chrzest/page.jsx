@@ -15,9 +15,10 @@ const Page = () => {
         <Header/>
         <Intro/>
         {/* <Detailed/> */}
+        <Banner/>
         <Gallery/>
         {/* <Day/> */}
-        <Banner/>
+        
         {/* <Faqs/> */}
         {/* <Documents/> */}
         <Footer/>

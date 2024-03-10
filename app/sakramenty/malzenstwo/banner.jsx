@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className='flex flex-col justify-between w-full px-[5vw]  bg-dark text-white items-center py-[5vh]'>
          <h2 className='text-[5.5vh] font-header2 text-center'>Ślub W Naszej Parafii</h2>
-        <div className='flex flex-col md:flex-row w-full justify-between items-center mt-[5vh]'>
+        <div className='flex flex-col md:flex-col w-full justify-between items-center mt-[5vh]'>
 
         <p className='w-full md:w-[40%]'>Należy do kancelarii parafialnej dostarczyć aktualny ( dokument jest ważny
 tylko 6 miesięcy) odpis aktu chrztu.</p>
