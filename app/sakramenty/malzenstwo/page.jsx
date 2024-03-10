@@ -17,7 +17,7 @@ const Page = () => {
         {/* <Detailed/> */}
         <Gallery/>
         {/* <Day/> */}
-        {/* <Banner/> */}
+        <Banner/>
         {/* <Faqs/> */}
         {/* <Documents/> */}
         <Footer/>

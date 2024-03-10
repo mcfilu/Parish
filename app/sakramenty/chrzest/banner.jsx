@@ -3,13 +3,31 @@ import React from 'react'
 const Banner = () => {
   return (
     <div className='flex flex-col justify-between w-full px-[5vw]  bg-dark text-white items-center py-[5vh]'>
-         <h2 className='text-[5.5vh] font-header2 text-center'>Chrzest W Naszej Parafii</h2>
+         <h2 className='text-[5.5vh] font-header2 text-center'>Warunki przystąpienia do chrztu</h2>
         <div className='flex flex-col md:flex-row w-full justify-between items-center mt-[5vh]'>
 
-        <p className='w-full md:w-[40%]'>– w pierwszą, trzecią i piątą niedzielę miesiąca po Mszy świętej o 12.00 (rodzice i chrzestni uczestniczą we Mszy, a po niej sprawowany jest sakrament),
-– w drugą i czwartą niedzielę miesiąca podczas Mszy świętej o 12.00
-W wyjątkowych przypadkach, po indywidualnej decyzji Księdza Proboszcza, istnieje możliwość udzielenia sakramentu chrztu świętego w sobotę po Mszy świętej o 12.00 (za wyjątkiem pierwszej soboty miesiąca i innych uroczystości odbywających się w Świątyni).</p>
-        <p className='w-full md:w-[40%] mt-[3vh] md:mt-0'>Termin chrztu jest ustalany wyłącznie w kancelarii parafialnej. Nie ustalamy terminu chrztu telefonicznie, drogą elektroniczną, ani w zakrystii. Zgłoszenie chrztu powinno się odbyć napóźniej w tygodniu przed planowanym terminem chrztu świętego.</p>
+        <p className='w-full md:w-[40%]'>Do rodziców należy obowiązek pobudzania i wychowania dzieci do wiary. Do
+rodziców bowiem należy początek chrześcijańskiej inicjacji dziecka i nauczenie
+go kochania Chrystusa, a także uformowanie chrześcijańskiego sumienia.</p>
+        <p className='w-full md:w-[40%] mt-[3vh] md:mt-0'>Zdarza się, że mało wierzący i tylko przygodnie praktykujący rodzice zwracają
+się do księdza o chrzest swych dzieci.</p>
+        <p className='w-full md:w-[40%] mt-[3vh] md:mt-0'>Kościół nie może spełnić życzenia tych rodziców, jeśli nie zagwarantują oni, że
+dziecko po chrzcie otrzyma takie katolickie wychowanie, jakiego sakrament
+wymaga. Kościół musi mieć podstawy do nadziei, że chrzest wyda swoje
+owoce.</p>
+        <p className='w-full md:w-[40%] mt-[3vh] md:mt-0'>Jeśli udzielone gwarancje – np. wybór rodziców chrzestnych, którzy poważnie
+zajmą się dzieckiem są wystarczające, udziela się chrztu. Lecz jeśli gwarancje
+nie są wystarczające, chrzest zostaje odroczony aż rodzice spełnią wymagane
+od nich a konieczne do udzielenia chrztu warunki.</p>
+        <p className='w-full md:w-[40%] mt-[3vh] md:mt-0'>Jeżeli jednak również i takie rozwiązanie nie byłoby możliwe, dziecko powinno
+przejść katechumenat w okresie szkolnym.</p>
+        <p className='w-full md:w-[40%] mt-[3vh] md:mt-0'>Chrzestny ( może być tylko jeden chrzestny!) reprezentuje odpowiedzialność i
+miłość pasterską Kościoła od zarania życia nowego człowieka. Spełnianie tego
+zadania jest możliwe tylko wtedy, gdy rodzice chrzestni we własnym życiu są
+świadkami Chrystusa, żyjącymi wiarą na co dzień.</p>
+        <p className='w-full md:w-[40%] mt-[3vh] md:mt-0'>Do przyjęcia zadania chrzestnego może być więc dopuszczony ten, kto przyjął
+trzy sakramenty wtajemniczenia: chrzest, bierzmowanie i Eucharystię oraz
+prowadzi życie zgodne z wiarą i z zadaniem, jakie ma pełnić.</p>
         </div>
     </div>
   )
