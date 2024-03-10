@@ -9,7 +9,7 @@ const Places = () => {
             <div className="pr-[5vw] w-full md:w-1/2 h-full flex flex-col justify-center">
                 <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Przedsionek Kościoła</h2>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
-                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/boczna.jpeg"/>
+                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/przedsionek.jpeg"/>
                 </div>
                 <p className='pt-[2vh]'>Do świątyni prowadzą drzwi główne (pierwotnie nad nimi znajdował się napis
 fundacyjny: Imperante Nicolao I. Anno MDCCCXLIX – Panowania Mikołaja I Roku 1849)
@@ -24,17 +24,17 @@ rozstrzelanych przy Hali Mirowskiej 8 sierpnia 1944 r.</p>
                 
             </div>
             <div className='hidden md:flex w-full md:w-1/2 h-[50vh] relative'>
-                <Image fill objectFit='cover' className='md:pl-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/boczna.jpeg"/>
+                <Image fill objectFit='cover' className='md:pl-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/przedsionek.jpeg"/>
             </div>
         </div>
         <div className='flex flex-col md:flex-row w-full  my-[5vh]'>
             <div className='hidden md:flex w-full md:w-1/2 h-[50vh] relative'>
-                <Image fill objectFit='cover' className='pr-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawa.jpeg"/>
+                <Image fill objectFit='cover' className='pr-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawaglowna.jpeg"/>
             </div>
             <div className="md:pl-[5vw] w-full md:w-1/2 h-full flex flex-col justify-center">
                 <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Nawa Główna</h2>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
-                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawa.jpeg"/>
+                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawaglowna.jpeg"/>
                 </div>
                 <p className='pt-[2vh]'>Nawa główna jest odzielona od naw bocznych za pomocą 22 wyżłobionych,
 żeliwnych kolumn w stylu korynckim odlanych w fabryce Machin Żelaznych Banku
@@ -56,7 +56,7 @@ hutniczych w Chlewiskach. </p>
             <div className="pr-[5vw] w-full md:w-1/2 h-full flex flex-col justify-center">
                 <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Prezbiterium</h2>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
-                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/boczna.jpeg"/>
+                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/prezbiterium.jpeg"/>
                 </div>
                 <p className='pt-[2vh]'>Prezbiterium od nawy głównej jest wydzielone za pomocą balasek. Z prawej strony
 znajduje się drewniany pulpit oraz chrzcielnica, nad którą umieszczono ciężarek w kształcie
@@ -80,17 +80,17 @@ od 1844 roku znajdowała się niedaleko kościoła, na ulicy Elektoralnej 16.</p
                 
             </div>
             <div className='hidden md:flex w-full md:w-1/2 h-[50vh] relative'>
-                <Image fill objectFit='cover' className='md:pl-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/boczna.jpeg"/>
+                <Image fill objectFit='cover' className='md:pl-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/prezbiterium.jpeg"/>
             </div>
         </div>
         <div className='flex flex-col md:flex-row w-full  my-[5vh]'>
             <div className='hidden md:flex w-full md:w-1/2 h-[50vh] relative'>
-                <Image fill objectFit='cover' className='pr-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawa.jpeg"/>
+                <Image fill objectFit='cover' className='pr-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/oltarz.jpeg"/>
             </div>
             <div className="md:pl-[5vw] w-full md:w-1/2 h-full flex flex-col justify-center">
                 <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Obraz św. Andrzeja Apostoła</h2>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
-                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawa.jpeg"/>
+                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/oltarz.jpeg"/>
                 </div>
                 <p className='pt-[2vh]'>Obecnie wzrok wiernych w prezbiterium przykuwa obraz „Męczeństwo św. Andrzeja
 Apostoła” (1662), pędzla „Śląskiego Rembrandta” Michaela Willmanna (1630-1706). Obraz
@@ -113,7 +113,7 @@ hutniczych w Chlewiskach. </p> */}
             <div className="pr-[5vw] w-full md:w-1/2 h-full flex flex-col justify-center">
                 <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Prawa Nawa Boczna</h2>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
-                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/boczna.jpeg"/>
+                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawaprawa.jpeg"/>
                 </div>
                 <p className='pt-[2vh]'>W prawej nawie przy wejściu do świątyni znajduje się dębowy konfesjonał, nad
 którym w 1890 r. wmurowano wykonaną z czarnego marmuru tablicę poświęconą
@@ -131,17 +131,17 @@ jest obraz św. Judy Tadeusza.</p>
                 
             </div>
             <div className='hidden md:flex w-full md:w-1/2 h-[50vh] relative'>
-                <Image fill objectFit='cover' className='md:pl-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/boczna.jpeg"/>
+                <Image fill objectFit='cover' className='md:pl-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawaprawa.jpeg"/>
             </div>
         </div>
         <div className='flex flex-col md:flex-row w-full  my-[5vh]'>
             <div className='hidden md:flex w-full md:w-1/2 h-[50vh] relative'>
-                <Image fill objectFit='cover' className='pr-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/oltarz.jpeg"/>
+                <Image fill objectFit='cover' className='pr-[5vw]' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawalewa.jpeg"/>
             </div>
             <div className="md:pl-[5vw] w-full md:w-1/2 h-full flex flex-col justify-center">
                 <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Lewa Nawa Boczna</h2>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
-                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/oltarz.jpeg"/>
+                    <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawalewa.jpeg"/>
                 </div>
                 <p className='pt-[2vh]'>W lewej nawie przy wejściu do świątyni znajduje się dębowy konfesjonał, nad nim
 zapewne od 70-tych lat XIX w. umieszczona jest murowana płyta upamiętniająca Feliksa
