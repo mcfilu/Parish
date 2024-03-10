@@ -11,7 +11,7 @@ const News = () => {
     const [img2, setImg2] = useState(null)
     const [img3, setImg3] = useState(null)
 
-    function loadImages(id1, id2) {
+    function loadImages(id1, id2, id3) {
         fetch(`https://parafia.bieda.it/api/ogloszenia/${id1}?populate=*`)
         .then(res => res.json())
         .then(data => setImg1('https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url))
@@ -20,6 +20,10 @@ const News = () => {
         .then(res => res.json()) 
         .then(data => setImg2('https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url))
 
+        fetch(`https://parafia.bieda.it/api/ogloszenia/${id3}?populate=*`)
+        .then(res => res.json()) 
+        .then(data => setImg3('https://parafia.bieda.it' + data.data.attributes.tlo.data.attributes.url))
+
         console.log('laduje zdjecia')
     }
     
@@ -27,11 +31,11 @@ const News = () => {
         fetch('https://parafia.bieda.it/api/ogloszenia-last-two/')
         .then(res => res.json())
         .then(data => {
-            setNews([data[0], data[1]])
+            setNews([data[0], data[1], data[2]])
             return data
         })
         .then(data => {
-            loadImages(data[0].id, data[1].id)})
+            loadImages(data[0].id, data[1].id), data[2].id})
     }, []);
 
   return (
@@ -69,16 +73,16 @@ const News = () => {
                     </div>
                 </div>
                 <div className='w-3/4 md:w-[25%] px-[0.5vw] mx-[1vw] py-[1vh] h-full flex flex-col justify-center hover:bg-slate-200 mt-[3vh] md:mt-0'>
-                    <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[0].tytul}</h3>
+                    <h3 className='font-bold text-[30px] mb-[1vh] text-center font-header2'>{news[2].tytul}</h3>
                     <div className='w-full h-[25vh] md:h-[30vh] relative '>
-                    {img1 !== null ? (
-                            <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img1} /></Link>
+                    {img3 !== null ? (
+                            <Link href={`/aktualnosci/ogloszenia/${news[2].id}`}><Image alt="tlo aktualnosci" fill objectFit='cover' src={img3} /></Link>
                         ) : null}
                     </div>
-                    <p className='mt-[2vh] text-[1.8vh]'>{news[0].skrot_tresci}</p>
+                    <p className='mt-[2vh] text-[1.8vh]'>{news[2].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
-                    <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}>Czytaj Więcej</Link>
-                    <p>{news[0].data}</p>
+                    <Link href={`/aktualnosci/ogloszenia/${news[2].id}`}>Czytaj Więcej</Link>
+                    <p>{news[2].data}</p>
                     </div>
                 </div>
             </div>
