@@ -8,7 +8,7 @@ const Gallery = () => {
         </div>
         <div className='grid grid-cols-2 h-full gap-4'>
             <div className='relative'>
-                <Image src="/schola3.jpeg" alt="zdjecie schola" fill objectFit='cover'/>
+                <Image src="/chor12.jpeg" alt="zdjecie schola" fill objectFit='cover'/>
             </div>
             <div className='relative h-full w-full'>
                 <Image src="/schola6.jpeg" alt="zdjecie schola" fill objectFit='cover'/>
