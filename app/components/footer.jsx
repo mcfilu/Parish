@@ -37,7 +37,7 @@ const Footer = () => {
                     <p className='mt-[2vh]'>7:00</p>
                     <p>8:30</p>
                     <p>10:00</p>
-                    <p>11:30</p>
+                    <p>11:30 (Rodzinna)</p>
                     <p>13:00</p>
                     <p>18:00</p>
                 </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                     <p className='mt-[2vh]'>7:00</p>
                     <p>8:30</p>
                     <p>10:00</p>
-                    <p>11:30</p>
+                    <p>11:30 (Rodzinna)</p>
                     <p>13:00</p>
                     <p>18:00</p>
                 </div>
@@ -129,7 +129,8 @@ const Footer = () => {
                 
                 </div>
                 <div className=' mt-[1vh] w-full flex flex-col'>
-                    <p className='text-center'>© 2023 – Wszelkie prawa zastrzeżone</p>
+                    <p className='text-center'><Link href="/bibliografia">Bibliografia zdjęć</Link></p>
+                    <p className='text-center mt-[1vh]'>© 2023 – Wszelkie prawa zastrzeżone</p>
                     <p className='mt-[1vh] text-center'>Developed by - <a href='https://filipolszewski.co.uk'>Filip Olszewski</a></p>
                 </div>
             
