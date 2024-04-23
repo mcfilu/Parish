@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -61,7 +62,8 @@ const Footer = () => {
             </div>
             </div>
             <div className=' mt-[1vh] w-full hidden md:flex flex-col'>
-                <p className='text-center'>© 2023 – Wszelkie prawa zastrzeżone</p>
+            <p className='text-center'><Link href="/bibliografia">Bibliografia zdjęć</Link></p>
+                <p className='text-center mt-[1vh]'>© 2023 – Wszelkie prawa zastrzeżone</p>
                 <p className='mt-[1vh] text-center'>Developed by - <a href='https://filipolszewski.co.uk'>Filip Olszewski</a></p>
             </div>
             <div className='flex md:hidden flex-col w-full '>
