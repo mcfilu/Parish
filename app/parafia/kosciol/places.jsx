@@ -62,10 +62,7 @@ hutniczych w Chlewiskach. </p>
 znajduje się drewniany pulpit oraz chrzcielnica, nad którą umieszczono ciężarek w kształcie
 gołębicy. Przy ścianie wisi tablica upamiętniająca, że w parafii św. Andrzeja Apostoła
 sakrament chrztu przyjęła bł. Franciszka Józefa Anna Siedliska założycielka Zgromadzenia
-Sióstr Najśw. Rodziny z Nazaretu. (Należy doprecyzować, że błogosławiona prawdopodobnie
-
-4
-chrzest przyjęła w kościele św. Antoniego z Padwy przy ul. Senatorskiej, gdzie tymczasowo
+Sióstr Najśw. Rodziny z Nazaretu. (Należy doprecyzować, że błogosławiona prawdopodobnie chrzest przyjęła w kościele św. Antoniego z Padwy przy ul. Senatorskiej, gdzie tymczasowo
 znajdowała się parafia św. Andrzeja Apostoła).</p>
                 <p className='pt-[2vh] text-black text-[1.7vh]'>Na środku nawy poprzecznej, którego przedłużenie stanowi z lewej strony zakrystia
 nad którą znajduje się górna loża (dawny skarbiec), a z prawej wnęka po dawnej kaplicy
@@ -166,7 +163,7 @@ Analogicznie jak w prawej nawie zostało umieszczonych 7 stacji Drogi Krzyżowej
         <div className='flex flex-col md:flex-row w-full  my-[5vh]'>
             
             <div className="pr-[5vw] w-full md:w-1/2 h-full flex flex-col justify-center">
-                <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Dolny Kosciol</h2>
+                <h2 className='text-[4.5vh] font-header2 text-center md:text-left'>Dolny Kościół</h2>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/piwnica.jpeg"/>
                 </div>

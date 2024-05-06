@@ -16,15 +16,15 @@ de Lorette, który powstał według zaleceń dotyczących sztuki sakralnej zawar
 św. Karola Boromeusza. Kościół ma korpus trójnawowy, bazylikowy zakończony
 półkolistym prezbiterium zamkniętym absydą. Fasada otoczona jest dwiema wieżami
 (zegarową i dzwonnicą) oraz poprzedzona trójarkadowym portykiem. </p>
-            <p className='mt-[3vh]'>Przed schodami świątyni znajdują się wapienne statuty doktorów Kościoła od lewej:
+            <p className='mt-[3vh]'>Przed schodami świątyni znajdują się wapienne statuy doktorów Kościoła od lewej:
 św. Hieronima (dłuta Pawła Malińskiego), św. Ambrożego, św. Augustyna (Ludwika
 Kauffmana) i św. Grzegorza Wielkiego (Pawła Malińskiego). Do głównego wejścia świątyni
 prowadzi 12 stopni schodów wielkich. Po nich następuje trójarkadowy przedsionek, który
 zdobią cztery wyżłobione żeliwne kolumny, na których oparta jest fasada z frontonem
 głównym z trzema półkoliście zamkniętymi oknami przedzielonymi pilastrami
 i  zwieńczonym tympanonem. Po obu stronach fasady stoją statuy apostołów św. Piotra
-i   Pawła wyrzeźbione przez Ludwika Kauffmana. Na fryzie frontonu głównego umieszczono
-napis: Bogu cześć świętemu Karolowi Boromeuszowi sława wiernym zbawienie. Fronton
+i św. Pawła wyrzeźbione przez Ludwika Kauffmana. Na fryzie frontonu głównego umieszczono
+napis: <span className='italic'>Bogu cześć świętemu Karolowi Boromeuszowi sława wiernym zbawienie</span>. Fronton
 zwieńczono tympanonem z płaskorzeźbą Ludwika Kauffmana przedstawiającą św. Karola
 Boromeusza udzielającego komunii św. ludowi podczas zarazy w Mediolanie w 1576 roku.
 Kolejne dwa tympanony znajdujące się od strony północnej i wschodniej ozdobiono
@@ -34,10 +34,7 @@ Boromeusza głoszącego kazanie ludowi oraz rozdającego jałmużnę.</p>
 płaskorzeźby przedstawiające klęczące anioły. Nowym elementem z 2023 r. jest witraż
 w  oknie zakrystii przedstawiający św. Franciszka z Asyżu.</p>
 <p className='mt-[3vh]'>Po obu stronach kościoła pomiędzy pilastrami wykonano w ścianach 20 nisz na figury
-świętych i błogosławionych otaczanych kultem na ziemiach polskich. W niszach od strony ul.
-
-3
-Elektoralnej znajdują się kolejno: św. Kazimierz (Józefa Mantzla), św. Stanisław Biskup, św.
+świętych i błogosławionych otaczanych kultem na ziemiach polskich. W niszach od strony ul. Elektoralnej znajdują się kolejno: św. Kazimierz (Józefa Mantzla), św. Stanisław Biskup, św.
 Bronisława (Pawła Malińskiego), św. Wojciech (Daniela Zalewskiego), św. Jan Kanty, św.
 Józef ONMP (Tadeusza Czajkowskiego), św. Kunegunda, św. Stanisław Kostka, św. Jadwiga,
 św. Salomea (Pawła Malińskiego). Natomiast od ul. Chłodnej rzeźby zostały ustawione
@@ -47,7 +44,7 @@ z  Dukli, św. Barbara, św. Roch i św. Florian (Teofila Godeckiego). Od umies
 świętych patronów polskich w niszach na zewnątrz kościoła w świadomości warszawiaków
 zrodziło się powiedzenie, że Jest to jeden z najmniejszych kościołów Warszawy, bo wszyscy
 święci stoją na zewnątrz.</p>
-<p className='mt-[3vh]'>Przed kościołem od strony fasady znajduje się również od 1890 r. statua z brązu
+<p className='mt-[3vh] text-left'>Przed kościołem od strony fasady znajduje się również od 1890 r. statua z brązu
 Matki Bożej Łaskawej.</p>
         </div>
     </div>
