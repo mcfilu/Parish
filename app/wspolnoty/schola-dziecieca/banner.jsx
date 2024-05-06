@@ -16,6 +16,10 @@ const Banner = () => {
           <p className='text-white text-[1.7vh] mt-[1vh]'>- angażujemy się ile sił w ćwiczenia – u nas każdy głos jest najważniejszy</p>
           <p className='text-white text-[1.7vh] mt-[1vh]'>- nie mamy granic wiekowych, a przykład starszych wspomaga młodszych w śpiewaniu</p>
         </div>
+        <h2 className='text-[5.5vh] font-header2 text-center mt-[2vh]'>Informacje Kontaktowe</h2>
+        <p className='text-white text-[1.7vh] mt-[1vh]'>„Spotkania odbywają się w każdą niedzielę przed rodzinną Mszą św., o godzinie 10:27, w
+salce na plebanii, domofon nr 9.</p>
+        <p className='text-white text-[1.7vh] mt-[1vh]'>KONTAKT: Janusz Piechocki tel. +48 530 539 082</p>
         </div>
     </div>
   )
