@@ -11,16 +11,16 @@ const Places = () => {
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/przedsionek.jpeg"/>
                 </div>
-                <p className='pt-[2vh]'>Do świątyni prowadzą drzwi główne (pierwotnie nad nimi znajdował się napis
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Do świątyni prowadzą drzwi główne (pierwotnie nad nimi znajdował się napis
 fundacyjny: Imperante Nicolao I. Anno MDCCCXLIX – Panowania Mikołaja I Roku 1849)
 oraz dwoje drzwi bocznych. Po obu stronach wejścia do kościoła znajdują się kropielnice w
 kształcie muszli podpartych serafinami, wykonane z białego marmuru przez Ludwika
 Kauffmana. Na ścianach przedsionka znajdują się krzyż roku jubileuszowego 1900 oraz trzy
 tablice upamiętniające:</p>
-                <p className='pt-[2vh]'>- Żołnierzy Armii Krajowej powstańczych oddziałów specjalnych „Jerzyki”</p>
-                <p className='pt-[2vh]'>- Franciszka i Sławomira Cudników, Stefana Goetze i Stanisława Świderskiego
+                <p className='pt-[2vh] text-black text-[1.7vh]'>- Żołnierzy Armii Krajowej powstańczych oddziałów specjalnych „Jerzyki”</p>
+                <p className='pt-[2vh] text-black text-[1.7vh]'>- Franciszka i Sławomira Cudników, Stefana Goetze i Stanisława Świderskiego
 rozstrzelanych przy Hali Mirowskiej 8 sierpnia 1944 r.</p>
-                <p className='pt-[2vh]'>- Jeana de Lattre de Tassigny - dowódcę 1 Armii Francuskiej i Marszałka Francji</p>
+                <p className='pt-[2vh] text-black text-[1.7vh]'>- Jeana de Lattre de Tassigny - dowódcę 1 Armii Francuskiej i Marszałka Francji</p>
                 
             </div>
             <div className='hidden md:flex w-full md:w-1/2 h-[50vh] relative'>
@@ -36,7 +36,7 @@ rozstrzelanych przy Hali Mirowskiej 8 sierpnia 1944 r.</p>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawaglowna.jpeg"/>
                 </div>
-                <p className='pt-[2vh]'>Nawa główna jest odzielona od naw bocznych za pomocą 22 wyżłobionych,
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Nawa główna jest odzielona od naw bocznych za pomocą 22 wyżłobionych,
 żeliwnych kolumn w stylu korynckim odlanych w fabryce Machin Żelaznych Banku
 Polskiego na Solcu. Świątynia była pierwszym kościołem w Królestwie Polskim, w którym
 zastosowano konstrukcje i wystrój wykonany z lanych odlewów żeliwnych. Na kolumnach
@@ -45,7 +45,7 @@ główna przykryta jest płaskim sklepieniem ozdobionym gipsowymi kasetonami i r
 autorstwa Ferranta Marconiego- brata archiktekta świątyni, a następnie od 1887 r.
 modrzewiowymi kasetonami z ozdobami architektonicznymi z blachy cynkowej w formie
 rozłożonych kwiatów zaprojektowanymi przez Juliusza Bryzemajstera. </p>
-                <p className='pt-[2vh]'>Po lewej stronie nawy głównej znajduje się ambona żeliwna w kształcie kielicha
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Po lewej stronie nawy głównej znajduje się ambona żeliwna w kształcie kielicha
 ufundowana przez Salwina Jakubowskiego i odlana przez Jana Lindera w zakładach
 hutniczych w Chlewiskach. </p>
                 
@@ -58,7 +58,7 @@ hutniczych w Chlewiskach. </p>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/prezbiterium.jpeg"/>
                 </div>
-                <p className='pt-[2vh]'>Prezbiterium od nawy głównej jest wydzielone za pomocą balasek. Z prawej strony
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Prezbiterium od nawy głównej jest wydzielone za pomocą balasek. Z prawej strony
 znajduje się drewniany pulpit oraz chrzcielnica, nad którą umieszczono ciężarek w kształcie
 gołębicy. Przy ścianie wisi tablica upamiętniająca, że w parafii św. Andrzeja Apostoła
 sakrament chrztu przyjęła bł. Franciszka Józefa Anna Siedliska założycielka Zgromadzenia
@@ -67,7 +67,7 @@ Sióstr Najśw. Rodziny z Nazaretu. (Należy doprecyzować, że błogosławiona 
 4
 chrzest przyjęła w kościele św. Antoniego z Padwy przy ul. Senatorskiej, gdzie tymczasowo
 znajdowała się parafia św. Andrzeja Apostoła).</p>
-                <p className='pt-[2vh]'>Na środku nawy poprzecznej, którego przedłużenie stanowi z lewej strony zakrystia
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Na środku nawy poprzecznej, którego przedłużenie stanowi z lewej strony zakrystia
 nad którą znajduje się górna loża (dawny skarbiec), a z prawej wnęka po dawnej kaplicy
 Matki Bożej, został ustawiony marmurowy ołtarz. Pierwotnie ołtarz główny znajdował się
 w  absydzie kościoła, natomiast po Soborze Watykańskim II i wprowadzonych zmianach
@@ -92,7 +92,7 @@ od 1844 roku znajdowała się niedaleko kościoła, na ulicy Elektoralnej 16.</p
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/oltarz.jpeg"/>
                 </div>
-                <p className='pt-[2vh]'>Obecnie wzrok wiernych w prezbiterium przykuwa obraz „Męczeństwo św. Andrzeja
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Obecnie wzrok wiernych w prezbiterium przykuwa obraz „Męczeństwo św. Andrzeja
 Apostoła” (1662), pędzla „Śląskiego Rembrandta” Michaela Willmanna (1630-1706). Obraz
 pierwotnie znajdował się w kościele Wniebowzięcia NMP, w Lubiążu na Dolnym Śląsku,
 a   po II wojnie światowej w 1952 r. umiejscowiony został w kościele św. Karola
@@ -115,7 +115,7 @@ hutniczych w Chlewiskach. </p> */}
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawaprawa.jpeg"/>
                 </div>
-                <p className='pt-[2vh]'>W prawej nawie przy wejściu do świątyni znajduje się dębowy konfesjonał, nad
+                <p className='pt-[2vh] text-black text-[1.7vh]'>W prawej nawie przy wejściu do świątyni znajduje się dębowy konfesjonał, nad
 którym w 1890 r. wmurowano wykonaną z czarnego marmuru tablicę poświęconą
 proboszczom parafii z lat 1774-1913. Pod nią została umieszczona kolejna marmurowa
 tablica upamiętniająca proboszczów od 1913 r. do czasów współczesnych. Oprócz
@@ -123,7 +123,7 @@ powyższych w latach 90-tych XIX w. powieszono tam tablice memoratywne rodziny
 Dyamentów i Śmiechowskich, natomiast pozostałe tablice z II poł. XX w. upamiętniają Marię
 Pędzikowską – łączniczkę powstania warszawskiego i Romana Theimera – redaktora
 „Wiadomości Mirowa”.</p>
-                <p className='pt-[2vh]'>Prawa nawa boczna przechodzi w dawną kaplicę Matki Boskiej wysadzoną w styczniu
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Prawa nawa boczna przechodzi w dawną kaplicę Matki Boskiej wysadzoną w styczniu
 1945 r. przez Niemców. w wyniku ich działania utracono obraz Luigiego Rubio „Matka Boża
 z Dzieciątkiem Jezus i patronami parafii wolskiej św. Wawrzyńcem i Stanisławem” oraz
 obraz hrabiny de Larnay przedstawiający fundatorkę świątyni. Obecnie znajduje się tu ołtarz boczny z figurami św. Antoniego, św. Stanisława i św. Wojciecha, zaś na ścianie zawieszony
@@ -143,7 +143,7 @@ jest obraz św. Judy Tadeusza.</p>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/nawalewa.jpeg"/>
                 </div>
-                <p className='pt-[2vh]'>W lewej nawie przy wejściu do świątyni znajduje się dębowy konfesjonał, nad nim
+                <p className='pt-[2vh] text-black text-[1.7vh]'>W lewej nawie przy wejściu do świątyni znajduje się dębowy konfesjonał, nad nim
 zapewne od 70-tych lat XIX w. umieszczona jest murowana płyta upamiętniająca Feliksa
 Rosińskiego (1797-1873) – radcę stanu, zaś po bokach zawieszczone są tablice poświęcone
 pamięci Henryka Korzóna (1866-1892) – inżyniera technologii oraz Piotra Neymana (1817-
@@ -170,7 +170,7 @@ Analogicznie jak w prawej nawie zostało umieszczonych 7 stacji Drogi Krzyżowej
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/piwnica.jpeg"/>
                 </div>
-                <p className='pt-[2vh]'>Świątynia posiada również dolny kościół pełniący kiedyś funkcję kaplicy
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Świątynia posiada również dolny kościół pełniący kiedyś funkcję kaplicy
 przedpogrzebowej, obecnie jest to kaplica Miłosierdzia Bożego, w której można przyjąć
 Sakrament Pokuty i Pojednania.</p>
                 {/* <p className='pt-[2vh]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> */}
@@ -189,7 +189,7 @@ Sakrament Pokuty i Pojednania.</p>
                 <div className='flex md:hidden w-full md:w-1/2 h-[40vh] relative my-[1vh]'>
                     <Image fill objectFit='cover' className='' alt="zdjecie ilustrujace miejsce w kosciele" src="/organy.jpeg"/>
                 </div>
-                <p className='pt-[2vh]'>Na chórze muzycznym podpartym arkadową ścianą z dwiema kolumnami korynckimi
+                <p className='pt-[2vh] text-black text-[1.7vh]'>Na chórze muzycznym podpartym arkadową ścianą z dwiema kolumnami korynckimi
 i filarami po bokach, znajdują się posiadające 13 głosów organy piszczałkowe, z trakturą
 pneumatyczną. Zostały one w 1957 r. złożone przez Józefa Pacewicza z używanych części
 sprowadzonych z Wrocławia. W 2013 roku organy zostały wyłączone z użytku i zastąpione
