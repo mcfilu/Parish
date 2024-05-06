@@ -70,8 +70,8 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/teren">Teren Parafii</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/ciekawostki">Ciekawostki w Parafii</Link>
-                    <hr className='mt-[1vh] mb-[1vh] border-1'/>
+                    {/* <Link onClick={closeReset} href="/parafia/ciekawostki">Ciekawostki w Parafii</Link> */}
+                    {/* <hr className='mt-[1vh] mb-[1vh] border-1'/> */}
                     <Link onClick={closeReset} href="/parafia/kancelaria">Kancelaria</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/galeria">Galeria</Link>
