@@ -19,7 +19,8 @@ const Chronology = () => {
                 <div className='flex md:hidden w-full h-[40vh] relative mt-[2vh]'>
                     <Image className='md:py-[1vh] md:pb-[7vh]' fill objectFit='cover' alt="zdjecie historyczne" src="/historia1.jpg"/>
                 </div>
-                <p className='mt-[3vh]'>Początkowo kościół zgodnie z wolą fundatorki miał służyć przedmieściom Warszawy
+                <p className='mt-[3vh]'>Początkowo kościół zgodnie z wolą fundatorki Klementyny z Sanguszków
+Małachowskiej miał służyć przedmieściom Warszawy
 i parafii wolskiej pozbawionej w wyniku represji po powstaniu listopadowym kościoła
 parafialnego św. Wawrzyńca. Ostatecznie jednak Rząd Królestwa Polskiego postanowił
 oddać kościół pod zarząd administracyjny czwartej warszawskiej parafii św. Andrzeja
