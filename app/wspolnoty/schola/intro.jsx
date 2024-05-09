@@ -16,7 +16,7 @@ const Intro = () => {
             <p className='mt-[2vh] text-[1.7vh] mt-[1vh]'>Śpiewamy również „na zaproszenie” na różnych uroczystościach (np. śluby, pierwsze komunie, pogrzeby). Zebrane fundusze przeznaczamy wyłącznie na nasz rozwój – szkoląc nasze głosy pod kierownictwem specjalistów z Uniwersytetu Muzycznego im. Fryderyka Chopina lub na warsztatach organizowanych przez inne chóry i parafie.</p>
         </div>
         <div className='md:hidden h-[40vh] w-full mt-[5vh] relative'>
-            <Image className='pr-[5vw]' fill objectFit='cover' src="/schola4.jpeg" alt="schola"/>
+            <Image className='pr-[5vw]' fill objectFit='cover' src="/chor11.jpeg" alt="schola"/>
         </div>
     </div>
   )
