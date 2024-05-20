@@ -18,8 +18,12 @@ const Banner = () => {
         </div> */}
         <h2 className='text-[5.5vh] font-header2 text-center mt-[2vh]'>Informacje kontaktowe</h2>
         <div className='flex flex-col md:flex-row w-full justify-between items-center mt-[5vh]'>
-        <p className='text-white text-[1.7vh] mt-[1vh]'>„Spotkania odbywają się w każdą niedzielę przed rodzinną Mszą Św., o godzinie 10:27, w salce na plebanii, domofon nr 9.</p>
-        <p className='text-white text-[1.7vh] mt-[1vh]'>KONTAKT: Janusz Piechocki tel. +48 530 539 082</p>
+          <div className='w-full md:w-1/2 '>
+            <p className='text-white text-[1.7vh] mt-[1vh]'>„Spotkania odbywają się w każdą niedzielę przed rodzinną Mszą Św., o godzinie 10:27, w salce na plebanii, domofon nr 9.</p>
+          </div>
+          <div className='w-full md:w-1/2'>
+            <p className='text-white text-[1.7vh] mt-[1vh]'>KONTAKT: Janusz Piechocki tel. +48 530 539 082</p>
+          </div>
         </div>
     </div>
   )
