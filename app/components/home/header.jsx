@@ -8,7 +8,7 @@ const Header = () => {
 
         <h1 className='text-[6vh] md:text-[8.5vh] text-white font-header2'>Parafia Św. </h1>
         <h1 className='text-[6vh] md:text-[8.5vh] text-white font-header2'>Andrzeja Apostoła</h1>
-        <h1 className='text-[4.5vh] md:text-[5.5vh] font-header2 text-white mt-[5vh]'>Jedna z najstarszych Parafii w Warszawie</h1>
+        <h1 className='text-[4.5vh] md:text-[5.5vh] font-header2 text-white mt-[5vh]'>Jedna z najstarszych parafii w Warszawie</h1>
         {/* <h1 className='text-[5.5vh] font-header2 '>Parafii w Warszawie</h1> */}
             
             {/* <h1 className='text-[70px] font-header2'>Andrzeja Apostoła</h1> */}
