@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Intro2 = () => {
   return (
-    <div className='flex flex-col  w-full py-[5vh] md:py-[10vh] px-[5vw] bg-white'>
+    <div className='flex flex-col md:flex-row  w-full py-[5vh] md:py-[10vh] px-[5vw] bg-white'>
         <div className='md:hidden h-[40vh] w-full mb-[5vh] relative'>
             <Image className='pr-[5vw]' fill objectFit='cover' src="/rodz3.jpeg" alt="schola"/>
         </div>
