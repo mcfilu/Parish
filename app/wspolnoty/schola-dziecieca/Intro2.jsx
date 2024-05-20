@@ -7,9 +7,10 @@ const Intro2 = () => {
         <div className='md:hidden h-[40vh] w-full mb-[5vh] relative'>
             <Image className='pr-[5vw]' fill objectFit='cover' src="/rodz6.jpeg" alt="schola"/>
         </div>
-        <h2 className='text-[5.5vh] font-header2 text-center'>A na „szkole” śpiewania od kuchni…</h2>
-        <div className='flex flex-col w-full justify-center items-center mt-[5vh]'>
-            <div className='w-1/2 flex-col'>
+        
+        <div className='flex flex-col w-full md:w-1/2 justify-center items-center mt-[5vh]'>
+            <h2 className='text-[5.5vh] font-header2 text-center'>A na „szkole” śpiewania od kuchni…</h2>
+            <div className='w-full flex-col'>
                 <div className='w-full  flex flex-col'>
                     <p className='text-black text-[1.7vh]'>Przed:</p>
                     <p className='text-black text-[1.7vh] mt-[1vh]'>- przychodzimy punktualnie, chyba, że ktoś lubi przysiady …</p>
@@ -22,9 +23,10 @@ const Intro2 = () => {
                     <p className='text-black text-[1.7vh] mt-[1vh]'>- nie mamy granic wiekowych, a przykład starszych wspomaga młodszych w śpiewaniu</p>
                 </div> 
             </div>
-            <div className='w-1/2  relative'>
+            
+        </div>
+        <div className='w-1/2'>
                 <Image className='pr-[5vw]' fill objectFit='cover' src="/rodz6.jpeg" alt="schola"/>
-            </div>
         </div>
         
     </div>
