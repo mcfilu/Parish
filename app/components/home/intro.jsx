@@ -22,7 +22,7 @@ const Intro = () => {
         </div>
         <div className='hidden md:flex w-full w-1/2  relative'>
             <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill alt="historyczne zdjecie kosciola"/>
-            <p className='absolute right-10 bottom-10 text-black text-[1.8vh] z-20'>Projekt przebudowy kościoła wg A. Idzikowskiego</p>
+            {/* <p className='absolute right-10 bottom-10 text-black text-[1.8vh] z-20'>Projekt przebudowy kościoła wg A. Idzikowskiego</p> */}
         </div>
     </div>
   )
