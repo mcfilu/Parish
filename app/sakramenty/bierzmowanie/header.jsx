@@ -11,7 +11,7 @@ const Header = () => {
             <h1 className='text-[65px] font-header2'>Duch tchnie również dzisiaj</h1>
             <div className='w-[50%] h-full flex flex-col justify-center'>
                 <p>&ldquo;Całe dobro pochodzi od Ojca przez Syna, a dociera do nas dzięki Duchowi Świętemu&rdquo; (św. Bazyli)</p>
-                <button className='bg-dark text-white px-4 py-3 w-[20%] mt-[2vh]'>Zobacz Więcej</button>
+                <button className='bg-dark text-white px-4 py-3 w-[20%] mt-[2vh]'>Zobacz więcej</button>
             </div>
         </div>
     </div>

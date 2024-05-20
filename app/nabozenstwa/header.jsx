@@ -11,7 +11,7 @@ const Header = () => {
             <h1 className='text-[55px] font-header2 font-bold '>Msze Św. i nabożeństwa</h1>
             <div className='w-full md:w-[50%] h-full flex flex-col justify-center items-start'>
                 <p>&ldquo;Celebracja Mszy Świętej jest tak cenna, jak śmierć Jezusa na krzyżu.&rdquo; - św. Tomasz z Akwinu </p>
-                <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz Więcej</button>
+                <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz więcej</button>
             </div>
         </div>
     </div>

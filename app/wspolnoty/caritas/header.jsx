@@ -11,7 +11,7 @@ const Header = () => {
             <h1 className='text-[55px] font-header2 font-bold text-black'>Caritas</h1>
             <div className='w-full md:w-[50%] h-full flex flex-col justify-center items-start'>
                 <p className='text-black text-[1.7vh]'>&ldquo;Wszystko co uczyniliście jednemu z tych braci Moich najmniejszych, Mnie uczyniliście&rdquo; - powiedział nasz Pan Jezus Chrystus.</p>
-                <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz Więcej</button>
+                <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz więcej</button>
             </div>
         </div>
     </div>

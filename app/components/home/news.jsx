@@ -55,7 +55,7 @@ const News = () => {
                     </div>
                     <p className='mt-[2vh] text-[1.8vh]'>{news[0].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
-                    <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}>Czytaj Więcej</Link>
+                    <Link href={`/aktualnosci/ogloszenia/${news[0].id}`}>Czytaj więcej</Link>
                     <p>{news[0].data}</p>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const News = () => {
                     </div>
                     <p className='mt-[2vh] text-[1.8vh]'>{news[1].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
-                    <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}>Czytaj Więcej</Link>
+                    <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}>Czytaj więcej</Link>
                     <p>{news[1].data}</p>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const News = () => {
                     </div>
                     <p className='mt-[2vh] text-[1.8vh]'>{news[2].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
-                    <Link href={`/aktualnosci/ogloszenia/${news[2].id}`}>Czytaj Więcej</Link>
+                    <Link href={`/aktualnosci/ogloszenia/${news[2].id}`}>Czytaj więcej</Link>
                     <p>{news[2].data}</p>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ const News = () => {
                     <h3 className='font-bold text-[25px] mb-[1vh]'>{news[1].tytul}</h3>
                     <p>{news[1].skrot_tresci}</p>
                     <div className='flex flex-row justify-between mt-[2vh] text-gold2'>
-                    <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}>Czytaj Więcej</Link>
+                    <Link href={`/aktualnosci/ogloszenia/${news[1].id}`}>Czytaj więcej</Link>
                     <p>{news[1].data}</p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ const News = () => {
             ) : null}
         
         <Link href="/aktualnosci/ogloszenia" className='mt-[5vh]'>
-            <button className='bg-dark text-white text-[2.3vh] p-4'>Zobacz Więcej</button>
+            <button className='bg-dark text-white text-[2.3vh] p-4'>Zobacz więcej</button>
         </Link>
     </div>
   )

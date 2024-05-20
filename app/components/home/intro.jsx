@@ -18,7 +18,7 @@ const Intro = () => {
 
             <p className='text-black text-[3vh] font-header2 mt-[2vh]'>ks. dr L. Slipek</p>
             
-            <Link href="/parafia/kosciol"><button className='p-4  bg-dark text-white mt-[2vh] md:mt-[3vh]'>Zobacz Więcej</button></Link>
+            <Link href="/parafia/kosciol"><button className='p-4  bg-dark text-white mt-[2vh] md:mt-[3vh]'>Zobacz więcej</button></Link>
         </div>
         <div className='hidden md:flex w-full w-1/2  relative'>
             <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill alt="historyczne zdjecie kosciola"/>
