@@ -113,15 +113,21 @@ const Footer = () => {
             
 
                 <div className='w-full md:w-[10vw] h-[10vh] md:h-auto relative flex flex-row md:flex-col ml-[2vw]'>
-                    <div className='relative w-[30%] h-full'>
-                        <Image src="/instagram.png" alt="ikonka instagrama" fill={true} objectFit='contain'></Image>
-                    </div>
-                    <div className='relative w-[30%] h-full'>
-                        <Image src="/youtube.png" alt="ikonka youtube" fill={true} objectFit='contain'></Image>
-                    </div>
-                    <div className='relative w-[30%] h-full'>
-                        <Image src="/facebook.png" alt="ikonka facebooka" fill={true} objectFit='contain'></Image>
-                    </div>
+                    <a href="https://www.instagram.com/parafiaandrzeja/">
+                        <div className='relative w-[30%] h-full'>
+                            <Image src="/instagram.png" alt="ikonka instagrama" fill={true} objectFit='contain'></Image>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCD90BZIQ_i3qlxrbP-W-ksA">
+                        <div className='relative w-[30%] h-full'>
+                            <Image src="/youtube.png" alt="ikonka youtube" fill={true} objectFit='contain'></Image>
+                        </div>
+                    </a>
+                    <a href='https://www.facebook.com/ParafiaAndrzeja'>
+                        <div className='relative w-[30%] h-full'>
+                            <Image src="/facebook.png" alt="ikonka facebooka" fill={true} objectFit='contain'></Image>
+                        </div>
+                    </a>
                 </div>
                 <div className={`flex flex-col w-full h-[30vh] md:h-full md:w-[15%]`}>
                 <div className={`w-full h-full relative`}>
