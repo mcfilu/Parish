@@ -11,7 +11,9 @@ const Header = () => {
             <h1 className='text-[55px] font-header2 font-bold text-black'>Kazania Proboszcza</h1>
             <div className='w-full md:w-[50%] h-full flex flex-col justify-center items-start'>
                 <p className='text-black text-[1.7vh]'>Gatunek literatury stosowanej, przemowa wygłaszana zwykle przez osobę duchowną wyznania chrześcijańskiego, która ma za zadanie nauczanie i przekazanie treści religijnych.</p>
-                <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz więcej</button>
+                <a href="#first">
+                  <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz więcej</button>
+                </a>
             </div>
         </div>
     </div>

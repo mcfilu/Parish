@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Content = () => {
   return (
-    <div className='w-full flex flex-col bg-white py-[10vh]'>
+    <div id="first" className='w-full flex flex-col bg-white py-[10vh]'>
         <div className='hidden md:flex flex-col'>
         <div className=' h-[55vh] w-full px-[5v flex flex-row'>
             <div className='w-1/2 h-full relative '>

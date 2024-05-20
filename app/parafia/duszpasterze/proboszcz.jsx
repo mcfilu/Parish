@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Proboszcz = () => {
   return (
-    <div className='w-full flex flex-col bg-white px-[5vw] py-[10vh]'>
+    <div id="first" className='w-full flex flex-col bg-white px-[5vw] py-[10vh]'>
         <div className='w-full h-[50vh] md:h-[60vh] relative'>
             <Image alt="ksiadz proboszcz" src="/ks_proboszcz3.jpeg" fill objectFit='cover'/>
         </div>

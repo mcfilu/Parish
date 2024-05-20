@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Intro = () => {
   return (
-    <div className='flex flex-col md:flex-row w-full py-[5vh] md:pt-[10vh] px-[5vw] bg-white'>
+    <div id="first" className='flex flex-col md:flex-row w-full py-[5vh] md:pt-[10vh] px-[5vw] bg-white'>
         <div className='w-1/2  relative min-h-[40vh]'>
             <Image className='pr-[5vw]' fill objectFit='cover' src="/spo10.webp" alt="chrzest"/>
         </div>
