@@ -12,7 +12,7 @@ const Header = () => {
             <div className='w-full md:w-[50%] h-full flex flex-col justify-center items-start'>
                 <p className='text-black text-[1.7vh]'>&ldquo;Gdzie słyszysz śpiew tam idź, tam dobre serca mają. Źli ludzie wierzaj mi, Ci nigdy nie śpiewają.&rdquo; Johann Wolfgang Goethe</p>
                 <a href="#first">
-                <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz więcej</button>
+                  <button className='bg-dark text-white px-4 py-3 mt-[1vh]'>Zobacz więcej</button>
                 </a>
             </div>
         </div>
