@@ -56,7 +56,7 @@ const Citations = () => {
       const intervalId = setInterval(() => {
         // Increment the active index or reset to the smallest value
         setActiveIndex((prevIndex) => (prevIndex % 3) + 1);
-      }, 5000);
+      }, 9000);
     
       // Cleanup the interval when the component unmounts
       return () => clearInterval(intervalId);
