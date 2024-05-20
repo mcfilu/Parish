@@ -34,7 +34,7 @@ const Menu = () => {
                     <p>22 620 37 47</p>
                 </div>
                 <div className={`flex flex-col w-full md:w-[65%] text-white text-[35px] justify-center md:ml-[10%] ${menuElement == '' ? '' : 'hidden'} font-header2`}>
-                    <Link href="/nabozenstwa" onClick={closeReset}>Msze św. i nabożeństwa</Link>
+                    <Link href="/nabozenstwa" onClick={closeReset}>Msze Św. i nabożeństwa</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <a className='mt-[1vh] mb-[1vh] border-1 cursor-pointer' onClick={() => setElement('aktualnosci')}>Aktualności</a>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
@@ -54,9 +54,9 @@ const Menu = () => {
                     {/* <hr className='mt-[1vh] mb-[1vh] border-1'/> */}
                     {/* <Link onClick={closeReset} href="/aktualnosci/wydarzenia">Wydarzenia</Link> */}
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/aktualnosci/ciekawostki">Ciekawostki z Kościoła</Link>
+                    <Link onClick={closeReset} href="/aktualnosci/ciekawostki">Ciekawostki z kościoła</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/aktualnosci/kazania">Kazania Proboszcza</Link>
+                    <Link onClick={closeReset} href="/aktualnosci/kazania">Kazania proboszcza</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                 </div>
 
@@ -66,9 +66,9 @@ const Menu = () => {
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     <Link onClick={closeReset} href="/parafia/historia" className='text-4'>Historia</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/kosciol">Kościół Dzisiaj</Link>
+                    <Link onClick={closeReset} href="/parafia/kosciol">Kościół dzisiaj</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
-                    <Link onClick={closeReset} href="/parafia/teren">Teren Parafii</Link>
+                    <Link onClick={closeReset} href="/parafia/teren">Teren parafii</Link>
                     <hr className='mt-[1vh] mb-[1vh] border-1'/>
                     {/* <Link onClick={closeReset} href="/parafia/ciekawostki">Ciekawostki w Parafii</Link> */}
                     {/* <hr className='mt-[1vh] mb-[1vh] border-1'/> */}
