@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         <div className='w-[20%] mx-[2vw] flex flex-col border-r-[2px]'>
             <h3 className='font-bold text-[2.3vh]'>Spowiedź</h3>
-            <p className='mt-[2vh]'>Dni tygodnia: 30min przed mszą</p>
+            <p className='mt-[2vh]'>Dni tygodnia: 30 min. przed Mszą Św.</p>
             <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kościele</p>
             <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kościele</p>
         </div>
@@ -88,7 +88,7 @@ const Footer = () => {
                 
                 <div className='pl-[1vw] border-l-[2px]'>
                     <h3 className='font-bold text-[2.3vh]'>Spowiedź</h3>
-                    <p className='mt-[2vh]'>Dni tygodnia: 30min przed mszą</p>
+                    <p className='mt-[2vh]'>Dni tygodnia: 30 min. przed Mszą Św.</p>
                     <p className='mt-[2vh]'>Sobota: 16:00-18:00 w dolnym kosściele</p>
                     <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kościele</p>
                 </div>

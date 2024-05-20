@@ -8,7 +8,7 @@ const Banner = () => {
         <div className='w-full md:w-[40%] flex flex-col'>
           <p className='text-white text-[1.7vh]'>Próby scholii odbywają się na plebanii (domofon SALA SPOTKAŃ):</p>
           <p className='text-white text-[1.7vh] mt-[1vh]'>- w czwartki o godz. 19.00</p>
-          <p className='text-white text-[1.7vh]'>- w niedzielę o godz. 17.00 (przed mszą św.).</p>
+          <p className='text-white text-[1.7vh]'>- w niedzielę o godz. 17.00 (przed Mszą Św.).</p>
         </div>
         <div className='w-full md:w-[40%] mt-[3vh] md:mt-0 flex flex-col'>
           <p className='text-white text-[1.7vh]'>Jeżeli jesteś pasjonatem śpiewania, to zapraszamy do nas.</p>
