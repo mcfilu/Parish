@@ -50,11 +50,13 @@ const Footer = () => {
             <p className='mt-[2vh]'>Niedziela: 8:00-13:00 w dolnym kościele</p>
         </div>
         <div className='w-full md:w-[10vw] h-[20vh] md:h-auto relative flex flex-row md:flex-col ml-[2vw]'>
-                <a href="https://www.instagram.com/parafiaandrzeja/">
-                    <div className='relative w-[30%] h-full'>
+                
+                <div className='relative w-[30%] h-full'>
+                    <a className='w-full h-full' href="https://www.instagram.com/parafiaandrzeja/">
                         <Image src="/instagram.png" alt="ikonka instagrama" fill={true} objectFit='contain'></Image>
-                    </div>
-                </a>
+                    </a>
+                </div>
+                
                 
                 <div className='relative w-[30%] h-full'>
                     <a className="w-full h-full" href="https://www.youtube.com/channel/UCD90BZIQ_i3qlxrbP-W-ksA">
@@ -62,11 +64,13 @@ const Footer = () => {
                     </a>
                 </div>
                 
-                <a href='https://www.facebook.com/ParafiaAndrzeja'>
-                    <div className='relative w-[30%] h-full'>
+                
+                <div className='relative w-[30%] h-full'>
+                    <a className='w-full h-full' href='https://www.facebook.com/ParafiaAndrzeja'>
                         <Image src="/facebook.png" alt="ikonka facebooka" fill={true} objectFit='contain'></Image>
-                    </div>
-                </a>
+                    </a>
+                </div>
+                
             </div>
             </div>
             <div className=' mt-[1vh] w-full hidden md:flex flex-col'>
