@@ -3,7 +3,7 @@ import React from 'react'
 const Banner = () => {
   return (
     <div className='flex flex-col justify-between w-full px-[5vw]  bg-dark text-white items-center py-[5vh]'>
-         <h2 className='text-[5.5vh] font-header2 text-center'>Informacje Kontaktowe</h2>
+         <h2 className='text-[5.5vh] font-header2 text-center'>Informacje kontaktowe</h2>
          <p className='text-white text-[1.7vh] mt-[5vh]'>Rycerstwo Niepokalnej spotyka się na wspólnej Eucharystii  i modlitwie przed wystawionym Najświętszym Sakramentem, w każdą pierwszą sobotę miesiąca o godz. 9.00 </p>
         {/* <div className='flex flex-col md:flex-row w-full justify-between items-center mt-[5vh]'>
         <div className='w-full md:w-[40%] flex flex-col'>
