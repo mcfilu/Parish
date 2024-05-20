@@ -5,7 +5,7 @@ const Intro2 = () => {
   return (
     <div className='flex flex-col  w-full py-[5vh] md:py-[10vh] px-[5vw] bg-white'>
         <div className='md:hidden h-[40vh] w-full mb-[5vh] relative'>
-            <Image className='pr-[5vw]' fill objectFit='cover' src="/rodz6.jpeg" alt="schola"/>
+            <Image className='pr-[5vw]' fill objectFit='cover' src="/rodz3.jpeg" alt="schola"/>
         </div>
         
         <div className='flex flex-col w-full md:w-1/2 justify-center items-center mt-[5vh]'>
@@ -26,7 +26,7 @@ const Intro2 = () => {
             
         </div>
         <div className='w-1/2'>
-                <Image className='pr-[5vw]' fill objectFit='cover' src="/rodz6.jpeg" alt="schola"/>
+                <Image className='pr-[5vw]' fill objectFit='cover' src="/rodz3.jpeg" alt="schola"/>
         </div>
         
     </div>

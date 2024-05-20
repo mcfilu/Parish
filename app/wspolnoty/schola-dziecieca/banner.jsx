@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Banner = () => {
   return (
@@ -28,16 +29,16 @@ const Banner = () => {
     // </div>
 
     <div className='flex flex-col justify-between w-full px-[5vw]  bg-dark text-white items-center py-[5vh]'>
-    <h2 className='text-[5.5vh] font-header2 text-center'>Informacje kontaktowe</h2>
-   <div className='flex flex-col md:flex-row w-full justify-between items-center mt-[5vh]'>
-   <div className='w-full md:w-[40%] flex flex-col'>
-     <p className='text-white text-[1.7vh]'>„Spotkania odbywają się w każdą niedzielę przed rodzinną Mszą Św., o godzinie 10:27, w salce na plebanii, domofon nr 9.</p>
-   </div>
-   <div className='w-full md:w-[40%] mt-[3vh] md:mt-0 flex flex-col'>
-     <p className='text-white text-[1.7vh]'>KONTAKT: Janusz Piechocki tel. +48 530 539 082</p>
-   </div>
-   </div>
-</div>
+      <h2 className='text-[5.5vh] font-header2 text-center'>Informacje kontaktowe</h2>
+      <div className='flex flex-col md:flex-row w-full justify-between items-center mt-[5vh]'>
+        <div className='w-full md:w-[40%] flex flex-col'>
+          <p className='text-white text-[1.7vh]'>Spotkania odbywają się w każdą niedzielę przed rodzinną Mszą Św., o godzinie 10:27, w salce na plebanii, domofon nr 9.</p>
+        </div>
+        <div className='w-full md:w-[40%] mt-[3vh] md:mt-0 flex flex-col'>
+          <p className='text-white text-[1.7vh]'>KONTAKT: Janusz Piechocki tel. +48 530 539 082</p>
+        </div>
+      </div>
+    </div>
   )
 }
 
