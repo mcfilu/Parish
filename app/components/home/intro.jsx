@@ -9,7 +9,7 @@ const Intro = () => {
             <p className='text-black text-[2.5vh] font-bold'>O parafii</p>
             <h2 className='text-[5.5vh] mt-[3vh] text-black font-header2'>Parafia której pragniemy</h2>
             <div className='flex md:hidden h-[30vh] w-full md:w-1/2  relative'>
-              <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill />
+              <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill alt="historyczne zdjecie kosciola" />
             </div>
             <p className='text-black text-[1.8vh] mt-[3vh]'>Parafia to dom wszystkich, to namiot Boga ustawiony pośród zwyczajnych ludzi, brama, która otwarta jest dla każdego. </p>
             <p className='text-black text-[1.8vh] mt-[1vh]'>Parafia ma być wspólnotą otwartą, w której każdy czuje się jak w domu, w której jest miejsce dla wszystkich, w której nikt nie zachowuje się jak pan i władca (bo posiadł tajemnicę).</p>
@@ -20,7 +20,7 @@ const Intro = () => {
             <Link href="/parafia/kosciol"><button className='p-4  bg-dark text-white mt-[2vh] md:mt-[5vh]'>Zobacz Więcej</button></Link>
         </div>
         <div className='hidden md:flex w-full w-1/2  relative'>
-            <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill />
+            <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill alt="historyczne zdjecie kosciola"/>
         </div>
     </div>
   )
