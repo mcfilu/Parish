@@ -25,7 +25,7 @@ const Intro2 = () => {
             </div>
             
         </div>
-        <div className='w-1/2'>
+        <div className='w-1/2 relative'>
                 <Image className='pr-[5vw]' fill objectFit='cover' src="/rodz3.jpeg" alt="schola"/>
         </div>
         
