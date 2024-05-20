@@ -85,7 +85,7 @@ const Content = () => {
                 <h2 className='text-[4.5vh] font-main font-bold'>Msze Święte</h2>
                 <div className='flex flex-row mt-[5vh]'>
                     <div className='ml-0 mx-[1vw] border-r-[2px] pr-[1vw]'>
-                        <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
+                        <h4 className='font-bold text-[2.3vh]'>Dni powszednie</h4>
                         <p className='mt-[2vh] text-[1.8vh]'>6:30</p>
                         <p className='mt-[1vh] text-[1.8vh]'>8:00</p>
                         <p className='mt-[1vh] text-[1.8vh]'>9:00</p>

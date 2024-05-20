@@ -26,7 +26,7 @@ const Footer = () => {
             <h3 className='font-bold text-[2.3vh]'>Msze Święte</h3>
             <div className='w-full flex flex-row mt-[2vh]'>
                 <div>
-                    <h4>Dni Powszednie</h4>
+                    <h4>Dni powszednie</h4>
                     <p className='mt-[2vh]'>6:30</p>
                     <p>8:00</p>
                     <p>9:00</p>
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
 
                 <div className='px-[1vw]'>
-                    <h4 className='font-bold text-[2.3vh]'>Dni Powszednie</h4>
+                    <h4 className='font-bold text-[2.3vh]'>Dni powszednie</h4>
                     <p className='mt-[2vh]'>6:30</p>
                     <p>8:00</p>
                     <p>9:00</p>
