@@ -55,11 +55,13 @@ const Footer = () => {
                         <Image src="/instagram.png" alt="ikonka instagrama" fill={true} objectFit='contain'></Image>
                     </div>
                 </a>
-                <a href="https://www.youtube.com/channel/UCD90BZIQ_i3qlxrbP-W-ksA">
-                    <div className='relative w-[30%] h-full'>
+                
+                <div className='relative w-[30%] h-full'>
+                    <a className="w-full h-full" href="https://www.youtube.com/channel/UCD90BZIQ_i3qlxrbP-W-ksA">
                         <Image src="/youtube.png" alt="ikonka youtube" fill={true} objectFit='contain'></Image>
-                    </div>
-                </a>
+                    </a>
+                </div>
+                
                 <a href='https://www.facebook.com/ParafiaAndrzeja'>
                     <div className='relative w-[30%] h-full'>
                         <Image src="/facebook.png" alt="ikonka facebooka" fill={true} objectFit='contain'></Image>
