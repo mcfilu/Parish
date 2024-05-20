@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div className='flex flex-col md:flex-row w-full bg-white'>
         <div className='flex w-full md:w-1/2 py-[10vh] flex-col justify-center pl-[5vw]'>
-            <p className='text-black text-[2.5vh] font-bold'>O Parafii</p>
+            <p className='text-black text-[2.5vh] font-bold'>O parafii</p>
             <h2 className='text-[5.5vh] mt-[3vh] text-black font-header2'>Parafia której pragniemy</h2>
             <div className='flex md:hidden h-[30vh] w-full md:w-1/2  relative'>
               <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill />

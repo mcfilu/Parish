@@ -9,7 +9,7 @@ const Kazania = () => {
             <Image className='md:pr-[5vw] ' alt='tlo kazania' fill objectFit='cover' src="/proboszcz2.jpeg"/>
         </div>
         <div className='flex flex-col w-full md:w-1/2 h-full justify-center pr-[10vw] text-white bg-black my-[5vh] md:my-[10vh] pl-[5vw] md:pl-0'>
-            <h2 className='text-[5.5vh] font-header2'>Kazania Proboszcza</h2>
+            <h2 className='text-[5.5vh] font-header2'>Kazania proboszcza</h2>
             
             <p className='mt-[3vh]'>Zapraszamy do stołu Słowa Bożego, który hojnie dla nas zastawia ksiądz proboszcz Leszek Slipek. </p>
             <p className='mt-[1vh]'>Prezentujemy nagrania kazań niedzielnych i świątecznych, konferencji, medytacji. Bierzcie i... słuchajcie!</p>

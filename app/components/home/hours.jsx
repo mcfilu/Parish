@@ -9,7 +9,7 @@ const Hours = () => {
                 <div className={`relative w-[10%] h-[8vh] `}>
                     <Image alt="ikonka kosciol" src="/icon-1.png" fill={true} objectFit='contain '></Image>
                 </div>
-                <h2 className='text-white text-[5.5vh] ml-[2vw] font-header2'>Porządek Liturgiczny</h2>
+                <h2 className='text-white text-[5.5vh] ml-[2vw] font-header2'>Porządek liturgiczny</h2>
             </div>
             <div className='flex flex-row mt-[8vh] text-white'>
                 <div className='pr-[1vw] border-r-[2px]'>
