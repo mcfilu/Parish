@@ -10,7 +10,7 @@ const Intro = () => {
             <h2 className='text-[5.5vh] mt-[3vh] text-black font-header2'>Parafia której pragniemy</h2>
             <div className='flex md:hidden h-[30vh] w-full md:w-1/2  relative'>
               <Image src="/parafia_szkic_no_bg_2.png" href="kontru kosciola" objectFit="cover" fill alt="historyczne zdjecie kosciola" />
-              <p className='absolute r-10 b-10 text-black text-[1.8vh]'>Projekt przebudowy kościoła wg A. Idzikowskiego</p>
+              <p className='absolute r-10 b-10 text-black text-[1.8vh] z-20'>Projekt przebudowy kościoła wg A. Idzikowskiego</p>
             </div>
             <p className='text-black text-[1.8vh] mt-[3vh]'>Parafia to dom wszystkich, to namiot Boga ustawiony pośród zwyczajnych ludzi, brama, która otwarta jest dla każdego. </p>
             <p className='text-black text-[1.8vh] mt-[1vh]'>Parafia ma być wspólnotą otwartą, w której każdy czuje się jak w domu, w której jest miejsce dla wszystkich, w której nikt nie zachowuje się jak pan i władca (bo posiadł tajemnicę).</p>
