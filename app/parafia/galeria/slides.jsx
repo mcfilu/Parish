@@ -11,6 +11,7 @@ const Slides = () => {
         fetch('https://parafia.bieda.it/api/galerias?populate=*')
         .then(res => res.json())
         .then(data => {
+            console.log(data)
             const toSet = []
             data.data.forEach((object) => {toSet.push({
                 id: object.id,
