@@ -18,7 +18,7 @@ const Episodes = () => {
     if (data !== null && data.data) {
         console.log("checking")
         console.log(data)
-
+        data.data.sort((a, b) => new Date(b.attributes.data) - new Date(a.attributes.data));
         years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
     }
     // const years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
