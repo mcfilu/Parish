@@ -17,6 +17,7 @@ const Files = () => {
     let years = []
     let yearsData = []
     if (data && data.data) {
+        data.data.sort((a, b) => new Date(a.attributes.data) - new Date(b.attributes.data));
         years = Array.from(new Set(data.data.map(item => item.attributes.data.split('-')[0]))).sort().reverse();
         yearsData = years.map(year => ({year: year, data: data.data.filter((item) => item.attributes.data.startsWith(year))}));
         console.log(years.map(year => (yearsData.find(y => y.year == year).data)))
